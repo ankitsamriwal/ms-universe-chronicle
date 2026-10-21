@@ -1,0 +1,386 @@
+{
+ "generated_at": "2026-10-21",
+ "note": "Official Microsoft product and license names. No prices. Verify current licensing terms with Microsoft or your partner.",
+ "families": [
+  {
+   "name": "AI & Copilot",
+   "items": [
+    {
+     "name": "Microsoft 365 Copilot (add-on license)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Copilot Studio (message capacity pack)",
+     "unit": "pack/month"
+    },
+    {
+     "name": "Copilot Studio (per-message consumption)",
+     "unit": "message"
+    },
+    {
+     "name": "Azure AI Foundry (platform, consumption-based)",
+     "unit": "consumption"
+    },
+    {
+     "name": "Azure OpenAI Service (model consumption)",
+     "unit": "tokens"
+    },
+    {
+     "name": "Azure AI Search",
+     "unit": "instance/month"
+    },
+    {
+     "name": "Azure AI Content Understanding",
+     "unit": "consumption"
+    },
+    {
+     "name": "Azure AI Document Intelligence",
+     "unit": "consumption"
+    }
+   ]
+  },
+  {
+   "name": "Azure",
+   "items": [
+    {
+     "name": "Azure Virtual Machines",
+     "unit": "instance/month"
+    },
+    {
+     "name": "Azure App Service",
+     "unit": "instance/month"
+    },
+    {
+     "name": "Azure Kubernetes Service (AKS)",
+     "unit": "cluster/month"
+    },
+    {
+     "name": "Azure Functions (consumption)",
+     "unit": "consumption"
+    },
+    {
+     "name": "Azure SQL Database",
+     "unit": "database/month"
+    },
+    {
+     "name": "SQL Server (per-core license)",
+     "unit": "core"
+    },
+    {
+     "name": "Azure Cosmos DB",
+     "unit": "RU/s"
+    },
+    {
+     "name": "Azure Storage",
+     "unit": "GB/month"
+    },
+    {
+     "name": "Azure Backup",
+     "unit": "protected instance/month"
+    },
+    {
+     "name": "Azure Site Recovery",
+     "unit": "protected instance/month"
+    },
+    {
+     "name": "Azure Monitor / Log Analytics",
+     "unit": "GB ingested"
+    },
+    {
+     "name": "Azure Virtual Network / VPN Gateway",
+     "unit": "gateway/month"
+    },
+    {
+     "name": "Azure Front Door",
+     "unit": "profile/month"
+    },
+    {
+     "name": "Azure Key Vault",
+     "unit": "vault/month"
+    },
+    {
+     "name": "Azure Container Registry",
+     "unit": "registry/month"
+    }
+   ]
+  },
+  {
+   "name": "Business Apps (D365)",
+   "items": [
+    {
+     "name": "Dynamics 365 Sales Enterprise",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Sales Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Customer Service Enterprise",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Customer Service Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Field Service",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Contact Center",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Finance",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Supply Chain Management",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Commerce",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Human Resources",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Project Operations",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Business Central Essentials",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Business Central Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Dynamics 365 Customer Insights",
+     "unit": "tenant/month"
+    },
+    {
+     "name": "Dynamics 365 Team Members",
+     "unit": "user/month"
+    }
+   ]
+  },
+  {
+   "name": "Modern Work",
+   "items": [
+    {
+     "name": "Microsoft 365 Business Basic",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft 365 Business Standard",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft 365 Business Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft 365 E3",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft 365 E5",
+     "unit": "user/month"
+    },
+    {
+     "name": "Office 365 E3",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Teams Enterprise (standalone)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Teams Phone Standard",
+     "unit": "user/month"
+    },
+    {
+     "name": "Exchange Online Plan 1",
+     "unit": "user/month"
+    },
+    {
+     "name": "Exchange Online Plan 2",
+     "unit": "user/month"
+    },
+    {
+     "name": "SharePoint Online Plan 1",
+     "unit": "user/month"
+    },
+    {
+     "name": "OneDrive for Business Plan 1",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Viva",
+     "unit": "user/month"
+    },
+    {
+     "name": "Visio Plan 2",
+     "unit": "user/month"
+    },
+    {
+     "name": "Project Plan 3",
+     "unit": "user/month"
+    },
+    {
+     "name": "Project Plan 5",
+     "unit": "user/month"
+    }
+   ]
+  },
+  {
+   "name": "Power Platform & Fabric",
+   "items": [
+    {
+     "name": "Power Apps Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Power Automate Premium",
+     "unit": "user/month"
+    },
+    {
+     "name": "Power Automate Process",
+     "unit": "flow/month"
+    },
+    {
+     "name": "Power BI Pro",
+     "unit": "user/month"
+    },
+    {
+     "name": "Power BI Premium Per User",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Fabric capacity (F SKU)",
+     "unit": "capacity/month"
+    },
+    {
+     "name": "Power Pages (authenticated user capacity)",
+     "unit": "capacity/month"
+    },
+    {
+     "name": "Dataverse database capacity add-on",
+     "unit": "GB/month"
+    }
+   ]
+  },
+  {
+   "name": "Security & Identity",
+   "items": [
+    {
+     "name": "Microsoft Entra ID P1",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Entra ID P2",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Entra Suite",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft 365 E5 Compliance (add-on)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Defender for Endpoint Plan 2",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Defender for Office 365 Plan 2",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Defender for Identity",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Defender for Cloud Apps",
+     "unit": "user/month"
+    },
+    {
+     "name": "Microsoft Defender for Cloud",
+     "unit": "resource/month"
+    },
+    {
+     "name": "Microsoft Sentinel",
+     "unit": "GB ingested"
+    },
+    {
+     "name": "Microsoft Intune Plan 1",
+     "unit": "user/month"
+    }
+   ]
+  },
+  {
+   "name": "Windows & Devices",
+   "items": [
+    {
+     "name": "Windows 11 Enterprise E3",
+     "unit": "user/month"
+    },
+    {
+     "name": "Windows 11 Enterprise E5",
+     "unit": "user/month"
+    },
+    {
+     "name": "Windows 365 Business (Cloud PC)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Windows 365 Enterprise (Cloud PC)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Azure Virtual Desktop (infrastructure)",
+     "unit": "consumption"
+    },
+    {
+     "name": "Windows Server (per-core license)",
+     "unit": "core"
+    },
+    {
+     "name": "Surface device",
+     "unit": "unit"
+    }
+   ]
+  },
+  {
+   "name": "Developer",
+   "items": [
+    {
+     "name": "GitHub Enterprise",
+     "unit": "user/month"
+    },
+    {
+     "name": "GitHub Advanced Security",
+     "unit": "committer/month"
+    },
+    {
+     "name": "Visual Studio Professional (subscription)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Visual Studio Enterprise (subscription)",
+     "unit": "user/month"
+    },
+    {
+     "name": "Azure DevOps Basic",
+     "unit": "user/month"
+    }
+   ]
+  }
+ ]
+}
