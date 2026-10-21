@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 19:29 UTC",
+ "generated_at": "2026-10-21 19:30 UTC",
  "entries": [
   {
    "date": "2026-10-21",
@@ -3412,7 +3412,9 @@
    "source": "GitHub blog",
    "source_id": "github_blog",
    "family": "Developer",
-   "lenses": [],
+   "lenses": [
+    "DevSecOps"
+   ],
    "summary": "GitHub\u2019s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.",
    "status": "",
    "tags": [
