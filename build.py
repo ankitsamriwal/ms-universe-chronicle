@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Generate the static Microsoft Universe Chronicle site from data/*.json. Stdlib only."""
+"""Generate the static Microsoft Universe Chronicle site from data/*.json. Stdlib only.
+Layout: 'Broadsheet' editorial design. Icons come from icons_data.py (see BRAND.md)."""
 import json, os, html, re
+from collections import Counter
 from datetime import datetime, timezone
 from icons_data import ICONS
 
@@ -27,6 +29,76 @@ FAMILY_META = {
     'Developer': ('azure-devops', 'GitHub, Visual Studio, .NET, Azure DevOps', ['azure-devops', 'mono-github']),
     'Consumer': ('mono-consumer', 'Xbox, LinkedIn, Bing, Surface hardware - tracked quietly', []),
 }
+
+# Product matcher: (pattern, icon key, display name). Most specific first.
+# An entry only gets an icon when its title names a product in the icon set,
+# so an icon always sits next to the product it depicts (BRAND.md).
+PRODUCTS = [
+    (r'Business Central', 'd365-business-central', 'D365 Business Central'),
+    (r'Customer Service', 'd365-customer-service', 'D365 Customer Service'),
+    (r'Contact Center', 'd365-contact-center', 'D365 Contact Center'),
+    (r'Field Service', 'd365-field-service', 'D365 Field Service'),
+    (r'Project Operations', 'd365-project-ops', 'D365 Project Operations'),
+    (r'Supply Chain', 'd365-scm', 'D365 Supply Chain Management'),
+    (r'Dynamics 365 Finance|Finance and Operations|finance and operations', 'd365-finance', 'D365 Finance'),
+    (r'Dynamics 365 Sales', 'd365-sales', 'D365 Sales'),
+    (r'Dynamics 365|Dynamics CRM|Customer Insights|Dynamics 365 Commerce', 'dynamics365', 'Dynamics 365'),
+    (r'Copilot Studio', 'copilot-studio', 'Copilot Studio'),
+    (r'Agent 365', 'agent-365', 'Agent 365'),
+    (r'Power BI', 'power-bi', 'Power BI'),
+    (r'Power Apps', 'power-apps', 'Power Apps'),
+    (r'Power Automate', 'power-automate', 'Power Automate'),
+    (r'Power Pages', 'power-pages', 'Power Pages'),
+    (r'Dataverse', 'dataverse', 'Dataverse'),
+    (r'Power Platform', 'power-platform', 'Power Platform'),
+    (r'Fabric (Data )?Warehouse', 'fabric-warehouse', 'Fabric Data Warehouse'),
+    (r'Eventstream', 'fabric-eventstream', 'Fabric Eventstreams'),
+    (r'Lakehouse', 'fabric-lakehouse', 'Fabric Lakehouse'),
+    (r'Fabric notebook', 'fabric-notebook', 'Fabric notebooks'),
+    (r'Fabric|OneLake', 'fabric', 'Microsoft Fabric'),
+    (r'Foundry IQ', 'foundry-iq', 'Foundry IQ'),
+    (r'Foundry Agent Service', 'foundry-agent-service', 'Foundry Agent Service'),
+    (r'Foundry', 'azure-ai-foundry', 'Microsoft Foundry'),
+    (r'Sentinel', 'sentinel', 'Microsoft Sentinel'),
+    (r'Defender', 'defender-for-cloud', 'Microsoft Defender'),
+    (r'Entra', 'entra-id-protection', 'Microsoft Entra'),
+    (r'\bAKS\b|Kubernetes', 'aks', 'Azure Kubernetes Service'),
+    (r'Azure SQL|SQL database', 'azure-sql', 'Azure SQL'),
+    (r'Azure Functions|Function App', 'function-apps', 'Azure Functions'),
+    (r'Application Insights', 'app-insights', 'Application Insights'),
+    (r'Azure Monitor', 'azure-monitor', 'Azure Monitor'),
+    (r'Cost Management', 'cost-management', 'Cost Management'),
+    (r'App Service', 'app-services', 'Azure App Service'),
+    (r'Azure DevOps', 'azure-devops', 'Azure DevOps'),
+    (r'GitHub', 'mono-github', 'GitHub'),
+    (r'\bTeams\b', 'mono-teams', 'Microsoft Teams'),
+    (r'SharePoint', 'mono-sharepoint', 'SharePoint'),
+    (r'Outlook|Exchange', 'mono-outlook', 'Outlook'),
+    (r'OneDrive', 'mono-onedrive', 'OneDrive'),
+    (r'\bWord\b', 'mono-word', 'Word'),
+    (r'\bExcel\b', 'mono-excel', 'Excel'),
+    (r'PowerPoint', 'mono-powerpoint', 'PowerPoint'),
+    (r'Windows', 'mono-windows', 'Windows'),
+    (r'\bMAI\b', 'mono-mai', 'MAI models'),
+    (r'Copilot', 'mono-copilot', 'Copilot'),
+]
+PRODUCTS = [(re.compile(p), k, n) for p, k, n in PRODUCTS if k in ICONS]
+
+def match_product(text):
+    for rx, key, name in PRODUCTS:
+        if rx.search(text or ''):
+            return key, name
+    return None, None
+
+def match_all(text, limit=6):
+    """All distinct products named in a ' · '-joined lifecycle row."""
+    out, seen = [], set()
+    for part in (text or '').split('·'):
+        k, n = match_product(part)
+        if k and k not in seen:
+            seen.add(k)
+            out.append((k, n))
+    return out[:limit]
 
 LENS_ORDER = ['AIOps', 'MLOps', 'FinOps', 'DevSecOps', 'Security happenings', 'Agents', 'MAI models']
 
@@ -60,7 +132,7 @@ def _sprite_defs():
     return '<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">' + ''.join(defs) + '</svg>'
 
 def ic(key, size=18, cls=''):
-    if key not in ICONS:
+    if not key or key not in ICONS:
         return ''
     return f'<span class="ic {cls}" style="width:{size}px;height:{size}px" aria-hidden="true"><svg style="width:100%;height:100%"><use href="#i-{key}"/></svg></span>'
 
@@ -73,117 +145,126 @@ def section_label(s):
             return lab
     return 'Lifecycle'
 
-CSS = """
-:root{--bg:#f6f2ea;--ink:#16130e;--muted:#6d665b;--accent:#a33d21;--line:#ddd4c4;--chipbg:#efe9dc}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.5}
-.topbar{background:var(--ink);color:#d8d2c4;font-family:Arial,sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-align:center;padding:7px 12px}
-header.top{display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-bottom:1px solid var(--line);flex-wrap:wrap;gap:8px}
-.brand{font-size:19px}
-nav a{font-family:Arial,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-left:18px}
-.wrap{max-width:1060px;margin:0 auto;padding:0 28px 60px}
-.hero{padding:40px 0 6px}
-.kicker{font-family:Arial,sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-h1{font-size:42px;font-weight:normal;line-height:1.12;max-width:760px}
-.sub{color:var(--muted);font-size:16px;max-width:660px;margin-top:12px}
-.refresh{font-family:Arial,sans-serif;font-size:12px;color:var(--muted);margin-top:14px}
-h2.sec{font-size:27px;font-weight:normal;margin:44px 0 4px}
-.secnote{font-family:Arial,sans-serif;font-size:12.5px;color:var(--muted);margin-bottom:16px}
-.famgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
-.famcard{background:#fbf8f1;border:1px solid var(--line);border-radius:10px;padding:16px;cursor:pointer}
-.famcard h3{font-size:17px;font-weight:normal;margin:10px 0 4px}
-.famcard p{font-size:12.5px;color:var(--muted);font-family:Arial,sans-serif}
-.famcard .n{font-family:Arial,sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-top:10px}
-.iconrow{display:flex;gap:6px;flex-wrap:wrap}
-.ic{display:inline-flex;flex:none}.ic svg{width:100%;height:100%;border-radius:6px}
-.axislabel{font-family:Arial,sans-serif;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:20px 0 6px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
-.chip{font-family:Arial,sans-serif;font-size:11.5px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fbf8f1;color:var(--ink);cursor:pointer}
-.chip.on{background:var(--ink);color:#f6f2ea;border-color:var(--ink)}
-.chip.lens{border-style:dashed;color:var(--accent);border-color:#cfa48f;background:transparent}
-.chip.lens.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+def status_class(s):
+    s = (s or '').lower()
+    if 'launch' in s or 'general' in s:
+        return 'ga'
+    if 'preview' in s:
+        return 'pv'
+    if 'develop' in s:
+        return 'dev'
+    return ''
 
-.viewcard{background:#fffdf8;border:1px solid #e5ddcf;border-radius:14px;padding:26px 30px;margin:14px 0 26px;max-width:820px}
-.viewmeta{font:600 12px/1 'Inter',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#8a8272;display:flex;gap:10px;align-items:center;margin-bottom:10px}
-.viewlens{background:#f3e7de;color:#a33d21;border-radius:999px;padding:4px 12px;font-size:11px}
-.viewtitle{font-family:Georgia,serif;font-size:26px;font-weight:600;margin:0 0 12px;color:#16130e}
-.viewcard p{font:15px/1.65 Georgia,serif;color:#2c2820;margin:0 0 12px}
-.viewcard a{color:#a33d21;text-decoration:underline;text-underline-offset:2px}
-.viewsrc{font:12px/1.5 'Inter',sans-serif;color:#8a8272;border-top:1px solid #ece4d4;padding-top:10px;margin-top:14px}
-.pulse{margin-top:8px}
-.prow{display:flex;align-items:center;gap:12px;padding:5px 0;font-family:Arial,sans-serif;font-size:12px}
-.prow .pl{flex:0 0 190px;color:#3d382f}
-.prow .bar{height:8px;background:var(--accent);border-radius:4px;opacity:.75}
-.prow .pc{color:var(--muted)}
-.daygroup{margin-top:30px}
-.dayrow{display:flex;gap:26px}
-.daterail{flex:0 0 118px;font-family:Arial,sans-serif;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);padding-top:4px}
-.entries{flex:1;border-top:1px solid var(--line)}
-.entry{padding:18px 0 20px;border-bottom:1px solid var(--line)}
-.etop{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:7px}
-.tag{font-family:Arial,sans-serif;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--chipbg);color:#4d4638;border:1px solid var(--line)}
-.tag.lens{background:transparent;color:var(--accent);border:1px solid #cfa48f}
-.tag.status{background:#e4ecda;color:#415d23;border:1px solid #c3d1a8}
-.entry h3{font-size:20px;font-weight:normal;margin-bottom:5px}
-.entry h3 a{color:var(--ink);text-decoration:none}
-.entry h3 a:hover{text-decoration:underline}
-.entry p{font-size:14px;color:#3d382f;max-width:760px}
-.src{font-family:Arial,sans-serif;font-size:11px;color:var(--muted);margin-top:7px}
-.src a{color:var(--muted)}
-table{border-collapse:collapse;width:100%}
-.watchrow{display:flex;gap:14px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
-.watchrow .wp{flex:1;font-size:14px}
-.watchrow .wd{font-family:Arial,sans-serif;font-size:12px;color:var(--muted);white-space:nowrap}
-.watchrow .ws{font-family:Arial,sans-serif;font-size:12px;color:#3d382f;flex:0 0 150px}
-.pill{font-family:Arial,sans-serif;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
-.pill.soon{background:#f4e3c2;color:#7a5410}
-.pill.late{background:#f0d5cd;color:#7c2f16}
-.pill.gone{background:#e8d9d3;color:#7c2f16}
-.eosline{width:100%;height:auto;margin:10px 0 4px}
-.el1{font-family:Arial,sans-serif;font-size:11px;fill:var(--accent);font-weight:bold}
-.el2{font-family:Arial,sans-serif;font-size:10.5px;fill:#4d4638}
-footer{margin-top:50px;padding-top:18px;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:11.5px;color:var(--muted)}
-footer .srclist{columns:2;margin:8px 0 14px}
-footer a{color:var(--muted)}
+CSS = """
+:root{--bg:#FAFAF7;--paper:#FFFFFF;--ink:#16181D;--ink2:#3A3E47;--muted:#5A5F6B;--line:#D9D8D2;--line2:#E4E3DD;--accent:#1F45C7;--warn:#A4400B;--ok:#1B6B3A;
+--serif:'Newsreader',Georgia,'Times New Roman',serif;--sans:'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}a:hover{color:#16338F}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px 80px}
+.strip{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;padding:14px 0;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+.mast{padding:40px 0 24px;text-align:center;border-bottom:3px double var(--ink)}
+.kicker{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.mast h1{margin-top:12px;font-family:var(--serif);font-weight:700;font-size:clamp(40px,7vw,76px);line-height:1;letter-spacing:-.02em}
+nav.sections{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+nav.sections .links{display:flex;flex-wrap:wrap;gap:6px 28px;font-size:15px;font-weight:500}
+nav.sections .links a{color:var(--ink);text-decoration:none;padding:10px 0}
+nav.sections .links a:hover{text-decoration:underline;text-underline-offset:4px}
+.search{display:flex;align-items:center;gap:8px;border:1px solid #C9C8C1;border-radius:6px;padding:0 12px;height:44px;background:var(--paper)}
+.search label{font-size:13px;color:var(--muted)}
+.search input{border:0;outline:none;font:inherit;font-size:14px;width:220px;max-width:50vw;background:transparent;color:var(--ink)}
+.search:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px rgba(31,69,199,.15)}
+.lead{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px;padding:48px 0;border-bottom:1px solid var(--line)}
+.lead h2{font-family:var(--serif);font-weight:600;font-size:clamp(32px,4.4vw,48px);line-height:1.08;letter-spacing:-.01em}
+.lead p{margin-top:20px;font-size:18px;line-height:1.6;color:var(--ink2);max-width:560px}
+.lead .refresh{margin-top:14px;font-size:13px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--ink);align-self:start}
+.stats>div{padding:20px 16px;border-bottom:1px solid var(--line)}
+.stats>div:nth-child(odd){padding-left:0}
+.stats>div:nth-child(even){border-left:1px solid var(--line)}
+.stats>div:nth-last-child(-n+2){border-bottom:0}
+.stats .n{font-family:var(--serif);font-size:52px;font-weight:600;line-height:1.1}
+.stats .n.warn{color:var(--warn)}
+.stats .l{font-size:14px;color:var(--muted)}
+section.block{padding:48px 0;border-bottom:1px solid var(--line)}
+.bhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:12px 16px;margin-bottom:20px}
+.bhead h2{font-family:var(--serif);font-size:34px;font-weight:600}
+.bhead .note{font-size:14px;color:var(--muted);max-width:620px}
+.famgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));border-top:1px solid var(--ink)}
+.fam{all:unset;box-sizing:border-box;cursor:pointer;display:flex;gap:14px;padding:20px 16px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);min-height:44px}
+.fam:hover{background:var(--paper)}
+.fam:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.fam.on{background:var(--paper);box-shadow:inset 0 3px 0 var(--ink)}
+.fam .body{flex:1;min-width:0}
+.fam .t{display:block;font-weight:600;font-size:16px}
+.fam .d{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.fam .prods{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+.fam .bar{display:block;height:3px;background:var(--line2);margin-top:12px}
+.fam .bar span{display:block;height:3px;background:var(--ink)}
+.fam .c{font-family:var(--serif);font-size:26px;font-weight:600}
+.fam.zero .t,.fam.zero .c{color:var(--muted)}
+.ic{display:inline-flex;flex:none}.ic svg{width:100%;height:100%;border-radius:4px}
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:8px}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.frow .lab{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);width:110px}
+.chip{font:inherit;font-size:14px;height:36px;padding:0 14px;border-radius:18px;border:1px solid #C9C8C1;background:transparent;color:var(--ink);cursor:pointer}
+.chip:hover{border-color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.day h3{margin-top:40px;padding-bottom:8px;border-bottom:1px solid var(--ink);font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.entry{display:grid;grid-template-columns:240px minmax(0,1fr);gap:8px 32px;padding:24px 0;border-bottom:1px solid var(--line2)}
+.meta{display:flex;flex-direction:column;gap:8px;font-size:13px;color:var(--muted)}
+.prod{display:flex;align-items:center;gap:8px;font-weight:600;color:var(--ink)}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{padding:2px 8px;border:1px solid var(--muted);color:var(--ink2);border-radius:3px;font-size:12px;font-weight:600}
+.badge.ga{border-color:var(--ok);color:var(--ok)}
+.badge.pv{border-color:var(--accent);color:var(--accent)}
+.badge.dev{border-color:var(--warn);color:var(--warn)}
+.badge.lens{border-style:dashed}
+.entry h4{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.22}
+.entry h4 a{color:var(--ink);text-decoration:none}
+.entry h4 a:hover{text-decoration:underline;text-underline-offset:3px}
+.entry p{margin-top:8px;font-size:16px;line-height:1.6;color:var(--ink2);max-width:760px}
+.src{margin-top:10px;font-size:13px;color:var(--muted)}
+.empty{display:none;padding:32px 0;color:var(--muted);font-size:15px}
+.viewcard{border-top:3px solid var(--ink);padding:20px 0 8px;margin-bottom:24px;max-width:820px}
+.viewmeta{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;align-items:center;margin-bottom:10px}
+.viewlens{border:1px dashed var(--muted);padding:2px 8px;border-radius:3px}
+.viewtitle{font-family:var(--serif);font-size:28px;font-weight:600;margin-bottom:12px}
+.viewcard p{font-size:16px;line-height:1.65;color:var(--ink2);margin-bottom:12px}
+.viewsrc{font-size:13px;color:var(--muted);border-top:1px solid var(--line2);padding-top:10px}
+.countdown{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:32px}
+.cd{border-top:3px solid var(--ink);padding-top:16px}
+.cd.soon{border-top-color:var(--warn)}
+.cd .n{font-family:var(--serif);font-size:56px;font-weight:600;line-height:1}
+.cd.soon .n{color:var(--warn)}
+.cd .n small{font-size:20px;color:var(--muted);font-weight:400}
+.cd .p{margin-top:12px;font-weight:600;font-size:17px}
+.cd .w{margin-top:4px;font-size:14px;color:var(--muted)}
+.icons{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.watch{border-top:1px solid var(--ink)}
+.wr{display:grid;grid-template-columns:minmax(0,1fr) 170px 150px 120px;gap:8px 16px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line2);font-size:14px}
+.wr .wp{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.wr .wp .icons{margin-top:0}
+.wr .ws,.wr .wd{color:var(--muted);font-size:13px}
+.wr .pill{justify-self:end;font-size:12px;font-weight:600;padding:2px 8px;border-radius:3px;border:1px solid var(--muted);color:var(--ink2);white-space:nowrap}
+.wr .pill.soon{border-color:var(--warn);color:var(--warn)}
+.wr .pill.gone{border-style:dashed}
+footer{padding-top:40px;font-size:14px;line-height:1.7;color:var(--muted)}
+footer b{color:var(--ink)}
+footer .srclist{columns:3;margin:8px 0 16px}
+footer .srclist a{color:var(--muted)}
+footer p{margin-top:8px;max-width:860px}
 @media (max-width:760px){
- h1{font-size:30px}
- .dayrow{flex-direction:column;gap:4px}
- .famgrid{grid-template-columns:1fr}
- nav a{margin-left:0;margin-right:14px}
- .prow .pl{flex:0 0 130px}
+ .wrap{padding:0 16px 60px}
+ .entry{grid-template-columns:1fr}
+ .wr{grid-template-columns:1fr auto}
+ .wr .ws{display:none}
  footer .srclist{columns:1}
- .watchrow .ws{display:none}
+ .frow .lab{width:100%}
+ .search{width:100%}.search input{width:100%;max-width:none}
 }
 """
-
-def eos_svg(rows, now_ts):
-    """Monthly milestone timeline: one dot per month with a count, no label collisions."""
-    from collections import Counter
-    up = [r for r in rows if r['ts'] >= now_ts - 3 * 86400]
-    if not up:
-        return ''
-    months = Counter()
-    for r in up:
-        months[r['date'][:7]] += 1
-    keys = sorted(months)[:10]
-    if len(keys) < 2:
-        return ''
-    W, pad, axis_y = 1040, 60, 120
-    step = (W - 2 * pad) / (len(keys) - 1)
-    parts = [f'<svg viewBox="0 0 {W} 210" class="eosline" role="img" aria-label="End of support timeline">',
-             f'<line x1="{pad}" y1="{axis_y}" x2="{W-pad}" y2="{axis_y}" stroke="#16130e" stroke-width="1.5"/>']
-    for i, k in enumerate(keys):
-        xx = pad + i * step
-        d = datetime.strptime(k + '-01', '%Y-%m-%d')
-        label = d.strftime('%b %Y')
-        above = i % 2 == 0
-        ty = 62 if above else 182
-        parts.append(f'<line x1="{xx:.0f}" y1="{axis_y - 14 if above else axis_y}" x2="{xx:.0f}" y2="{axis_y if above else axis_y + 14}" stroke="#a33d21" stroke-width="1"/>')
-        parts.append(f'<circle cx="{xx:.0f}" cy="{axis_y}" r="5" fill="#a33d21"/>')
-        parts.append(f'<text x="{xx:.0f}" y="{ty}" text-anchor="middle" class="el1">{esc(label)}</text>')
-        parts.append(f'<text x="{xx:.0f}" y="{ty + 17}" text-anchor="middle" class="el2">{months[k]} product group{"s" if months[k] > 1 else ""}</text>')
-    parts.append('</svg>')
-    return ''.join(parts)
 
 BOQ_PAGE = """<!doctype html>
 <html lang="en"><head>
@@ -358,6 +439,7 @@ def build_boq():
     open('site/boq.html', 'w').write(page)
 
 
+
 def main():
     views = []
     try:
@@ -382,84 +464,110 @@ def main():
                 f'Ankit Samriwal &middot; {when}</div>'
                 f'<h3 class="viewtitle">{esc(v["title"])}</h3>{paras}'
                 f'<div class="viewsrc">{esc(v["sources"])}</div></article>')
-        views_html = ('<h2 class="sec" id="views">Expert views</h2>'
-                      '<div class="secnote">Original analysis by Ankit Samriwal - his reading of the cycle, linked to the official entries it cites. Each view is published with his approval.</div>'
-                      + ''.join(cards))
+        views_html = ('<section class="block" id="views"><div class="bhead"><h2>Expert views</h2>'
+                      '<span class="note">Original analysis by Ankit Samriwal, linked to the official entries it cites. Each view is published with his approval.</span></div>'
+                      + ''.join(cards) + '</section>')
         views_nav = '<a href="#views">Expert views</a>'
     else:
         views_html = ''
         views_nav = ''
+
     edata = json.load(open('data/entries.json'))
     entries = edata['entries']
     eos = json.load(open('data/eos.json'))
     now = datetime.now(timezone.utc)
     now_ts = now.timestamp()
-    from collections import Counter
     fam_counts = Counter(e['family'] for e in entries)
     lens_present = sorted({l for e in entries for l in e['lenses']}, key=lambda l: LENS_ORDER.index(l) if l in LENS_ORDER else 99)
+    latest_date = max((e['date'] for e in entries), default='')
+    new_latest = sum(1 for e in entries if e['date'] == latest_date)
 
-    # family map cards
+    # landscape
+    maxc = max(fam_counts.values() or [1])
     cards = []
     for fam in FAMILY_ORDER:
         icon, tagline, prods = FAMILY_META[fam]
-        prows = ''.join(ic(k, 30) for k in prods[:8])
-        cards.append(f'''<div class="famcard" data-fam="{esc(fam)}" onclick="setFam(this.dataset.fam)">
-  <div class="iconrow">{ic(icon, 34)}{prows}</div>
-  <h3>{esc(fam)}</h3><p>{esc(tagline)}</p>
-  <div class="n">{fam_counts.get(fam, 0)} entries this cycle</div></div>''')
-
-    # pulse bars
-    maxc = max(fam_counts.values() or [1])
-    pulse = ''.join(f'''<div class="prow"><span class="pl">{esc(f)}</span>
-  <span class="bar" style="width:{max(2, int(380 * fam_counts.get(f, 0) / maxc))}px"></span>
-  <span class="pc">{fam_counts.get(f, 0)}</span></div>''' for f in FAMILY_ORDER if fam_counts.get(f, 0))
+        n = fam_counts.get(fam, 0)
+        prow = ''.join(ic(k, 20) for k in prods if k != icon)
+        cards.append(f'''<button class="fam{' zero' if not n else ''}" data-fam="{esc(fam)}" aria-pressed="false" onclick="setFam(this.dataset.fam)">
+  {ic(icon, 36)}
+  <span class="body"><span class="t">{esc(fam)}</span><span class="d">{esc(tagline)}</span>
+  {f'<span class="prods">{prow}</span>' if prow else ''}
+  <span class="bar"><span style="width:{round(100 * n / maxc)}%"></span></span></span>
+  <span class="c">{n}</span></button>''')
 
     famchips = '<button class="chip on" data-fam="" onclick="setFam(\'\')">All</button>' + ''.join(
-        f'<button class="chip" data-fam="{esc(f)}" onclick="setFam(this.dataset.fam)">{esc(f)}</button>' for f in FAMILY_ORDER)
-    lenschips = ''.join(f'<button class="chip lens" data-lens="{esc(l)}" onclick="setLens(this.dataset.lens)">{esc(l)}</button>' for l in lens_present)
+        f'<button class="chip" data-fam="{esc(f)}" onclick="setFam(this.dataset.fam)">{esc(f)}</button>'
+        for f in FAMILY_ORDER if fam_counts.get(f))
+    lenschips = ''.join(f'<button class="chip" data-lens="{esc(l)}" onclick="setLens(this.dataset.lens)">{esc(l)}</button>' for l in lens_present)
 
-    # timeline
+    # chronicle
     days, cur = [], None
     for e in entries:
         if e['date'] != cur:
             cur = e['date']
             d = datetime.strptime(cur, '%Y-%m-%d')
-            days.append((cur, d.strftime('%a %-d %b %Y'), []))
+            days.append((cur, d.strftime('%A %-d %B %Y'), []))
         days[-1][2].append(e)
     tl = []
     for _, label, es in days:
         body = []
         for e in es:
             fam = e['family']
-            tags = f'<span class="tag">{esc(fam)}</span>'
+            key, pname = match_product(e['title'])
+            if not key and e.get('source_id') == 'github_blog':
+                key, pname = 'mono-github', 'GitHub'
+            prod = f'<span class="prod">{ic(key, 28)}{esc(pname or fam)}</span>'
+            famline = f'<span>{esc(fam)}</span>' if pname else ''
+            badges = ''
             if e.get('status'):
-                tags += f'<span class="tag status">{esc(e["status"])}</span>'
-            tags += ''.join(f'<span class="tag lens">{esc(l)}</span>' for l in e['lenses'][:3])
-            famicon = FAMILY_META.get(fam, ('', '', []))[0]
+                badges += f'<span class="badge {status_class(e["status"])}">{esc(e["status"])}</span>'
+            badges += ''.join(f'<span class="badge lens">{esc(l)}</span>' for l in e['lenses'][:3])
             body.append(f'''<article class="entry" data-fam="{esc(fam)}" data-lens="{esc('|'.join(e['lenses']))}">
-  <div class="etop">{ic(famicon, 20)}{tags}</div>
-  <h3><a href="{esc(e['url'])}">{esc(e['title'])}</a></h3>
+  <div class="meta">{prod}{famline}{f'<span class="badges">{badges}</span>' if badges else ''}</div>
+  <div><h4><a href="{esc(e['url'])}">{esc(e['title'])}</a></h4>
   <p>{esc(e['summary'])}</p>
-  <div class="src">Source: {esc(e['source'])} &middot; <a href="{esc(e['url'])}">{esc(re.sub(r'^https?://', '', e['url']))}</a></div>
+  <div class="src">Source: <a href="{esc(e['url'])}">{esc(e['source'])}</a></div></div>
 </article>''')
-        tl.append(f'<section class="daygroup"><div class="dayrow"><div class="daterail">{esc(label)}</div><div class="entries">{"".join(body)}</div></div></section>')
+        tl.append(f'<section class="day"><h3>{esc(label)}</h3>{"".join(body)}</section>')
 
     # support watch
-    up = sorted([r for r in eos['rows'] if r['ts'] >= now_ts - 30 * 86400], key=lambda r: r['ts'])[:14]
+    upcoming = sorted([r for r in eos['rows'] if r['ts'] >= now_ts], key=lambda r: r['ts'])
+    next_days = round((upcoming[0]['ts'] - now_ts) / 86400) if upcoming else None
+    cds = []
+    for i, r in enumerate(upcoming[:3]):
+        dl = round((r['ts'] - now_ts) / 86400)
+        icons = ''.join(ic(k, 28) for k, _ in match_all(r['product']))
+        cds.append(f'''<div class="cd{' soon' if i == 0 else ''}"><div class="n">{dl}<small> days</small></div>
+  <div class="p">{esc(r['product'])}</div>
+  <div class="w">{esc(section_label(r['section']))} &middot; {esc(r['date_str'])}</div>
+  {f'<div class="icons">{icons}</div>' if icons else ''}</div>''')
+    window = sorted([r for r in eos['rows'] if r['ts'] >= now_ts - 30 * 86400], key=lambda r: r['ts'])[:14]
     wrows = []
-    for r in up:
-        days_left = round((r['ts'] - now_ts) / 86400)
-        if days_left >= 0:
-            pill = f'<span class="pill soon">in {days_left}d</span>' if days_left <= 45 else f'<span class="pill late">in {days_left}d</span>'
+    for r in window:
+        dl = round((r['ts'] - now_ts) / 86400)
+        if dl >= 0:
+            pill = f'<span class="pill{" soon" if dl <= 45 else ""}">in {dl} days</span>'
         else:
-            pill = f'<span class="pill gone">ended {-days_left}d ago</span>'
-        wrows.append(f'''<div class="watchrow"><span class="wp">{esc(r['product'])}</span>
+            pill = f'<span class="pill gone">ended {-dl} days ago</span>'
+        icons = ''.join(ic(k, 22) for k, _ in match_all(r['product']))
+        wrows.append(f'''<div class="wr"><span class="wp">{f'<span class="icons">{icons}</span>' if icons else ''}<span>{esc(r['product'])}</span></span>
   <span class="ws">{esc(section_label(r['section']))}</span>
   <span class="wd">{esc(r['date_str'])}</span>{pill}</div>''')
 
-    srclist = ''.join(f'<div>&middot; <a href="{esc(u)}">{esc(n)}</a></div>' for n, u in SOURCES)
+    srclist = ''.join(f'<div><a href="{esc(u)}">{esc(n)}</a></div>' for n, u in SOURCES)
     gen = edata.get('generated_at', '')
     total = len(entries)
+    try:
+        today_label = datetime.strptime(latest_date, '%Y-%m-%d').strftime('%a %-d %b %Y')
+    except Exception:
+        today_label = ''
+
+    stats = (f'<div><div class="n">{total}</div><div class="l">entries this cycle</div></div>'
+             f'<div><div class="n">{new_latest}</div><div class="l">new on {esc(today_label)}</div></div>'
+             f'<div><div class="n">{sum(1 for f in FAMILY_ORDER if fam_counts.get(f))}</div><div class="l">active product families</div></div>'
+             + (f'<div><div class="n warn">{next_days}</div><div class="l">days to next retirement</div></div>' if next_days is not None
+                else '<div><div class="n">0</div><div class="l">retirements due</div></div>'))
 
     sprite = _sprite_defs()
     page = f'''<!DOCTYPE html>
@@ -467,73 +575,85 @@ def main():
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Microsoft Universe Chronicle</title>
 <meta name="description" content="An unofficial daily chronicle of official Microsoft updates: D365, M365, Azure, Copilot, agents, Fabric, Power Platform, security, MAI models, the IQ ecosystem, and end-of-support watch.">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&amp;family=Public+Sans:wght@400;500;600&amp;display=swap">
 <style>{CSS}</style></head>
 <body>
 {sprite}
-<div class="topbar">Unofficial chronicle &middot; not affiliated with or endorsed by Microsoft &middot; every entry links to an official Microsoft source</div>
-<header class="top">
-  <div class="brand">Microsoft Universe Chronicle</div>
-  <nav><a href="#map">Landscape</a>{views_nav}<a href="#chronicle">Chronicle</a><a href="#support">Support watch</a><a href="boq.html">BOQ builder</a><a href="#sources">Sources</a></nav>
-</header>
 <div class="wrap">
-  <section class="hero">
-    <div class="kicker">All of Microsoft &middot; one chronicle &middot; official sources only</div>
-    <h1>Every Microsoft update, in order, in plain language.</h1>
-    <p class="sub">D365, M365, Azure, Copilot, Agents, Fabric, Power Platform, Security, MAI models, the IQ ecosystem. Refreshed daily. {total} entries in the current cycle.</p>
-    <div class="refresh">Last refreshed: {esc(gen)} &middot; refreshed daily by automation &middot; entries cover roughly the last 120 days</div>
-  </section>
+<div class="strip"><span>Unofficial chronicle &middot; not affiliated with or endorsed by Microsoft &middot; every entry links to an official Microsoft source</span><span>Refreshed {esc(gen)}</span></div>
+<header class="mast"><div class="kicker">All of Microsoft &middot; one chronicle &middot; official sources only</div><h1>Microsoft Universe Chronicle</h1></header>
+<nav class="sections" aria-label="Sections">
+  <div class="links"><a href="#map">Landscape</a>{views_nav}<a href="#chronicle">Chronicle</a><a href="#support">Support watch</a><a href="boq.html">BOQ builder</a><a href="#sources">Sources</a></div>
+  <div class="search"><label for="q">Search</label><input id="q" type="search" placeholder="Fabric, Entra, retirement&hellip;" autocomplete="off" oninput="setQ(this.value)"></div>
+</nav>
 
-  <h2 class="sec" id="map">The landscape</h2>
-  <div class="secnote">Nine product families, tracked across official Microsoft feeds. Select a family to filter the chronicle. Product icons are Microsoft's official architecture icons (see Sources for terms).</div>
+<section class="lead">
+  <div><h2>Every Microsoft update, in order, in plain language.</h2>
+  <p>D365, M365, Azure, Copilot, agents, Fabric, Power Platform, security, MAI models and the IQ ecosystem &mdash; refreshed daily, covering roughly the last 120 days.</p>
+  <div class="refresh">Last refreshed {esc(gen)} by automation</div></div>
+  <div class="stats">{stats}</div>
+</section>
+
+<section class="block" id="map">
+  <div class="bhead"><h2>The landscape</h2><span class="note">Select a family to filter the chronicle. Product icons are Microsoft's official architecture icons, shown beside the product they depict (see Sources).</span></div>
   <div class="famgrid">{''.join(cards)}</div>
+</section>
 
-  <h2 class="sec">This cycle at a glance</h2>
-  <div class="secnote">Entries per family across the tracked official feeds in the current 120-day window. Computed from the feeds listed under Sources.</div>
-  <div class="pulse">{pulse}</div>
+{views_html}
 
-  {views_html}
-  <h2 class="sec" id="chronicle">The chronicle</h2>
-  <div class="axislabel">Filter by product family</div>
-  <div class="chips">{famchips}</div>
-  <div class="axislabel">Practice lens</div>
-  <div class="chips">{lenschips}</div>
+<section class="block" id="chronicle">
+  <div class="bhead"><h2>The chronicle</h2><span class="note"><span id="shown">{total}</span> of {total} entries</span></div>
+  <div class="filters">
+    <div class="frow"><span class="lab">Family</span>{famchips}</div>
+    <div class="frow"><span class="lab">Practice lens</span>{lenschips}</div>
+  </div>
   {''.join(tl)}
+  <div class="empty" id="empty">No entries match. Clear the search or filters.</div>
+</section>
 
-  <h2 class="sec" id="support">Support watch</h2>
-  <div class="secnote">End of support and retirements across the Microsoft catalogue, from the Microsoft Learn lifecycle pages. Next milestones first.</div>
-  {eos_svg(eos['rows'], now_ts)}
-  {''.join(wrows)}
+<section class="block" id="support">
+  <div class="bhead"><h2>Support watch</h2><span class="note">End of support and retirements across the Microsoft catalogue, from the Microsoft Learn lifecycle pages. Next milestones first.</span></div>
+  <div class="countdown">{''.join(cds)}</div>
+  <div class="watch">{''.join(wrows)}</div>
+</section>
 
-  <footer id="sources">
-    <b>Sources</b> (all official Microsoft, all public, all free):
-    <div class="srclist">{srclist}</div>
-    <p>Method: a daily automated job reads these feeds and the Microsoft Learn lifecycle pages, classifies each item into a product family and practice lens, and rebuilds this page. Chronicle entries are not editorial opinion; every entry links to its Microsoft source. Expert views, when present, are original analysis by Ankit Samriwal, published with his per-item approval.</p>
-    <p style="margin-top:8px">Icons: official Microsoft architecture icon sets (Azure, Dynamics 365, Power Platform, Fabric, Entra), used under Microsoft's icon terms for diagrams and documentation, unmodified. Products without an official free icon set are shown with original letter tiles. Microsoft product names are trademarks of Microsoft. This is an independent, unofficial chronicle.</p>
-    <p style="margin-top:8px">Built and maintained by Instinct for Ankit Samriwal.</p>
-  </footer>
+<footer id="sources">
+  <b>Sources</b> &mdash; all official Microsoft, all public, all free:
+  <div class="srclist">{srclist}</div>
+  <p>Method: a daily automated job reads these feeds and the Microsoft Learn lifecycle pages, classifies each item into a product family and practice lens, and rebuilds this page. Chronicle entries are not editorial opinion; every entry links to its Microsoft source. Expert views, when present, are original analysis by Ankit Samriwal, published with his per-item approval.</p>
+  <p>Icons: official Microsoft architecture icon sets (Azure, Dynamics 365, Power Platform, Fabric, Entra), used under Microsoft's icon terms for diagrams and documentation, unmodified, and always beside the product they depict. Products without an official free icon set are shown with original letter tiles. Microsoft product names are trademarks of Microsoft. This is an independent, unofficial chronicle.</p>
+  <p>Built and maintained by Instinct for Ankit Samriwal.</p>
+</footer>
 </div>
 <script>
-let F='',L='';
-function setFam(f){{F=(F===f)?'':f;paint();}}
+let F='',L='',Q='';
+const items=[...document.querySelectorAll('.entry')].map(e=>({{e,t:e.textContent.toLowerCase()}}));
+function setFam(f){{F=(F===f)?'':f;paint();if(f)document.getElementById('chronicle').scrollIntoView({{behavior:'smooth'}});}}
 function setLens(l){{L=(L===l)?'':l;paint();}}
+function setQ(q){{Q=q.trim().toLowerCase();paint();}}
 function paint(){{
   document.querySelectorAll('.chip[data-fam]').forEach(c=>c.classList.toggle('on',c.dataset.fam===F));
+  document.querySelectorAll('.fam').forEach(c=>{{const on=c.dataset.fam===F;c.classList.toggle('on',on);c.setAttribute('aria-pressed',on);}});
   document.querySelectorAll('.chip[data-lens]').forEach(c=>c.classList.toggle('on',c.dataset.lens===L));
-  document.querySelectorAll('.entry').forEach(e=>{{
-    const okF=!F||e.dataset.fam===F;
-    const okL=!L||(''+e.dataset.lens).split('|').includes(L);
-    e.style.display=(okF&&okL)?'':'none';
+  let n=0;
+  items.forEach(({{e,t}})=>{{
+    const ok=(!F||e.dataset.fam===F)&&(!L||e.dataset.lens.split('|').includes(L))&&(!Q||t.includes(Q));
+    e.style.display=ok?'':'none';if(ok)n++;
   }});
-  document.querySelectorAll('.daygroup').forEach(g=>{{
+  document.querySelectorAll('.day').forEach(g=>{{
     g.style.display=[...g.querySelectorAll('.entry')].some(e=>e.style.display!=='none')?'':'none';
   }});
+  document.getElementById('shown').textContent=n;
+  document.getElementById('empty').style.display=n?'none':'block';
 }}
 </script>
 </body></html>'''
     os.makedirs('site', exist_ok=True)
     open('site/index.html', 'w').write(page)
-    build_boq()
     print(f'site/index.html written: {len(page)} bytes, {len(entries)} entries')
+    build_boq()
 
 if __name__ == '__main__':
     main()
