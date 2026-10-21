@@ -102,6 +102,14 @@ h2.sec{font-size:27px;font-weight:normal;margin:44px 0 4px}
 .chip.on{background:var(--ink);color:#f6f2ea;border-color:var(--ink)}
 .chip.lens{border-style:dashed;color:var(--accent);border-color:#cfa48f;background:transparent}
 .chip.lens.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.viewcard{background:#fffdf8;border:1px solid #e5ddcf;border-radius:14px;padding:26px 30px;margin:14px 0 26px;max-width:820px}
+.viewmeta{font:600 12px/1 'Inter',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#8a8272;display:flex;gap:10px;align-items:center;margin-bottom:10px}
+.viewlens{background:#f3e7de;color:#a33d21;border-radius:999px;padding:4px 12px;font-size:11px}
+.viewtitle{font-family:Georgia,serif;font-size:26px;font-weight:600;margin:0 0 12px;color:#16130e}
+.viewcard p{font:15px/1.65 Georgia,serif;color:#2c2820;margin:0 0 12px}
+.viewcard a{color:#a33d21;text-decoration:underline;text-underline-offset:2px}
+.viewsrc{font:12px/1.5 'Inter',sans-serif;color:#8a8272;border-top:1px solid #ece4d4;padding-top:10px;margin-top:14px}
 .pulse{margin-top:8px}
 .prow{display:flex;align-items:center;gap:12px;padding:5px 0;font-family:Arial,sans-serif;font-size:12px}
 .prow .pl{flex:0 0 190px;color:#3d382f}
@@ -178,6 +186,36 @@ def eos_svg(rows, now_ts):
     return ''.join(parts)
 
 def main():
+    views = []
+    try:
+        views = [v for v in json.load(open('data/views.json'))['views'] if v.get('status') == 'approved']
+    except Exception:
+        views = []
+
+    def _md(t):
+        t = esc(t)
+        return re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'<a href="\2">\1</a>', t)
+
+    if views:
+        cards = []
+        for v in views:
+            paras = ''.join(f'<p>{_md(par)}</p>' for par in v['body'])
+            try:
+                when = datetime.strptime(v['approved_at'], '%Y-%m-%d').strftime('%d %b %Y')
+            except Exception:
+                when = esc(v.get('approved_at', ''))
+            cards.append(
+                f'<article class="viewcard"><div class="viewmeta"><span class="viewlens">{esc(v["lens"])}</span>'
+                f'Ankit Samriwal &middot; {when}</div>'
+                f'<h3 class="viewtitle">{esc(v["title"])}</h3>{paras}'
+                f'<div class="viewsrc">{esc(v["sources"])}</div></article>')
+        views_html = ('<h2 class="sec" id="views">Expert views</h2>'
+                      '<div class="secnote">Original analysis by Ankit Samriwal - his reading of the cycle, linked to the official entries it cites. Each view is published with his approval.</div>'
+                      + ''.join(cards))
+        views_nav = '<a href="#views">Expert views</a>'
+    else:
+        views_html = ''
+        views_nav = ''
     edata = json.load(open('data/entries.json'))
     entries = edata['entries']
     eos = json.load(open('data/eos.json'))
@@ -262,7 +300,7 @@ def main():
 <div class="topbar">Unofficial chronicle &middot; not affiliated with or endorsed by Microsoft &middot; every entry links to an official Microsoft source</div>
 <header class="top">
   <div class="brand">Microsoft Universe Chronicle</div>
-  <nav><a href="#map">Landscape</a><a href="#chronicle">Chronicle</a><a href="#support">Support watch</a><a href="#sources">Sources</a></nav>
+  <nav><a href="#map">Landscape</a>{views_nav}<a href="#chronicle">Chronicle</a><a href="#support">Support watch</a><a href="#sources">Sources</a></nav>
 </header>
 <div class="wrap">
   <section class="hero">
@@ -280,6 +318,7 @@ def main():
   <div class="secnote">Entries per family across the tracked official feeds in the current 120-day window. Computed from the feeds listed under Sources.</div>
   <div class="pulse">{pulse}</div>
 
+  {views_html}
   <h2 class="sec" id="chronicle">The chronicle</h2>
   <div class="axislabel">Filter by product family</div>
   <div class="chips">{famchips}</div>
@@ -295,7 +334,7 @@ def main():
   <footer id="sources">
     <b>Sources</b> (all official Microsoft, all public, all free):
     <div class="srclist">{srclist}</div>
-    <p>Method: a daily automated job reads these feeds and the Microsoft Learn lifecycle pages, classifies each item into a product family and practice lens, and rebuilds this page. Nothing here is editorial opinion; every entry links to its Microsoft source.</p>
+    <p>Method: a daily automated job reads these feeds and the Microsoft Learn lifecycle pages, classifies each item into a product family and practice lens, and rebuilds this page. Chronicle entries are not editorial opinion; every entry links to its Microsoft source. Expert views, when present, are original analysis by Ankit Samriwal, published with his per-item approval.</p>
     <p style="margin-top:8px">Icons: official Microsoft architecture icon sets (Azure, Dynamics 365, Power Platform, Fabric, Entra), used under Microsoft's icon terms for diagrams and documentation, unmodified. Products without an official free icon set are shown with original letter tiles. Microsoft product names are trademarks of Microsoft. This is an independent, unofficial chronicle.</p>
     <p style="margin-top:8px">Built and maintained by Instinct for Ankit Samriwal.</p>
   </footer>
