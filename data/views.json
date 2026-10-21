@@ -43,6 +43,19 @@
     "My take: budget evaluation as a first-class line item in 2027 AI projects - graders, sandboxes, routing - not as an afterthought to model selection. Teams that measure well will swap models cheaply; the rest will argue about vibes."
    ],
    "sources": "Microsoft Foundry blog, Microsoft DevBlogs, Microsoft 365 roadmap, current cycle. Every claim links to its official entry."
+  },
+  {
+   "id": "devsecops-2026-10-21",
+   "lens": "DevSecOps",
+   "status": "approved",
+   "approved_at": "2026-10-21",
+   "title": "Quiet cycle for pipelines; the action moved to the supply chain",
+   "body": [
+    "This was a thin cycle for classic CI/CD security news, and the one dominant pattern is the same one leading my Security view: the [Storm-0940 campaign](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/), where a nation-state actor used an agentic AI system to turn a ConnectWise integration into a supply-chain compromise. Strip the headline down and it is a pipeline-security story: a trusted vendor connector became the delivery mechanism.",
+    "GitHub's own pipeline-hygiene work continued in quieter ways. Its updated [secret-detection model](https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/) promises more real findings with less noise - relevant because false-positive fatigue is exactly what makes teams mute push protection. And its [Staying Evergreen](https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/) engineering post is a rare look at how GitHub itself automates secure access and repository hygiene across a large shared org.",
+    "My take: pipeline security is now mostly about what flows through the pipeline - vendor integrations, secrets, agent-authored commits - not the pipeline machinery itself. If your controls stop at the YAML, extend them to connectors and credentials."
+   ],
+   "sources": "GitHub blog, Microsoft Security Blog, current cycle. Every claim links to its official entry."
   }
  ]
 }
