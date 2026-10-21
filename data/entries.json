@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 19:20 UTC",
+ "generated_at": "2026-10-21 19:23 UTC",
  "entries": [
   {
    "date": "2026-10-21",
@@ -350,6 +350,23 @@
     "Features",
     "Management",
     "Services"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "ts": 1792517687,
+   "title": "Advancing digital sovereignty with greater control and choice",
+   "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "Across conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on the most important systems while maintaining the control those systems require.",
+   "status": "",
+   "tags": [
+    "AI + machine learning",
+    "Hybrid + multicloud",
+    "Microsoft Sovereign Cloud"
    ]
   },
   {
@@ -4565,6 +4582,24 @@
   },
   {
    "date": "2026-09-29",
+   "ts": 1790717967,
+   "title": "Phishing Abuses RMM Tools for Persistent Access",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity",
+   "status": "",
+   "tags": [
+    "Phishing",
+    "Social engineering"
+   ]
+  },
+  {
+   "date": "2026-09-29",
    "ts": 1790717442,
    "title": "Why content extraction still matters in the GenAI era",
    "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
@@ -5120,6 +5155,45 @@
    "status": "",
    "tags": [
     "Microsoft for Developers"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ts": 1790697600,
+   "title": "\u200b\u200bBeyond source code: A path to the keys to the kingdom",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-09-29",
+   "ts": 1790694000,
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique,...",
+   "status": "",
+   "tags": [
+    "Blizzard",
+    "Credential theft",
+    "Cyberespionage",
+    "Domain compromise",
+    "Malware",
+    "Phishing",
+    "Social engineering",
+    "Star Blizzard (SEABORGIUM)"
    ]
   },
   {
