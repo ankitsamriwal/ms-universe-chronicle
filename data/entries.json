@@ -1,6 +1,25 @@
 {
- "generated_at": "2026-10-21 19:15 UTC",
+ "generated_at": "2026-10-21 19:20 UTC",
  "entries": [
+  {
+   "date": "2026-10-21",
+   "ts": 1792607035,
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Agents",
+    "DevSecOps",
+    "Security happenings"
+   ],
+   "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.",
+   "status": "",
+   "tags": [
+    "Supply chain attack"
+   ]
+  },
   {
    "date": "2026-10-21",
    "ts": 1792605600,
@@ -3978,10 +3997,7 @@
    "source": "Azure blog",
    "source_id": "azure_blog",
    "family": "Azure",
-   "lenses": [
-    "AIOps",
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "The opportunity is bigger than making individual tasks faster. It\u2019s to build a system that learns from how infrastructure is designed, sourced, and operated.",
    "status": "",
    "tags": [
