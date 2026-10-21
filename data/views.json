@@ -1,0 +1,20 @@
+{
+ "generated_at": "2026-10-21 23:17 UTC",
+ "views": [
+  {
+   "id": "aiops-2026-10-21",
+   "lens": "AIOps",
+   "status": "approved",
+   "approved_at": "2026-10-21",
+   "title": "The ops console is turning into an ops agent",
+   "body": [
+    "This cycle, Microsoft's operations story moved from dashboards to delegation. Three signals stand out:",
+    "1. Azure Monitor got deeper, not louder. [Advanced platform metrics](https://azure.microsoft.com/updates?id=575329) and [metrics usage insights](https://azure.microsoft.com/updates?id=577165) both reached general availability. For teams running large AKS or VM fleets, usage insights is the first built-in view of what your monitoring estate itself is doing - the starting point for cutting noisy-metric cost.",
+    "2. Dynamics 365 Customer Service is adding [an AI agent for intraday operations](https://www.microsoft.com/microsoft-365/roadmap?id=577184) - the staffing and queue adjustments supervisors still handle by hand each morning.",
+    "3. [SQL performance monitoring for SQL Server on Azure VMs](https://azure.microsoft.com/updates?id=571894) entered public preview, closing a gap that pushed many estates to third-party tools.",
+    "My take: the pattern worth watching is agents acting inside the ops loop (intraday staffing, real-time coaching) rather than summarizing it after the fact. Pilot on a single service queue before letting one near production schedules."
+   ],
+   "sources": "Microsoft 365 roadmap and Azure updates, current cycle. Every claim links to its official entry."
+  }
+ ]
+}
