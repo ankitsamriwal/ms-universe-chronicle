@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 19:02 UTC",
+ "generated_at": "2026-10-21 19:15 UTC",
  "entries": [
   {
    "date": "2026-10-21",
@@ -214,9 +214,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature enables employees to automatically generate expense entries for predictable, repeatable business expenses (for example, monthly mobile bills, internet charges, parking, and subscriptions) without manual re-entry each period. It reduces repetitive...",
    "status": "In development",
    "tags": [
@@ -464,7 +462,6 @@
    "source_id": "d365_blog",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "Learn how Scheduling Operations Agent helps Dynamics 365 Field Service teams optimize resources, automate scheduling plans, and run recurring optimizations.",
@@ -609,9 +606,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Zero-effort task completion enables project managers and team members to mark tasks as complete even when no effort was planned or recorded. This capability supports milestones, administrative activities, checklists, and other tasks that track completion...",
    "status": "In development",
    "tags": [
@@ -953,9 +948,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature gives project managers greater control over where imported tasks are placed within a project plan. From the task grid, a project manager can open the context menu for an existing task and select Insert task below. The standard Import Tasks pane...",
    "status": "In development",
    "tags": [
@@ -975,9 +968,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature gives project managers control over how resource assignments are handled when importing tasks from one project to another. For each import, project managers can choose to: Not import the team members - Each imported task will lose the assignment...",
    "status": "In development",
    "tags": [
@@ -1058,9 +1049,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Previously, you had limited options for how financial dimensions default. This feature adds functionality and flexibility to default financial dimension values. With this feature, you can: Create a configuration to determine how financial dimensions default...",
    "status": "Launched",
    "tags": [
@@ -1081,7 +1070,6 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "This release expands the optimization capabilities of the Scheduling Operations Agent to include multiple resources. The agent considers the availability of the resources, their current schedules, and unscheduled requirements. It suggests a schedule that...",
@@ -1104,9 +1092,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature enhances the Project Budget management experience by improving visibility, usability, and contextual clarity when working with project budgets and budget versions. It addresses limitations of the existing Project form Budget tab and reduces...",
    "status": "In development",
    "tags": [
@@ -1126,9 +1112,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature expands the existing general journal functionality for modern projects. A new capability is added so general journal lines can have an associated project resource . Specifying the project resource on a journal line allows for increased tracking...",
    "status": "Launched",
    "tags": [
@@ -1147,9 +1131,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "Business Central offers full support for self\u2011billed invoices in the purchase process. Buyers can now generate invoices on behalf of a vendor when a self\u2011billing agreement is in place. A new Boolean field on the Vendor Card page enables this agreement, and...",
    "status": "Launched",
    "tags": [
@@ -1169,9 +1151,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Correcting transactions after they\u2019ve been processed can be a complicated and difficult process. Currently in Project Operations, you must select all the transactions you want to correct at the same time to create the journal, and all transactions added to...",
    "status": "In development",
    "tags": [
@@ -1191,9 +1171,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature lets different currency units show the actual record for the accounting currency when the unit differs from the base currency. Today the correct value is shown, but the units are incorrectly shown as the base currency, regardless of the actual...",
    "status": "In development",
    "tags": [
@@ -1213,9 +1191,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature introduces a robust what-if analysis capability for estimates that enables you to model scenarios and evaluate their impact on key financial goals. Scenario modeling : Use existing quotes to simulate scenarios and assess their effects on goals...",
    "status": "In development",
    "tags": [
@@ -1235,9 +1211,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "In the task grid, when you select the i icon next to a task name, the Task details pane opens so you can enter more information. This pane is part of Microsoft Project for the web and is embedded in an iframe that makes it non-customizable. With this feature,...",
    "status": "Launched",
    "tags": [
@@ -1300,9 +1274,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "The feature introduces four new APIs in the Sustainability area to improve interoperability and enable automated data flows between Business Central and external applications. The new APIs are: Goals : Provides read, insert, and modify operations for...",
    "status": "Launched",
    "tags": [
@@ -1322,9 +1294,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "When you enable the Enable subcontractor vendor invoice matching to actuals for Project Operations integrated with ERP setting, you activate this feature. Key capabilities: This feature enables procurement managers, project accountants, and accounts payable...",
    "status": "In development",
    "tags": [
@@ -1344,9 +1314,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "The standard Dynamics 365 Business Central solution already meets many global needs. We expand that solution to meet local needs by adding capabilities that include: Logistics flows that manage subcontractor transfers for raw materials and components, along...",
    "status": "Launched",
    "tags": [
@@ -1365,10 +1333,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps",
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "The new pricing calculation API allows external systems to programmatically retrieve active prices or price quotes directly from Supply Chain Management. Based on key input data provided by the external system\u2014such as product and customer details\u2014Supply Chain...",
    "status": "Launched",
    "tags": [
@@ -1447,10 +1412,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps",
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "This feature lets you control how serial and batch numbers are captured during cluster picking for items tracked below the location level in the reservation hierarchy. You get two new strategies in the cluster setup: capture serial and batch numbers once...",
    "status": "Launched",
    "tags": [
@@ -1470,9 +1432,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "Receive transfer orders in warehouse-only mode with a single license plate scan. This feature uses ASN-based packing structures to speed up inbound shipment processing and improve accuracy. The packing structure is defined within the ASN, so you can...",
    "status": "Launched",
    "tags": [
@@ -1492,9 +1452,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "Dynamic work classification powered by Power FX formulas lets you evaluate warehouse queries in real time, so you can prioritize work based on load priority or any operational data. This removes the need for multiple location directives or work templates,...",
    "status": "Launched",
    "tags": [
@@ -1556,9 +1514,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Today, when you select Copy Project , the system creates a project and copies everything from the source project to the newly created project. In this flow, you aren't allowed to update fields like contracting unit, owning company, and other key fields for...",
    "status": "Launched",
    "tags": [
@@ -1578,9 +1534,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Project Operations supports Externally scheduled projects, where organizations use their own scheduling engine and manage project schedules outside of Project Operations. Previously, the Copy Project capability was available only for Project for the Web...",
    "status": "Launched",
    "tags": [
@@ -1600,10 +1554,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps",
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "For organizations delivering complex projects, a single invoice proposal can include thousands of invoice lines. Similarly, thousands of customers might need to invoice every billing cycle. In both cases, the window is often short between the time users...",
    "status": "Launched",
    "tags": [
@@ -1622,9 +1573,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Project Operations sets a 24-hour limit on daily time entry hours that can be logged (including vacation hours). Administrators can modify this out-of-the-box validation in the Parameters section to meet their organization\u2019s needs. Administrators can set a...",
    "status": "Launched",
    "tags": [
@@ -1643,9 +1592,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Customers can now configure the allowable increment for time entry durations to ensure that all logged time adheres to their organization\u2019s time-tracking policies. When enabled, you can only create or modify time entries whose duration is a multiple of the...",
    "status": "In development",
    "tags": [
@@ -1664,9 +1611,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Administrators can now enable time-zone-independent behavior for the Time Entry Grid so that time entries appear on the same calendar date, regardless of a user's time zone. This helps organizations with globally distributed teams maintain a consistent view...",
    "status": "Launched",
    "tags": [
@@ -1871,6 +1816,7 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
+    "AIOps",
     "Agents",
     "MLOps"
    ],
@@ -1954,7 +1900,6 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "The Copilot Cowork plugin for finance and operations apps enables users to move from business intent to insight to execution in a single experience. Copilot orchestrates work across ERP data, emails, documents, spreadsheets, collaboration tools, and...",
@@ -2037,9 +1982,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "This feature enhancement introduces mass price update capabilities that use price attribute combinations and rule-based markups to provide an efficient way to manage large-scale pricing changes. Create trade agreement prices using attribute combinations...",
    "status": "Launched",
    "tags": [
@@ -2118,9 +2061,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "This feature enhancement extends the standard credit management framework to all Commerce orders across channels, ensuring the consistent application of credit policies between Commerce and Supply Chain Management. During order fulfillment, Commerce channels...",
    "status": "Launched",
    "tags": [
@@ -2180,9 +2121,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "You can now access behavioral data captured by Customer Insights - Journeys, such as emails opened and links clicked, and use it in Customer Insights - Data. The behavioral data from Customer Insights - Journeys is now automatically available in Customer...",
    "status": "Launched",
    "tags": [
@@ -2203,7 +2142,6 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "Document attachments provide valuable context and detail about ERP records. With this release, the Dynamics 365 ERP MCP server will provide access for agents to work with the attachments by creating, deleting, or reading and reasoning over the content of the...",
@@ -2226,7 +2164,6 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "The Dynamics 365 ERP MCP server enables copilots to respond to prompts related to data across the Dynamics 365 ERP suite of applications. Users expect visibility into how copilot responses relate to the underlying business data and system records. With this...",
@@ -2487,9 +2424,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "For organizations using a structured and formal invoice workflow as part of their revenue collection, it's critical that invoices can be created and worked through to completion in a timely manner. When a configuration change causes an error, it's vital that...",
    "status": "Launched",
    "tags": [
@@ -2527,9 +2462,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Power Platform & Fabric",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "As you scale your data management operations, bulk delete must be predictable, transparent, and safe to operate across environments. In this release, Microsoft enhances bulk delete with an improved error handling experience and solution aware configuration...",
    "status": "Launched",
    "tags": [
@@ -2549,9 +2482,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "When you enable the Enable investment project for Project Operations integrated with ERP setting, you activate this feature. Project Classification : The project manager uses this classification to mark a project as an investment project. Use this...",
    "status": "Launched",
    "tags": [
@@ -2571,9 +2502,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature provides an experience to change the task schedule mode on the Customizable task details pane . To enable this feature, from project parameters select Enable Customize Task Pane . When enabled through feature control, this functionality lets you:...",
    "status": "Launched",
    "tags": [
@@ -2593,9 +2522,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature provides an experience to change the task calendar on the Customizable task details pane . To enable this feature, from project parameters select Enable Customize Task Pane . When enabled through feature control, this functionality lets you: Set...",
    "status": "General Availability",
    "tags": [
@@ -2634,9 +2561,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Previously, importing an .mpp file always created a new project. The import process copied the work breakdown structure from the .mpp file into the new project. You couldn't import a .mpp file into an existing project. This limitation made it difficult to...",
    "status": "Launched",
    "tags": [
@@ -2657,7 +2582,6 @@
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
    "lenses": [
-    "AIOps",
     "Security happenings"
    ],
    "summary": "This feature adds a security system that lets administrators restrict what users can access inside the Project for the web iFrame on projects they access but don't join as team members. Project managers can use the same system to set restrictions for team...",
@@ -2679,9 +2603,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "As part of our commitment to continuously improve Project Operations, we plan to expand the Enterprise Task Custom Columns capability in an upcoming release. This enhancement builds on the existing functionality that allows you to add Date, Text, Number, and...",
    "status": "Launched",
    "tags": [
@@ -2719,9 +2641,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "With this feature, the system automatically updates the correct sales and cost prices in quotes and contracts based on the effective date. The system calculates prices using weighted average prices for both quote line details and contract line details, so...",
    "status": "In development",
    "tags": [
@@ -2741,9 +2661,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "As part of our commitment to continuously improve Project Operations, we plan to expand the Enterprise Task Custom Columns capability. This enhancement builds on the existing functionality that allows you to add Date , Text , Number , and Choice fields to the...",
    "status": "Launched",
    "tags": [
@@ -2781,9 +2699,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "This feature enhances Dynamics 365 Project Operations by extending its native work breakdown structure effort tracking to include approved time captured in Field Service when the Field Service and Project Operations integration is enabled and time flows in at...",
    "status": "Launched",
    "tags": [
@@ -2841,11 +2757,7 @@
    "source": "Microsoft 365 roadmap",
    "source_id": "m365_roadmap",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps",
-    "DevSecOps",
-    "FinOps"
-   ],
+   "lenses": [],
    "summary": "The experiences for using inventoried products in Project Operations use the Inventory and Warehouse modules of Dynamics 365 Supply Chain Management. To accurately estimate the availability of stocked items and their costs, the system uses Pricing and...",
    "status": "Launched",
    "tags": [
@@ -3026,6 +2938,21 @@
   },
   {
    "date": "2026-10-16",
+   "ts": 1792166400,
+   "title": "Managing open-weight model risk in enterprise deployments",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-16",
    "ts": 1792116290,
    "title": "What\u2019s new in Microsoft Foundry | September 2026",
    "url": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
@@ -3199,9 +3126,7 @@
    "source": "Dynamics 365 blog",
    "source_id": "d365_blog",
    "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Microsoft Dynamics 365 is named a Leader for operational ERP, helping organizations connect people, data, and business systems to drive more agile operations.",
    "status": "",
    "tags": [
@@ -3998,9 +3923,7 @@
    "source": "Azure updates",
    "source_id": "azure_updates",
    "family": "Azure",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the",
    "status": "Launched",
    "tags": [
@@ -4805,7 +4728,9 @@
    "source": "Azure updates",
    "source_id": "azure_updates",
    "family": "Azure",
-   "lenses": [],
+   "lenses": [
+    "AIOps"
+   ],
    "summary": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The built",
    "status": "In preview",
    "tags": [
@@ -4880,9 +4805,7 @@
    "source": "Azure updates",
    "source_id": "azure_updates",
    "family": "Azure",
-   "lenses": [
-    "AIOps"
-   ],
+   "lenses": [],
    "summary": "Now you can use ALDO to extend SQL Server support to environments that can\u2019t maintain continuous connectivity to Azure. ALDO is designed for operations in highly regulated, secure, remote, or air-gapped environments, where internet connectivity is restric",
    "status": "Launched",
    "tags": [
@@ -4899,6 +4822,7 @@
    "source_id": "azure_updates",
    "family": "Azure",
    "lenses": [
+    "AIOps",
     "Security happenings"
    ],
    "summary": "With SQL Server on Azure Local, you can run SQL Server workloads on Azure Local infrastructure while leveraging Azure services for centralized management, governance, monitoring, security, and licensing experiences. By connecting to Azure through Azure Ar",
@@ -4916,7 +4840,9 @@
    "source": "Azure updates",
    "source_id": "azure_updates",
    "family": "Azure",
-   "lenses": [],
+   "lenses": [
+    "AIOps"
+   ],
    "summary": "In late September 2026, the following updates and enhancements were made to Azure SQL: Database Hub in Microsoft Fabric is a unified experience for discovering, managing, monitoring, and optimizing databases across SQL Server, Azure SQL,",
    "status": "In preview",
    "tags": [
@@ -4936,9 +4862,7 @@
    "source": "Azure updates",
    "source_id": "azure_updates",
    "family": "Azure",
-   "lenses": [
-    "DevSecOps"
-   ],
+   "lenses": [],
    "summary": "In SSMS, you can now use Microsoft. Build. Sql projects to help you implement, manage, and collaborate on database changes, by providing a local definition of the database objects. A SQL database project is a local representation of SQL objects that compris",
    "status": "Launched",
    "tags": [
@@ -5399,7 +5323,6 @@
    "source_id": "foundry_blog",
    "family": "AI & Copilot",
    "lenses": [
-    "AIOps",
     "Agents"
    ],
    "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly...",
@@ -5463,8 +5386,7 @@
    "source_id": "d365_blog",
    "family": "Business Apps (D365)",
    "lenses": [
-    "Agents",
-    "DevSecOps"
+    "Agents"
    ],
    "summary": "Discover what\u2019s next for Microsoft Dynamics 365 ERP, from new capabilities across Finance, Supply Chain Management, Commerce, and more to the foundation for agentic ERP. Explore how AI, agents, and connected business processes are helping organizations...",
    "status": "",
