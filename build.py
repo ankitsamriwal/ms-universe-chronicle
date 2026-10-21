@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generate the static Microsoft Universe Chronicle site from data/*.json. Stdlib only."""
-import json, html, re
+import json, os, html, re
 from datetime import datetime, timezone
 from icons_data import ICONS
 
@@ -318,6 +318,7 @@ function paint(){{
 }}
 </script>
 </body></html>'''
+    os.makedirs('site', exist_ok=True)
     open('site/index.html', 'w').write(page)
     print(f'site/index.html written: {len(page)} bytes, {len(entries)} entries')
 
