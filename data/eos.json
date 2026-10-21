@@ -1,0 +1,320 @@
+{
+ "generated_at": "2026-10-21 19:02 UTC",
+ "rows": [
+  {
+   "section": "Product Retirements",
+   "product": "Azure API for FHIR \u00b7 Azure FXT Edge Filer",
+   "date": "2026-09-30",
+   "date_str": "September 30, 2026",
+   "ts": 1790726400
+  },
+  {
+   "section": "Product Retirements",
+   "product": "Azure Anomaly Detector \u00b7 Azure Metrics Advisor \u00b7 Azure Personalizer",
+   "date": "2026-10-01",
+   "date_str": "October 1, 2026",
+   "ts": 1790812800
+  },
+  {
+   "section": "Product Retirements",
+   "product": "Access 2021 \u00b7 Excel 2021 \u00b7 Office 2021 \u00b7 OneNote 2021 \u00b7 Outlook 2021 \u00b7 PowerPoint 2021 \u00b7 Project 2021 \u00b7 Publisher 2021 \u00b7 Visio 2021 \u00b7 Word 2021",
+   "date": "2026-10-13",
+   "date_str": "October 13, 2026",
+   "ts": 1791849600
+  },
+  {
+   "section": "End of Servicing",
+   "product": "Dynamics 365 Business Central on-premises (Modern Policy), 2024 release wave 2, version 25.x",
+   "date": "2026-04-04",
+   "date_str": "April 4, 2026",
+   "ts": 1775260800
+  },
+  {
+   "section": "End of Servicing",
+   "product": ".NET 9",
+   "date": "2026-05-12",
+   "date_str": "May 12, 2026",
+   "ts": 1778544000
+  },
+  {
+   "section": "End of Servicing",
+   "product": "Microsoft Configuration Manager, Version 2409",
+   "date": "2026-06-06",
+   "date_str": "June 6, 2026",
+   "ts": 1780704000
+  },
+  {
+   "section": "End of Servicing",
+   "product": "Dynamics 365 Business Central on-premises (Modern Policy), 2025 release wave 1, version 26.x \u00b7 Windows 11 Home and Pro, Version 24H2",
+   "date": "2026-10-13",
+   "date_str": "October 13, 2026",
+   "ts": 1791849600
+  },
+  {
+   "section": "End of Servicing",
+   "product": "Azure IoT Edge, Version 1.5 (LTS) \u00b7 .NET 8 (LTS) \u00b7 PowerShell, PowerShell 7.4 (LTS) \u00b7 Windows 11 Enterprise and Education, Version 23H2 \u00b7 Windows 11 IoT Enterprise, Version 23H2",
+   "date": "2026-11-10",
+   "date_str": "November 10, 2026",
+   "ts": 1794268800
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Advanced Threat Analytics 1.X \u00b7 Dynamics CRM 2016 (Dynamics 365) \u00b7 Visual Studio 2022 , Version 17.10 (LTSC channel)",
+   "date": "2026-01-13",
+   "date_str": "January 13, 2026",
+   "ts": 1768262400
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Microsoft SQL Server 2012 Parallel Data Warehouse (Analytics Platform System)",
+   "date": "2026-03-31",
+   "date_str": "March 31, 2026",
+   "ts": 1774915200
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Dynamics C5 2016 \u00b7 Dynamics NAV 2016 \u00b7 Microsoft Advanced Group Policy Management 4.0 \u00b7 Microsoft Application Virtualization 5.0 \u00b7 Microsoft Application Virtualization 5.1 \u00b7 Microsoft Application Virtualization Hosting 5.0 for Windows Desktops \u00b7 Microsoft Application Virtualization Hosting 5.1 for Windows Desktops \u00b7 Microsoft BitLocker Administration and Monitoring 2.5 \u00b7 Microsoft Diagnostics and Recovery Toolset 10.0 \u00b7 User Experience Virtualization (UE-V) 2.1",
+   "date": "2026-04-14",
+   "date_str": "April 14, 2026",
+   "ts": 1776124800
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Dynamics GP 2016 \u00b7 Dynamics GP 2016 R2 \u00b7 Infopath 2013 \u00b7 Project Server 2016 \u00b7 Project Server 2019 \u00b7 SharePoint Designer 2013 \u00b7 SharePoint Server 2016 \u00b7 SharePoint Server 2019 \u00b7 SQL Server 2014, Extended Security Updates Year 2 \u00b7 SQL Server 2016 \u00b7 Visual Studio 2022 , Version 17.12 (LTSC channel)",
+   "date": "2026-07-14",
+   "date_str": "July 14, 2026",
+   "ts": 1783987200
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Access LTSC 2021 \u00b7 Excel LTSC 2021 \u00b7 Office LTSC 2021 \u00b7 Office LTSC 2021 for Mac \u00b7 OneNote LTSC 2021 \u00b7 Outlook LTSC 2021 \u00b7 PowerPoint LTSC 2021 \u00b7 Project 2021 (LTSC) \u00b7 Publisher LTSC 2021 \u00b7 Skype for Business LTSC 2021 \u00b7 Visio LTSC 2021 \u00b7 Windows 10 2016 LTSB \u00b7 Windows 10 IoT Enterprise LTSB 2016 \u00b7 Windows Server 2012, Extended Security Update Year 3 \u00b7 Windows Server 2012 R2, Extended Security Update Year 3 \u00b7 Word LTSC 2021",
+   "date": "2026-10-13",
+   "date_str": "October 13, 2026",
+   "ts": 1791849600
+  },
+  {
+   "section": "Products moving to Extended Support",
+   "product": "Office LTSC 2021 for Mac \u00b7 Windows Server 2022 \u00b7 Windows Server 2022 Datacenter: Azure Edition \u00b7 Windows Server 2022 Standard (MSL) \u00b7 Windows Server IoT 2022",
+   "date": "2026-10-13",
+   "date_str": "October 13, 2026",
+   "ts": 1791849600
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Speech to Text API v3.0 API Retirement",
+   "date": "2026-03-13",
+   "date_str": "March 13, 2026",
+   "ts": 1773360000
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "DMS (classic) \u2013 SQL Scenarios only retirement \u00b7 Feature deprecation: Trigger playbooks on alerts by analytics rule",
+   "date": "2026-03-15",
+   "date_str": "March 15, 2026",
+   "ts": 1773532800
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "AzureML Batch Endpoints API Preview retirement",
+   "date": "2026-03-16",
+   "date_str": "March 16, 2026",
+   "ts": 1773619200
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Classic VMware protection scenario using ASR",
+   "date": "2026-03-29",
+   "date_str": "March 29, 2026",
+   "ts": 1774742400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "API Keys for querying Application Insights \u00b7 Batch Region Retirement \u00b7 Classic alerts for Azure Backup \u00b7 Classic Compute Node Communication Model \u00b7 Deprecation of flash-extract custom fields \u00b7 Retire Require Approve Client App Conditional Access Grant \u00b7 VHD and Managed Images \u00b7 Windows Server 2019 on AKS hybrid \u00b7 Windows Server 2019 on AKS Retirement",
+   "date": "2026-03-31",
+   "date_str": "March 31, 2026",
+   "ts": 1774915200
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Application Gateway v1",
+   "date": "2026-04-28",
+   "date_str": "April 28, 2026",
+   "ts": 1777334400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Custom Commands",
+   "date": "2026-04-30",
+   "date_str": "April 30, 2026",
+   "ts": 1777507200
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure AI Document Intelligence (formerly known as Azure Form Recognizer) v2.0 API \u00b7 Azure document Intelligence v2.1 Container",
+   "date": "2026-08-31",
+   "date_str": "August 31, 2026",
+   "ts": 1788134400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Computer Vision API v1.0 \u00b7 Computer Vision API v2.0 \u00b7 Computer Vision API v2.1 \u00b7 Computer Vision API v3.0 \u00b7 Computer Vision API v3.1",
+   "date": "2026-09-13",
+   "date_str": "September 13, 2026",
+   "ts": 1789257600
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Functions 1.0 Deprecation \u00b7 Azure Monitor Data Collector API \u00b7 Monitoring Support for AKS-Engine",
+   "date": "2026-09-14",
+   "date_str": "September 14, 2026",
+   "ts": 1789344000
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Activity logs legacy connector, storage integration API \u00b7 Azure Maps Gen1 Price Tier",
+   "date": "2026-09-15",
+   "date_str": "September 15, 2026",
+   "ts": 1789430400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Maps Render V1",
+   "date": "2026-09-17",
+   "date_str": "September 17, 2026",
+   "ts": 1789603200
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Maps Web SDK Map Controls Version 1.xx",
+   "date": "2026-09-19",
+   "date_str": "September 19, 2026",
+   "ts": 1789776000
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "SMART on FHIR Proxy in Azure Health Data Services",
+   "date": "2026-09-21",
+   "date_str": "September 21, 2026",
+   "ts": 1789948800
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure API for FHIR Gen 1 offering \u00b7 Azure Container Registry ACR 2017-03-01-(GA) API \u00b7 Azure FXT Edge Filer \u00b7 Azure Maps Web SDK v2 Subversion (v2.0~v2.0.32) and Service Module Retirement \u00b7 Azure Virtual Desktop (Classic) \u00b7 Container Log V1 \u00b7 Get AlertSummary API \u00b7 Service Bus Control plane APIS v2014-09 \u00b7 v2015-08 \u00b7 v2016-07 \u00b7 Single URL Ping Test in Application Insights \u00b7 Track 0 and 1 Service Bus SDKs and SBMP protocol",
+   "date": "2026-09-30",
+   "date_str": "September 30, 2026",
+   "ts": 1790726400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Anomaly Detector \u00b7 Azure Metrics Advisor \u00b7 Personalizer \u00b7 Translator Billing Model",
+   "date": "2026-10-01",
+   "date_str": "October 1, 2026",
+   "ts": 1790812800
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure Functions In-process model end of support",
+   "date": "2026-11-10",
+   "date_str": "November 10, 2026",
+   "ts": 1794268800
+  },
+  {
+   "section": "Product Retirements",
+   "product": "Azure AI Content Moderator",
+   "date": "2027-03-31",
+   "date_str": "March 31, 2027",
+   "ts": 1806451200
+  },
+  {
+   "section": "Product Retirements",
+   "product": "Microsoft Teams Displays",
+   "date": "2027-09-03",
+   "date_str": "September 3, 2027",
+   "ts": 1819929600
+  },
+  {
+   "section": "Product Retirements",
+   "product": "Automanage for Virtual Machines",
+   "date": "2027-09-30",
+   "date_str": "September 30, 2027",
+   "ts": 1822262400
+  },
+  {
+   "section": "End of Servicing",
+   "product": "Windows 11 Enterprise and Education, Version 24H2 \u00b7 Windows 11 IoT Enterprise, Version 24H2",
+   "date": "2027-10-12",
+   "date_str": "October 12, 2027",
+   "ts": 1823299200
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "BizTalk Server 2016 \u00b7 Dynamics NAV 2017 \u00b7 Microsoft Host Integration Server 2016 \u00b7 System Center 2016 Data Protection \u00b7 System Center 2016 Operations Manager \u00b7 System Center 2016 Orchestrator \u00b7 System Center 2016 Service Manager \u00b7 System Center 2016 Virtual Machine Manager \u00b7 Visual Studio Team Foundation Server 2017",
+   "date": "2027-01-11",
+   "date_str": "January 11, 2027",
+   "ts": 1799625600
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "HPC Pack 2016 \u00b7 Hyper-V Server 2016 \u00b7 Internet Information Services (IIS), IIS 10 on Windows Server 2016 \u00b7 Microsoft .NET Framework, .NET Framework 4.6.2 \u00b7 Microsoft System Center Configuration Manager (LTSB - version 1606) \u00b7 Windows 10 Enterprise LTSC 2021 \u00b7 Windows Azure Pack (on Windows Server 2016) \u00b7 Windows Defender for Windows Server 2016 \u00b7 Windows Server 2016 \u00b7 Windows Server Update Services for Windows Server 2016 \u00b7 Windows Storage Server 2016",
+   "date": "2027-01-12",
+   "date_str": "January 12, 2027",
+   "ts": 1799712000
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "Visual Studio 2017",
+   "date": "2027-04-13",
+   "date_str": "April 13, 2027",
+   "ts": 1807574400
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "SQL Server 2014, Extended Security Updates Year 3",
+   "date": "2027-07-12",
+   "date_str": "July 12, 2027",
+   "ts": 1815350400
+  },
+  {
+   "section": "Products reaching End of Support",
+   "product": "SQL Server 2017",
+   "date": "2027-10-12",
+   "date_str": "October 12, 2027",
+   "ts": 1823299200
+  },
+  {
+   "section": "Products moving to Extended Support",
+   "product": "Dynamics 365 for Customer Engagement Apps, version 9.x (on-premises update) \u00b7 Visual Studio 2022 \u00b7 Windows 10 IoT Enterprise LTSC 2021",
+   "date": "2027-01-12",
+   "date_str": "January 12, 2027",
+   "ts": 1799712000
+  },
+  {
+   "section": "Products moving to Extended Support",
+   "product": "System Center 2022 Data Protection Manager \u00b7 System Center 2022 Operations Manager \u00b7 System Center 2022 Orchestrator \u00b7 System Center 2022 Service Manager \u00b7 System Center 2022 Virtual Machine Manager",
+   "date": "2027-04-13",
+   "date_str": "April 13, 2027",
+   "ts": 1807574400
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "HPC Pack 2016",
+   "date": "2027-01-12",
+   "date_str": "January 12, 2027",
+   "ts": 1799712000
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Azure AI Content Moderator \u00b7 Windows Server 2022 on AKS",
+   "date": "2027-03-15",
+   "date_str": "March 15, 2027",
+   "ts": 1805068800
+  },
+  {
+   "section": "Additional Azure Changes",
+   "product": "Application Gateway WAF v2 Config \u00b7 Azure Data Factory Memory Optimized Data Flows \u00b7 Azure Front Door (classic) SKU \u00b7 Azure text to speech long audio API \u00b7 Built-in Analytics: Azure API Management \u00b7 Standard_M192idms_v2 VMs \u00b7 Standard_M192ids_v2 VMs \u00b7 Standard_M192ims_v2 VMs \u00b7 Standard_M192is_v2 VMs",
+   "date": "2027-03-31",
+   "date_str": "March 31, 2027",
+   "ts": 1806451200
+  }
+ ]
+}
