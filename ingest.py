@@ -43,7 +43,7 @@ ROADMAP_MAP = [
 LENSES = [
     ('AIOps', r'\b(AIOps|azure monitor|monitoring|observability|anomal|incident|alerting|log analytics|application insights|grafana|prometheus|service health|intraday)\b'),
     ('MLOps', r'\b(MLOps|model training|fine-tun|evaluation|grader|benchmark|model router|foundry eval)\b'),
-    ('FinOps', r'\b(FinOps|cost management|cost analysis|azure billing|billing account||savings plan|pricing calculator|azure pricing|cost optimi[sz])\b'),
+    ('FinOps', r'\b(FinOps|cost management|cost analysis|azure billing|billing account|savings plan|pricing calculator|azure pricing|cost optimi[sz])\b'),
     ('DevSecOps', r'\b(DevSecOps|azure devops|github advanced security|defender for devops|CI/CD|pipeline security|secret scanning|code scanning|dependabot|supply.chain (attack|compromise|secur)|SBOM|artifact signing|GitHub Actions)\b'),
     ('Security happenings', r'\b(vulnerabilit|CVE-|threat|defender|sentinel|phishing|zero.?day|security)\b'),
     ('Agents', r'\b(agent|agentic|copilot)\b'),
