@@ -211,7 +211,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #a33d21;outline-offset
 button{font:600 13px/1 'Inter',sans-serif;padding:10px 18px;border-radius:999px;border:1px solid #16130e;background:#16130e;color:#f6f2ea;cursor:pointer}
 button.ghost{background:transparent;color:#16130e}
 button:hover{background:#a33d21;border-color:#a33d21;color:#fff}
-table{width:100%;border-collapse:collapse;font:14px/1.5 'Inter',sans-serif}
+table{width:100%;min-width:640px;border-collapse:collapse;font:14px/1.5 'Inter',sans-serif}
 th{font:600 11px/1 'Inter',sans-serif;letter-spacing:.07em;text-transform:uppercase;color:#8a8272;text-align:left;padding:8px 10px;border-bottom:2px solid #16130e}
 td{padding:9px 10px;border-bottom:1px solid #ece4d4;vertical-align:top}
 .rm{border:none;background:none;color:#a33d21;cursor:pointer;font-size:15px;padding:2px 6px}
@@ -258,7 +258,7 @@ td{padding:9px 10px;border-bottom:1px solid #ece4d4;vertical-align:top}
 
   <div class="card">
     <div class="lbl" style="margin-bottom:10px">Bill of quantities &middot; <span id="doctitle"></span></div>
-    <table id="boq">
+    <div style="overflow-x:auto"><table id="boq">
       <thead><tr><th>#</th><th>Family</th><th>Product / license</th><th>Qty</th><th>Unit</th><th>Note</th><th class="noprint"></th></tr></thead>
       <tbody id="rows"><tr><td colspan="7" class="empty">No lines yet - add products above.</td></tr></tbody>
     </table>
