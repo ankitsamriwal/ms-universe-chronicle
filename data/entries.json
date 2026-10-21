@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21 19:30 UTC",
+ "generated_at": "2026-10-21 19:32 UTC",
  "entries": [
   {
    "date": "2026-10-21",
@@ -114,6 +114,24 @@
     "Git",
     "Infrastructure",
     "technical deep dive"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792594800,
+   "title": "Microsoft Contact Center Intelligence: Transforming customer experience at agentic speed",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/21/microsoft-contact-center-intelligence-transforming-customer-experience-at-agentic-speed/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Introducing Microsoft Contact Center Intelligence, bringing purpose-built agents and analytics to contact centers to modernize customer experiences.",
+   "status": "",
+   "tags": [
+    "AI governance",
+    "AI in contact centers"
    ]
   },
   {
