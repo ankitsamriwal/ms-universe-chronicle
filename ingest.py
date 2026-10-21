@@ -3,7 +3,7 @@
 Fetches Microsoft RSS feeds + Microsoft Learn lifecycle pages + microsoft.ai news,
 writes data/entries.json and data/eos.json. A failed source never kills the run;
 previously collected entries persist across runs (120-day window)."""
-import json, re, urllib.request, xml.etree.ElementTree as ET
+import json, os, re, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
@@ -223,7 +223,7 @@ if __name__ == '__main__':
     entries.update(ingest_mai(cutoff))
     result = sorted(entries.values(), key=lambda e: -e['ts'])
     try:
-        old = json.load(open('data/entries.json'))['entries']
+        old = json.load(open('data/entries.json'))['entries'] if os.path.exists('data/entries.json') else []
         known = {e['url'] for e in result}
         keep = [e for e in old if e['url'] not in known and e.get('ts', 0) >= cutoff]
         result = sorted(result + keep, key=lambda e: -e['ts'])
@@ -242,6 +242,7 @@ if __name__ == '__main__':
     result = sorted(capped, key=lambda e: -e['ts'])
     eos = ingest_eos()
     now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+    os.makedirs('data', exist_ok=True)
     json.dump({'generated_at': now, 'entries': result}, open('data/entries.json', 'w'), indent=1)
     json.dump({'generated_at': now, 'rows': eos}, open('data/eos.json', 'w'), indent=1)
     print(f'Wrote {len(result)} entries, {len(eos)} lifecycle rows at {now}', flush=True)
