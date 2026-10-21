@@ -15,6 +15,20 @@
     "My take: the pattern worth watching is agents acting inside the ops loop (intraday staffing, real-time coaching) rather than summarizing it after the fact. Pilot on a single service queue before letting one near production schedules."
    ],
    "sources": "Microsoft 365 roadmap and Azure updates, current cycle. Every claim links to its official entry."
+  },
+  {
+   "id": "security-2026-10-21",
+   "lens": "Security happenings",
+   "status": "approved",
+   "approved_at": "2026-10-21",
+   "title": "Both sides of the firewall just got an agent",
+   "body": [
+    "The headline this cycle is Storm-0940: Microsoft's security team [documented a nation-state campaign](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/) that used an agentic AI system called ARTEX to turn a ConnectWise integration into a supply-chain compromise. That attack shape is no longer theoretical; it is a published incident pattern.",
+    "Microsoft is also saying the quiet part out loud. Its own security blog now argues that [agents are your newest insiders](https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/), and Windows is introducing [Execution Containers](https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/) - policy-driven containment for AI agents. Identity, least privilege and audit are starting to apply to non-human actors by default, not as an exception.",
+    "The hygiene layer moved too: hardware-rooted trust ([open-source Integrated HSM](https://azure.microsoft.com/en-us/blog/advancing-hardware-security-with-open-source-integrated-hsm-technology/), [Azure Cloud HSM audit logging](https://azure.microsoft.com/updates?id=576377) now GA) and a clear nudge to [start testing post-quantum certificate ecosystems](https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/) before it becomes a migration emergency.",
+    "My take: if your 2027 security plan treats an agent as a user type with its own containment model, you are aligned with where Microsoft's stack is heading. If it treats agents as application features, this cycle's threat research is the warning."
+   ],
+   "sources": "Microsoft Security Blog, Windows developer blog, Azure blog and Azure updates, current cycle. Every claim links to its official entry."
   }
  ]
 }
