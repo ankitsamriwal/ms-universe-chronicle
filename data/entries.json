@@ -1,6 +1,317 @@
 {
- "generated_at": "2026-10-21 19:41 UTC",
+ "generated_at": "2026-10-22 04:49 UTC",
  "entries": [
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Microsoft Viva: Glint - Teams notification customization",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577175",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Viva Glint admins can now customize the Microsoft Teams notifications sent for surveys. Admins can edit the title, message, and button label in each survey language and see their changes in a live preview. Teams and email messages stay consistent and match...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Viva",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Project Operations: Restrict task assignments to project team members",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576296",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature strengthens assignment governance by limiting the resources displayed in the Assigned to column to members of the current project team. Project managers can assign tasks only to resources who have already been added to the project, instead of...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Power Apps: Use Dataverse custom APIs in generative pages",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576284",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Makers can have a generative page call a Dataverse custom API to run server-side business logic, such as approving an order, recalculating a price, or validating a transaction. From either the Maker Studio generative page designer or the generative pages AI...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "Power Apps",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Power Apps: Monitor generative pages with out-of-the-box Application Insights telemetry",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576282",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "AIOps"
+   ],
+   "summary": "Admins and developers can monitor published generative pages with Application Insights. When an administrator configures Application Insights data export for an environment, Power Apps automatically exports completed page loads, unhandled errors, supported...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "Power Apps",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Power Apps: Form fill assistance supports more field types",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575296",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "We\u2019re expanding form fill assistance in model-driven applications in Power Apps to support lookup, rich text, and multi-select choice fields, helping users complete more of their forms with AI-powered suggestions and less manual entry. Availability Field...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Apps",
+    "Android",
+    "iOS",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Power Apps: Form fill assistance in apps can provide suggestions for existing values",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575295",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "We\u2019re expanding form fill assistance in model-driven applications in Power Apps to suggest updates to fields that already contain values\u2014not just empty fields. This helps users update existing information with ease using AI-powered skills in their apps. GA...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Apps",
+    "Android",
+    "iOS",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Project Operations: Support Approver Comments for Expense Reports in Expense Management Mobile app",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573708",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Approvers using the Expense Management Mobile App currently have limited options to provide context when approving or rejecting expense reports. Approval decisions may require comments to provide justification, request clarification, document additional...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573700",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7. More info: aka.ms/SDA-Public-Docs GA date: January CY2027 Preview date: October CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Microsoft Edge: Simplified Energy Saver",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573291",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Energy saver, formerly known as efficiency mode, will have new defaults and different setting options. Edge will now support and recommend users to use the BatterySaverModeAvailability policy to manage the energy saver feature. The energy saver feature has...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Edge",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Business Central: Finance - Use batch totals for payment journals",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573264",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The Batch Total field on the Payment Journal page enhances payment processing by enabling you to work with and review a cumulative total for a payment journal batch. By surfacing batch-level totals directly in payment journals, organizations gain better...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Business Central: Finance - Use approvals with fixed asset journals",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573263",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Organizations can use approval workflows with Fixed Asset Journals , which gives them the same level of control and oversight for fixed assets that's available for other journals in Business Central. GA date: November CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Business Central: Expense Agent - Use Expense Manager role center",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573261",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The Expense Manager Role Center is updated to provide a more focused and efficient experience for managing vendor and expense-related activities. The enhancements align the workspace with typical expense management workflows, ensuring that key information and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Business Central: Expense Agent - Add an interim approver when you submit an expense report",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573260",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "This feature introduces support for a simple interim approval scenario for expense reports. When someone submits an expense report, organizations can designate an interim approver to review and approve expenses before the final approver can review and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Business Central: Expense Agent - Create expense reports per trip automatically",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573257",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Expense Agent can automatically create expense reports based on identified business trips. You just need to configure the feature on the Expense Agent Setup page. Instead of manually collecting and organizing individual expense entries, you can use the agent...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "ts": 1792623730,
+   "title": "Dynamics 365 Field Service: Keep Project Staffing and Field Service Scheduling Aligned",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570864",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Deliver consistent scheduling outcomes across Dynamics 365 Project Operations and Field Service, regardless of where scheduling begins. When a project task includes resource assignments and planned effort, that demand is represented on the related work order...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Field Service",
+    "Web"
+   ]
+  },
   {
    "date": "2026-10-21",
    "ts": 1792607035,
@@ -581,9 +892,10 @@
     "General Availability",
     "Targeted Release",
     "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Desktop",
-    "Mac"
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Teams"
    ]
   },
   {
@@ -602,10 +914,10 @@
     "General Availability",
     "Targeted Release",
     "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "Desktop",
-    "iOS"
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Teams"
    ]
   },
   {
@@ -2624,300 +2936,6 @@
     "Preview",
     "Worldwide (Standard Multi-Tenant)",
     "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177756,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Implement access restrictions on the task grid",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576804",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "This feature adds a security system that lets administrators restrict what users can access inside the Project for the web iFrame on projects they access but don't join as team members. Project managers can use the same system to set restrictions for team...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177756,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Support currency data type in custom columns",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576803",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "As part of our commitment to continuously improve Project Operations, we plan to expand the Enterprise Task Custom Columns capability in an upcoming release. This enhancement builds on the existing functionality that allows you to add Date, Text, Number, and...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177755,
-   "title": "Dynamics 365 Business Central: Country and regional - Comply with Australian Payment Times Reporting bill",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576802",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Every six months, Australian companies with more than AUD100 million in annual turnover must report how and when they pay small business suppliers (suppliers with annual turnover under AUD10 million). This feature organizes vendors by size or payment terms...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177755,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Enable time phasing of quote and contract lines",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576801",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "With this feature, the system automatically updates the correct sales and cost prices in quotes and contracts based on the effective date. The system calculates prices using weighted average prices for both quote line details and contract line details, so...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177754,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Support lookup data type in custom columns",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576800",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "As part of our commitment to continuously improve Project Operations, we plan to expand the Enterprise Task Custom Columns capability. This enhancement builds on the existing functionality that allows you to add Date , Text , Number , and Choice fields to the...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177753,
-   "title": "Dynamics 365 Finance: Globalization Studio - Create faster XAF audit files for Netherlands",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576799",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "In the current release wave, we are introducing the following regulatory reporting enhancements: Performance improvements for Audit File Financial (XAF) \u2013 Netherlands Dutch customers can generate the mandatory XAF export significantly faster, even for large...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177752,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Track real project progress from field execution",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576798",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature enhances Dynamics 365 Project Operations by extending its native work breakdown structure effort tracking to include approved time captured in Field Service when the Field Service and Project Operations integration is enabled and time flows in at...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177752,
-   "title": "Dynamics 365 Finance: Business performance - Try the new financial planning and analysis planning experience in Power BI",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576797",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The financial planning and analysis planning experience is a downloadable Power BI app and report template that enables users to explore, analyze, and interact with financial planning and analysis plans directly in Power BI. The app is preconfigured to...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177751,
-   "title": "Dynamics 365 Finance: Core financials - Track branch-level registration IDs on invoices in a single legal entity",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576796",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature introduces the concept of an Establishment within a legal entity, allowing organizations to manage and apply establishment-specific registration identifiers such as branch IDs and local registration numbers across invoices. The feature provides...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177750,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Use stocked products on projects",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576795",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The experiences for using inventoried products in Project Operations use the Inventory and Warehouse modules of Dynamics 365 Supply Chain Management. To accurately estimate the availability of stocked items and their costs, the system uses Pricing and...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177750,
-   "title": "Power Automate: Desktop flows - Configure notifications for desktop flow checker in admin portal",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576794",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "The desktop flow checker in the Power Automate portal extends rule\u2011based static analysis to provide configurable notifications for violations detected across all desktop flows in an environment. Administrators can select the notification type (error, warning,...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Automate",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177749,
-   "title": "Power Pages: Design studio - Support Power BI embed token v2 for Power Pages",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576793",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Power Pages now supports Power BI Embed Token v2 , unlocking modern Power BI embedding scenarios that weren't supported with Embed Token v1. This enhancement enables richer, more scalable analytics experiences within Power Pages sites. With Embed Token v2,...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Pages",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177748,
-   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for getting the PDF of a document report",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576792",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "We're introducing read-only APIs in the document report system. The APIs help establish automation on document reporting outside Business Central. For example, to create agents with Microsoft Copilot Studio and MCP Server for Business Central to automate...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177748,
-   "title": "Dynamics 365 Finance: Core financials - Enable cash discounts for settling customer invoice matching rules for bank reconciliation",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576791",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Implement cash discounts on customer settlement when the payment is recorded through advanced bank reconciliation. The feature ensures that advanced bank reconciliation supports applying customer cash discounts when customer invoices are automatically settled...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177747,
-   "title": "Dynamics 365 Field Service: Boost technician productivity - Capture and review notes with mobile notes control",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576790",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The mobile notes control introduces a unified, mobile-first experience for creating and consuming notes directly within entity forms. Makers add this Power Apps component framework control to a form to replace the default note experience with a streamlined...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
     "Web"
    ]
   },
