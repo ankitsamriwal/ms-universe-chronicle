@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22 04:49 UTC",
+ "generated_at": "2026-10-22 08:52 UTC",
  "entries": [
   {
    "date": "2026-10-21",
@@ -5180,6 +5180,23 @@
   },
   {
    "date": "2026-09-29",
+   "ts": 1790700006,
+   "title": "SQL Server on Azure Local is now generally available",
+   "url": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.",
+   "status": "",
+   "tags": [
+    "Compute",
+    "Databases",
+    "Hybrid + multicloud"
+   ]
+  },
+  {
+   "date": "2026-09-29",
    "ts": 1790699435,
    "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
    "url": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
@@ -5232,6 +5249,30 @@
     "Phishing",
     "Social engineering",
     "Star Blizzard (SEABORGIUM)"
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "ts": 1790663400,
+   "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+   "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.",
+   "status": "",
+   "tags": [
+    "AI + machine learning",
+    "Databases",
+    "DevOps",
+    "Hybrid + multicloud",
+    "Internet of things",
+    "AI",
+    "Copilot",
+    "Microsoft IQ"
    ]
   },
   {
