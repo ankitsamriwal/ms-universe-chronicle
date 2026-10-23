@@ -1,6 +1,1323 @@
 {
- "generated_at": "2026-10-22 08:52 UTC",
+ "generated_at": "2026-10-23 04:33 UTC",
  "entries": [
+  {
+   "date": "2026-10-23",
+   "ts": 1792713639,
+   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Set message expirations to keep communication relevant",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577805",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Set an expiration date on any message in your journeys (emails, text messages, push notifications, or custom). Choose from different expiration options (no expiry, expiration based on a date and time, or a trigger). Review analytics to understand which...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ts": 1792713639,
+   "title": "Dynamics 365 Business Central: Copilot and agents - Use AI resources for your Copilot extensions",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577820",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "AIOps",
+    "Agents"
+   ],
+   "summary": "Using the AI resources provides several benefits: Reduced operational overhead : Avoid the need to handle infrastructure management, updates, monitoring, troubleshooting, or maintenance of custom Azure OpenAI subscriptions. This benefit frees up resources to...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "ts": 1792713639,
+   "title": "Dynamics 365 Finance: Globalization Studio - Unified e\u2011invoicing integration framework",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577794",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The unified extensible e-invoicing integration framework extends the existing Electronic Invoicing service by introducing: A unified outbound and inbound document model (based on international standards such as UBL and PEPPOL). A standardized submission and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712751,
+   "title": "Power Automate: Process mining - Get support for normalized schema import for data ingestion",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577827",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Most systems of record have data stored in data structures that allow you to easily extract information about the analyzed entity (case-level data) and historical changes on those entities (event-level data). The attributes are also stored in a normalized...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712750,
+   "title": "Power Automate: Process mining - Export object-centric process mining data to Microsoft Fabric semantic model",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577826",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "This feature allows seamless integration with Microsoft Fabric for enterprise-wide analytics. It enables direct publishing of object-centric process mining (OCPM) results into Microsoft Fabric semantic models, making process intelligence data available...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712749,
+   "title": "Power Pages: Administration and governance - Enable self-service site ownership transfer",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577825",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Power Pages now supports secure site ownership transfer for eligible sites. Existing site owners and global administrators can assign ownership to another valid user within the tenant without requiring manual intervention from support. The new owner must be a...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712748,
+   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Enable advanced personalization using simple formulas to modify text, dates, and numbers",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577811",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Apply a variety of PowerFx functions to text, numbers, and dates in messages. Text functions include concatenation, change case, trim, substitute, and replace. Number functions include arithmetic calculations, rounding, and formatting. Business Value: Enhance...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712748,
+   "title": "Dynamics 365 Supply Chain Management: Planning - Enhance demand forecasts with multiple data inputs",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577824",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Demand planning in Supply Chain Management helps you forecast demand using diverse data sources and signals. The latest updates enhance forecast accuracy, enabling you to optimize your supply chain and improve financial outcomes. New capabilities include:...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712748,
+   "title": "Dynamics 365 Finance: Globalization Studio - Enhance Electronic Reporting with new capabilities",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577818",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Electronic Reporting (ER) is the configurable engine you use to author and run business documents\u2014invoices, statutory reports, VAT declarations and payment files, and more. In 10.0.48 and 10.0.49 Microsoft delivered a set of general enhancements that respond...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712747,
+   "title": "Dynamics 365 Customer Insights - Data: Agents and Copilot - Increase AI accuracy by grounding agents in customer insights",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577814",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The Customer Insights MCP server allows AI agents and chat experiences to access and understand insights generated by Customer Insights - Data. The Customer Insights MCP server uses the industry-standard MCP architecture to securely share unified profiles and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Customer Insights - Data",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712747,
+   "title": "Dynamics 365 Supply Chain Management: Manufacturing and asset management - Enforce same-batch selection for raw materials in production and batch orders",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577823",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature ensures that raw materials consumed by production orders and batch orders all come from the same batch. Process and discrete manufacturers can use it together with related production-control capabilities that govern how raw materials are...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712746,
+   "title": "Dynamics 365 Finance: Core financials - Detect corruption in source document budget control tracking",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577822",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Budget control tracking data can become difficult to analyze when the underlying budget source is missing or when relieving relationships between commitments and relieving documents are broken. These conditions can make it harder for finance users to...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712746,
+   "title": "Power Pages: Professional developer experiences - Control Power Pages components using client APIs",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577821",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Developers often depend on custom JavaScript and fragile Document Object Model (DOM) manipulation to hide fields, update values, or trigger actions, an approach that easily breaks when page structures change, drives up maintenance costs, limits scalability,...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712745,
+   "title": "Dynamics 365 Contact Center: Administrator experiences - Use enhanced customer-first direct callbacks",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577801",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Customer-first direct callback introduces a configurable, AI-powered experience managed through \"callback profiles\" in the Copilot Service admin center. Administrators define a callback profile\u2014including greeting message, alternate number capture, callback...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Contact Center"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712745,
+   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - View next best actions with Customer Intent Agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577819",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "An administrator can enable this feature for the entire organization in the Customer Service admin center. Turning on next best actions populates the Copilot pane with actions that service representatives can use. Important case attributes are consolidated in...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712745,
+   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Boost customer confidence with branded content links",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577789",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "With branded content links, you can: Set up your vanity link (or custom link) in the domain authenticator. Once authenticated, your vanity domain will be visible in: All links in your emails. Hosted digital assets, forms, event registration pages, and your...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712744,
+   "title": "Power Automate: Desktop flows - Export work queue items to CSV",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577791",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "You can now export work queue items directly from the Automation Center portal. A new option available in the Work Queues experience lets you download items as a CSV file. This capability allows you to access work queue data in a portable format for further...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Power Automate",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712743,
+   "title": "Dynamics 365 Supply Chain Management: Copilot and AI innovation - Analyze demand using generative insights for better planning",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577817",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Generative insights for Demand planning in Dynamics 365 Supply Chain Management help you analyze sales history and forecast data across dimensions like product and location. With general availability, generative insights now include a new metric: trends . The...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712742,
+   "title": "Dynamics 365 Customer Insights - Data: Faster time to insights - Access unified profiles and insights in Fabric OneLake",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577816",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Unified profiles and insights are only useful when you can act on the data. If you use Microsoft Fabric, Customer Insights - Data makes it easier to share valuable unified profiles and insights directly in OneLake. You can add those insights to your core...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Data",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712741,
+   "title": "Microsoft Dataverse: Enable AI powered business workflows in Work IQ with Dataverse - Build Dataverse solutions with coding agents using Dataverse skills",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577815",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Build Dataverse solutions by using coding agents with natural language prompts. For example, \"I'm building a recruiting system for Zava Construction. I need tables for Positions, Candidates, Interviewers, Interviews, and Feedback - with lookups, a...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Microsoft Dataverse",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712738,
+   "title": "Power Pages: Power Pages Copilot - Use Power Pages MCP server capabilities",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577813",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Power Pages MCP server enables makers to expose site data and operations through a secure, standardized interface compatible with AI clients. In the public preview release, makers can enable Create, Read, Update, Delete (CRUD) operations via the site\u2019s Web...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712738,
+   "title": "Dynamics 365 Contact Center: Administrator experiences - Manage users through Microsoft Entra security groups",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577812",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Administrators configure team-based access for representatives through Microsoft Entra ID security groups. They link an Entra security group to a Dataverse team of type Microsoft Entra ID Security Group and assign at the team level the required security roles...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712735,
+   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Automatically update emails with the latest content",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577804",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "By automatically updating emails with latest content, you can: Easily create dynamic content blocks in Content gallery with new content or select existing content in email and save it as a dynamic content block. Have content only so it uses the layout of the...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712735,
+   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Update live segments without interrupting ongoing journeys",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577810",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "For any segment, even those used in live journeys or other segments, marketers can edit and republish them to make changes. Changes won't take effect until the segments are published, giving marketers control over the timing of the changes. These changes are...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712734,
+   "title": "Power Pages: Design studio - Configure authentication with security agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577809",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents",
+    "Security happenings"
+   ],
+   "summary": "The security agent is available directly within the security workspace in Power Pages design studio. Makers can open the security agent tab to access the embedded chat panel and security tools. From there, they can interact using natural language to review...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712732,
+   "title": "Dynamics 365 Contact Center: Administrator experiences - Use Service Operations Agent to accelerate setup, onboard, and verify config changes",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577808",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Service Operations Agent in the Copilot Service admin center delivers a unified, conversational experience for configuring Dynamics 365 Contact Center. Administrators use conversational setup and orchestration in Service Operations Agent to streamline setup...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712732,
+   "title": "Dynamics 365 Field Service: Optimize resource scheduling - Optimize schedules with Scheduling Operations Agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577807",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Dispatchers often spend considerable time and energy reviewing and adjusting each technician's schedule as conditions change throughout the workday: A technician has one or more cancellations in the afternoon. To fill the open slots, what requirements...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Field Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712730,
+   "title": "Dynamics 365 Customer Insights - Journeys: Turbocharge your pipeline to drive growth - Transform customer journeys into action with record creation",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577806",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature gives you a single, flexible way to create downstream records and activities directly inside the journey builder. Create records or activities from a single tile, including tasks, phone calls, leads, opportunities, or custom entity records. Use...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712728,
+   "title": "Power Automate: Cloud flows - View property value expanded inline in new cloud flow designer",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577803",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "When you add an action, you can view property values for multiple steps at design time, or output values for multiple steps at runtime. The inline view shows this information directly on the cards, so you can review and compare values across several steps at...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712727,
+   "title": "Dynamics 365 Contact Center: Workforce engagement management - Automate shift rotations for consistent workforce coverage",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577802",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "What the feature does Shift rotation policies help organizations distribute customer service representatives across recurring shifts on a configurable schedule. Supervisors can create rotation policies that define how representatives move between time slots...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712724,
+   "title": "Dynamics 365 Customer Service: Workforce engagement management - Automatically generate evaluation summary from final results",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577800",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "MLOps"
+   ],
+   "summary": "This feature ensures that evaluation summaries and recommended actions always reflect the final, validated evaluation outcomes. When a reviewer or supervisor updates evaluation answers, either to correct AI misinterpretations or refine manual assessments, the...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712724,
+   "title": "Dynamics 365 Contact Center: Unified routing - Orchestrate conversation distribution with natural language playbooks",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577788",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Conversation orchestration in Dynamics 365 Contact Center keeps every conversation actively managed throughout its lifecycle, from initiation through resolution. Instead of applying fixed rules at different stages of a conversation journey, conversation...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712721,
+   "title": "Dynamics 365 Customer Service: Workforce engagement management - Enable question-level weighting for quality evaluation scoring",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577799",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "MLOps"
+   ],
+   "summary": "This feature enables supervisors to assign percentage-based weights at the individual question level, ensuring that evaluation scores reflect the relative importance of each question within a section. When scoring and question-level weight is enabled for an...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712720,
+   "title": "Dynamics 365 Finance: Core financials - Automatic clearing of centralized bridged vendor payments during bank reconciliation",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577793",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This enhancement enables automatic clearing of bridge transactions generated by centralized vendor payments when bank statements are matched with records in Dynamics 365 Finance during the bank reconciliation process. The system posts the required clearing...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712713,
+   "title": "Dynamics 365 Contact Center: Workforce engagement management - Enable evaluation retries and improve error handling",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577790",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "AIOps",
+    "MLOps"
+   ],
+   "summary": "Key features include: Added detailed error insights for failed AI evaluations, enabling supervisors and administrators to understand failure causes and take appropriate corrective actions. Improved bulk evaluation monitoring by introducing a Records Failed...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792712710,
+   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Improve contract management usability",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577787",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The enhanced Project Contract experience streamlines how you create, manage, and monitor contracts by significantly reducing the number of clicks and interactions required. This update transforms the contract into a central, intuitive workspace where all...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Outlook: Mark as read improvements",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577546",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Mark as read will be updated to better match user expectations. When using the Unread filter, items will also be marked as read in coherence with the existing \"Mark as read when using the reading pane\" setting. Additionally, opening an item in a popout will...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Outlook",
+    "Desktop",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Edge: Review your PDF notes and annotations in the Notes pane",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577542",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "The built-in PDF viewer in Microsoft Edge will include a Notes pane that lists highlights, text notes, ink notes and comments in page order allowing users to quickly revisit them without finding them page by page. Users can search and filter their...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Edge",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Project Operations: Extend price overrides to category and material",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577424",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Project Operations price lists support three price types \u2014 role, expense category, and product/material \u2014 but only role prices currently support date-effective overrides. This feature extends date-effective price overrides to expense category and material...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Project Operations: Notify users when approval sets finish processing",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577423",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "When an approval set finishes processing, the person who started it receives an in-app notification built on the existing long-running-process (No More Wait) framework, and they see only notifications for the operations they triggered. On success, a brief...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Project Operations: View resolved prices in a consolidated pricing view",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577421",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "A new Pricing tab appears on the contract (and later the quote) and becomes the default pricing surface, replacing the Project Price List tab. Instead of listing only the price lists apply, it displays a consolidated grid of the prices that actually default...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Power Pages: SDK (Software Development Kit)",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577419",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Build native mobile applications or kioks using Power Pages as the backend foundation with support for authentication, authorization, APIs, data access, and reusable mobile capabilities. GA date: March CY2027 Preview date: January CY2027",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Customer Insights - Journeys: Create journeys in minutes with Journey Creation Agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577418",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "You simply describe in everyday words what you want to create and the Journey Creation Agent builds the journey for you. With Journey Creation Agent, you can: Use an AI-powered, guided experience for optimized outcomes. Build in minutes with no technical...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Customer Insights - Journeys: Improve engagement and message timing with Outreach Optimization Agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577417",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Add the Outreach Optimization Agent to your journey, select the emails you want delivered, and let the agent handle timing and cadence automatically. With Outreach Optimization Agent, you can: Start with an intelligent baseline : Outreach Optimization Agent...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Commerce: Author Commerce receipt formats with Copilot Cowork",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577405",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Use natural language in Copilot Cowork to create, update, translate, and check Commerce receipt layouts using existing formats in headquarters. The Commerce receipt format designer skill lets authorized users work with receipt layouts through natural-language...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Commerce",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577399",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Desktop",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft 365 Apps: Cloud Update - Export Improvements",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577398",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "New export improvements are coming to Cloud Update, making it easier for organizations to access and analyze device data. These enhancements will expand export capabilities across Inventory and Cloud Update device views, include additional device and update...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Microsoft 365 app",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "PowerPoint: Present with ease using a modernized Presenter View",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577179",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "When you present with Presenter View, the controls you need should be easy to find at a glance. Presenter View in PowerPoint for Mac has a refreshed design: presenter tools, slide navigation, and the timer now sit together in one control bar, with updated...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "PowerPoint",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577173",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment. GA date: November...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Microsoft Teams",
+    "Android",
+    "Desktop",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft 365: [Education] Assign Study and Learn in Teams and LMS Assignments",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577172",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Educators can assign Study and Learn from Student AI Guidelines in Teams and LMS Assignments. Students open guided learning support grounded in the assignment's title, instructions, and supported files and resources, helping them work through concepts and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Microsoft Teams",
+    "Android",
+    "Desktop",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Purview: Introducing IRM Alert classification",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576710",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Insider risk management will be introducing the ability to classify alerts as True positive, Benign (operational), and False positive. This will be available on all alerts where authorized analysts with the appropriate permissions can choose from a list of...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Purview"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Commerce: Streamline pickup order workflows in Store Commerce",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576303",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Business Value Trade counter pickups should be fast. When a business customer arrives to collect prepaid or pre-authorized orders, routing them through unnecessary screens and payment steps slows down the process. When customers want to add extra items during...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Commerce",
+    "Android",
+    "Desktop",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Sales: Create pricing rules for attribute-based and volume-based pricing",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576295",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature will enable admins to define relevant pricing rules based on the following: for the added list price based on product attributes Discount on the list price based on tiered and absolute volume adjustment This ensures the organization to associate...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "Targeted Release",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Sales",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Dynamics 365 Sales: Create product rules to guide sellers to valid product configurations",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576294",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature will allow admins to create the right set of compatibility, inclusion and exclusion rules, withing a single composite product to ensure the right set of products get bundled together. Based on the configured rules, the seller will receive...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "Targeted Release",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Sales",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Viva: Conversation Analytics",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576271",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Conversation analytics updates are coming to Microsoft Viva Engage, giving communicators richer signals to understand how audiences engage with posts and announcements. With this update, conversation analytics will include new engagement insights such as...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Viva",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent - Meeting scheduling",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575289",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Sales Development Agent can turn a prospect\u2019s interest in meeting into a booked seller meeting. The agent asks the prospect to provide preferred dates and times, evaluates those options against the appropriate seller\u2019s calendar, and books the first valid...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "Current Channel",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573294",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Semantic model helps Sales Agent understand the structure and meaning of an organization\u2019s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values,...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Desktop",
+    "Mobile",
+    "Teams and Surface Devices"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792709920,
+   "title": "PowerPoint: Present with confidence on a single screen in Slide Show",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573151",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "When you present in Slide Show on just one display, like a laptop with no second monitor and no Presenter View, the on-screen presenting controls can be easy to miss. PowerPoint is making single-screen presenting easier: the controls you need to move through...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "PowerPoint",
+    "Desktop",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792699303,
+   "title": "Explore and process multiple event types with Schema-aware Fabric Eventstreams (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Explore-and-process-multiple-event-types-with-Schema-aware/ba-p/5376384",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Real-time streams rarely contain just one kind of event. A building operations stream, for example, might carry thermostat readings, occupancy updates, air-quality measurements, and badge-reader activity through the same source. These events may share a...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792692900,
+   "title": "Microsoft is named a Visionary in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Contact Center as a Service",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-is-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Contact centers are where customer loyalty is won or lost, and they're changing fast.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792692060,
+   "title": "[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
+   "url": "https://azure.microsoft.com/updates?id=577618",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Storage",
+    "Analytics",
+    "Azure Blob Storage",
+    "Azure Data Lake Storage",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792689690,
+   "title": "How bug bounty sharpens one researcher\u2019s security skills",
+   "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
+   "status": "",
+   "tags": [
+    "Security",
+    "bug bounty",
+    "cybersecurity",
+    "Cybersecurity Awareness Month"
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792688400,
+   "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a Leader in two 2026...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792688150,
+   "title": "Create purpose-built custom visuals in Real-Time Dashboards with Copilot (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Create-purpose-built-custom-visuals-in-Real-Time-Dashboards-with/ba-p/5376359",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "AIOps",
+    "Agents"
+   ],
+   "summary": "Real-Time Dashboards include built-in visuals for common monitoring and analysis scenarios. However, operational decisions do not always fit a standard chart. You may need to combine several signals, use a domain-specific layout, or present information...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-22",
+   "ts": 1792681200,
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Cloud ERP Finance",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-finance/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Microsoft has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Cloud ERP Finance.\u00b9 We believe this recognition reflects something finance leaders are seeing as AI moves into their work: the financial system of record matters more than ever.",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-10-21",
    "ts": 1792623730,
@@ -1772,1175 +3089,6 @@
   },
   {
    "date": "2026-10-16",
-   "ts": 1792177799,
-   "title": "Dynamics 365 Supply Chain Management: Warehouse management - Enable precise serial and batch capture in cluster picking",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576867",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature lets you control how serial and batch numbers are captured during cluster picking for items tracked below the location level in the reservation hierarchy. You get two new strategies in the cluster setup: capture serial and batch numbers once...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Supply Chain Management",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177798,
-   "title": "Dynamics 365 Supply Chain Management: Warehouse management - Streamline transfer order receiving in WOM with ASNs",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576866",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Receive transfer orders in warehouse-only mode with a single license plate scan. This feature uses ASN-based packing structures to speed up inbound shipment processing and improve accuracy. The packing structure is defined within the ASN, so you can...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Supply Chain Management",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177797,
-   "title": "Dynamics 365 Supply Chain Management: Warehouse management - Automate dynamic work classification with Power FX",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576865",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Dynamic work classification powered by Power FX formulas lets you evaluate warehouse queries in real time, so you can prioritize work based on load priority or any operational data. This removes the need for multiple location directives or work templates,...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Supply Chain Management",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177796,
-   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for analyzing approval workflows for auditors and IT staff",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576864",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "In this release wave, we're introducing read-only APIs on the (workflow) approval system. This allows for establishing security and auditing analytics and reporting outside Business Central\u2014for example, creating reports with Power BI or agents with Microsoft...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177796,
-   "title": "Microsoft Power Platform governance and administration: Security and compliance - Prevent sending sensitive data to Purview audit logs",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576863",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "To help prevent leaking sensitive customer data from Dataverse audit logs, all customer data is removed before these audit events are sent to Purview activity logging. Examples of sensitive customer data include financial information, medical and health data,...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Power Platform governance and administration",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177795,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Update key project fields using Copy project",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576861",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Today, when you select Copy Project , the system creates a project and copies everything from the source project to the newly created project. In this flow, you aren't allowed to update fields like contracting unit, owning company, and other key fields for...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177795,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Copy externally scheduled projects",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576862",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Project Operations supports Externally scheduled projects, where organizations use their own scheduling engine and manage project schedules outside of Project Operations. Previously, the Copy Project capability was available only for Project for the Web...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177793,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Post project invoice proposals using multithreaded batch tasks",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576860",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "For organizations delivering complex projects, a single invoice proposal can include thousands of invoice lines. Similarly, thousands of customers might need to invoice every billing cycle. In both cases, the window is often short between the time users...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177793,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Configure maximum daily time entry duration",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576859",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Project Operations sets a 24-hour limit on daily time entry hours that can be logged (including vacation hours). Administrators can modify this out-of-the-box validation in the Parameters section to meet their organization\u2019s needs. Administrators can set a...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177792,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Configure minimum interval of time entry duration",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576858",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Customers can now configure the allowable increment for time entry durations to ensure that all logged time adheres to their organization\u2019s time-tracking policies. When enabled, you can only create or modify time entries whose duration is a multiple of the...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177791,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Enable time-zone-independent behavior in the time entry grid",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576857",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Administrators can now enable time-zone-independent behavior for the Time Entry Grid so that time entries appear on the same calendar date, regardless of a user's time zone. This helps organizations with globally distributed teams maintain a consistent view...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177790,
-   "title": "Dynamics 365 Customer Service: Workforce engagement management - Filter the adherence tracker by planning group",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576855",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides the following capabilities: The adherence tracker includes a planning group filter that supervisors can use to scope the view to a specific planning group. The planning group filter works with the existing shift plan and service...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177790,
-   "title": "Dynamics 365 Customer Service: Workforce engagement management - Filter adherence historical analytics by planning group",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576854",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides the following capabilities: The adherence historical analytics report includes a planning group filter that workforce managers can use to scope results to one or more planning groups. The planning group filter works with the report\u2019s...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177789,
-   "title": "Dynamics 365 Customer Service: Workforce engagement management - Associate forecast scenarios with planning groups",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576853",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides the following capabilities: When creating or editing a forecast scenario, forecasters can optionally select a planning group. When a planning group is selected, the Timezone , Channel , and Queue values are populated from the planning...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177788,
-   "title": "Dynamics 365 Customer Service: Workforce engagement management - Create capacity plans for planning groups",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576852",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides the following capabilities: When creating or editing a capacity plan, planners can select a Planning group . A capacity plan created from a forecast scenario automatically inherits the scenario\u2019s planning group. This behavior keeps the...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177787,
-   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - Use Copilot Cowork to orchestrate insights and actions for representatives",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576851",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "The plugin in Copilot Cowork is available out of the box for service representatives. They can use the Customer Service skills after the administrator enables the plugin for them in Cowork settings. The key capabilities are as follows: Prioritizes and...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177787,
-   "title": "Dynamics 365 Sales: Copilot and AI innovation - Use Dynamics 365 Sales skills in Microsoft 365 Copilot Cowork",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576850",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "As an admin, you can control who can access Copilot Cowork in your organization. The Dynamics 365 Sales plugin is installed by default in Copilot Cowork and available to all users who have access to Cowork. As a seller, you can use the sales skills in Copilot...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Sales",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177786,
-   "title": "Dynamics 365 Commerce: Store Commerce - Enable contextual switching with external apps in POS",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576845",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "How it works : POS to external application : A sales associate is working in POS and needs to use an external system (for example, a specialized parts-search tool). They trigger the Open URL POS operation, which opens the external application. External...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177785,
-   "title": "Dynamics 365 Business Central: Financial Management - Calculate taxes for plastic and sugar",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576844",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business Central introduces new capabilities in excise journals to calculate tax amounts for plastic and sugar based on legislation requirements that use weight, content, and transaction quantities as the basis for excise taxes. The new Excise Tax Type , Qty....",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177785,
-   "title": "Microsoft Dataverse: Activate Enterprise Data in Copilot - Create Dataverse agent users with Microsoft Entra agent identity",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576843",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Organizations can securely deploy AI agents to access and interact with Dataverse data by using enterprise\u2011managed Microsoft Entra agent identities. This feature enables agents to be provisioned as Dataverse agent users with dedicated, least\u2011privileged...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Microsoft Dataverse",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177784,
-   "title": "Dynamics 365 Contact Center: Supervisor experiences - Provide real-time coaching with Quality Assurance Agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576842",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps",
-    "Agents",
-    "MLOps"
-   ],
-   "summary": "The quality evaluation skill of the Quality Assurance Agent now includes real-time coaching, enabling organizations to shift from post-interaction monitoring to in-the-moment guidance during live conversations. Service representatives receive contextual...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177783,
-   "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for analyzing permissions for auditors and IT staff",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576841",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents",
-    "Security happenings"
-   ],
-   "summary": "In this release wave, we're introducing read-only APIs on the permission system. This allows for establishing security and auditing analytics and reporting outside Business Central\u2014for example, creating reports with Power BI or agents with Microsoft Copilot...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177783,
-   "title": "Dynamics 365 Field Service: Boost technician productivity - Add simplified lookup control",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576840",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "A new Power Apps component framework control, Drawer Lookup, is now available for lookup fields on forms. This control provides a streamlined mobile UI, reducing visible clutter and minimizing taps compared to the standard lookup. It's available exclusively...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177782,
-   "title": "Dynamics 365 Business Central: Country and regional - Use Payment Practices in the UK localization",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576839",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business Central extends UK localization to support the updated Reporting on Payment Practices and Performance (Amendment) Regulations 2024 . The system introduces new data points to the existing Payment Practices page, including the total value of payments...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177781,
-   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Use Copilot Cowork to orchestrate insights and actions across Dynamics 365 ERP",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576838",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "The Copilot Cowork plugin for finance and operations apps enables users to move from business intent to insight to execution in a single experience. Copilot orchestrates work across ERP data, emails, documents, spreadsheets, collaboration tools, and...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Finance and Operations cross-app",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177781,
-   "title": "Dynamics 365 Contact Center: Unified routing - Use pick-based assignment method for work items",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576837",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Use the No auto assignment method for queues in Copilot Service admin center when you want routed conversations to remain unassigned after they enter a queue. Instead of being assigned automatically, conversations stay in the queue until a service...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177780,
-   "title": "Dynamics 365 Business Central: Ecommerce - Sell to business customers on more Shopify plans with B2B company sync",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576836",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Shopify expanded its B2B capabilities to all plans, and the Shopify Connector for Business Central is updated accordingly. Core B2B features that previously required a Shopify Plus subscription now work on Basic, Grow, and Advanced plans. The following...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177779,
-   "title": "Dynamics 365 Customer Insights - Data: Elevate customer experiences - Use Microsoft Fabric OneLake as a data source",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576835",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Easily explore and select customer data stored in OneLake for processing in Customer Insights - Data. The OneLake connector reads directly from your OneLake data, eliminating the need to copy or stage data. Integrate external sources quickly : Use Fabric...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Insights - Data",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177779,
-   "title": "Dynamics 365 Commerce: Omnichannel commerce - Streamline mass price updates using attribute-based pricing",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576834",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature enhancement introduces mass price update capabilities that use price attribute combinations and rule-based markups to provide an efficient way to manage large-scale pricing changes. Create trade agreement prices using attribute combinations...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177778,
-   "title": "Dynamics 365 Finance: Core financials - Inquire about purchase orders processed during purchase order year-end",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576833",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The purchase order year-end process can update purchase order accounting dates and carry purchasing commitments into the next fiscal year. Finance users need a simple way to confirm which purchase orders were included in that process, understand how...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177777,
-   "title": "Dynamics 365 Business Central: Country and regional - Enable electronic invoicing in France",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576832",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business Central adds support for e-invoicing and e\u2011reporting in France, following the DGFiP five\u2011corner model. Microsoft doesn't operate as a certified Partner Dematerialization Platform (PDP); instead, companies can use existing E\u2011Document connectors to...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177776,
-   "title": "Dynamics 365 Contact Center: Workforce engagement management - Analyze adherence history to optimize workforce planning",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576831",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The Adherence History Report provides a complete view of customer service representatives\u2019 historical adherence to scheduled tasks and activities. It helps supervisors analyze patterns, identify gaps, and improve workforce efficiency. Key capabilities Trend...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177776,
-   "title": "Dynamics 365 Commerce: Omnichannel commerce - Enable credit management support for Commerce orders",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576830",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature enhancement extends the standard credit management framework to all Commerce orders across channels, ensuring the consistent application of credit policies between Commerce and Supply Chain Management. During order fulfillment, Commerce channels...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177775,
-   "title": "Dynamics 365 Commerce: Store Commerce - Prevent the return of specific items in point of sale",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576829",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature enables merchandising managers to define specific products or entire product hierarchies as non-returnable. This can be done by enabling a new property on released products either individually, or in bulk via the category view. Once configured,...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177774,
-   "title": "Dynamics 365 Commerce: Store Commerce - Set payment method display order and visibility in POS",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576828",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The feature introduces payment profiles that can be associated with POS registers. These payment profiles provide retailers with a flexible and centralized way to manage how payment methods appear across their POS registers. Store administrators can create...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177774,
-   "title": "Dynamics 365 Customer Insights - Data: Turbocharge your pipeline to drive growth - Target right audience based on signals from earlier campaigns",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576827",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "You can now access behavioral data captured by Customer Insights - Journeys, such as emails opened and links clicked, and use it in Customer Insights - Data. The behavioral data from Customer Insights - Journeys is now automatically available in Customer...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Insights - Data",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177773,
-   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Enable agents to work with attachments through Dynamics 365 ERP MCP server",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576826",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Document attachments provide valuable context and detail about ERP records. With this release, the Dynamics 365 ERP MCP server will provide access for agents to work with the attachments by creating, deleting, or reading and reasoning over the content of the...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance and Operations cross-app",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177772,
-   "title": "Dynamics 365 Finance and Operations cross-app: Boost productivity with Copilot - Open records in Dynamics 365 ERP applications with deep links from copilot responses",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576825",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "The Dynamics 365 ERP MCP server enables copilots to respond to prompts related to data across the Dynamics 365 ERP suite of applications. Users expect visibility into how copilot responses relate to the underlying business data and system records. With this...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance and Operations cross-app",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177772,
-   "title": "Power Automate: Cloud flows - Share Process license capacity across workflows",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576824",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "With flow groups, you can share Process license capacity across up to 25 cloud flows, optimizing license allocation and reducing costs for organizations operating higher-volume workflows that don't need their own dedicated capacity. Prerequisites: Power...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Automate",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177771,
-   "title": "Dynamics 365 Field Service: Optimize resource scheduling - Move multiple bookings at once by a set offset",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576823",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Bulk move enables schedulers to shift multiple bookings forward or backward by a consistent time offset in a single action. Instead of adjusting each booking manually, users can select bookings across one or more resources and apply changes, such as moving...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177770,
-   "title": "Dynamics 365 Field Service: Optimize resource scheduling - Move multiple bookings at once to new resource",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576822",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Bulk reassign simplifies large-scale staffing changes by allowing schedulers to move multiple bookings to a different resource in a single step. Instead of reassigning work one booking at a time, users can multi-select bookings and quickly redirect them to...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177770,
-   "title": "Dynamics 365 Field Service: Optimize resource scheduling - View full screen map mode on schedule board",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576821",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Full screen map mode allows dispatchers to expand the schedule board map to fill the entire workspace, removing visual constraints that limit situational awareness. With more space, users can easily analyze resource locations, view booking distribution, and...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177769,
-   "title": "Dynamics 365 Field Service: Optimize resource scheduling - Cancel segments of a booking in aggregate views",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576820",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Cancel booking actions in aggregate views give schedulers precise control over long-running or multiday bookings directly within their current view. Users can cancel bookings with the same time granularity as the selected view. For example, canceling a week...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177768,
-   "title": "Dynamics 365 Contact Center: Omnichannel customer experiences - Use data masking to protect customer data",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576819",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Customer service representative data masking is a new opt-in feature for Dynamics 365 Contact Center. When enabled, service representatives can select individual messages from the customer and redact them, so the customer's PII isn't stored in your...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177767,
-   "title": "Dynamics 365 Customer Service: Copilot and AI innovation - Improve customer outcomes with Service Agent in Microsoft 365 Copilot",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576818",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Microsoft 365 Copilot Chat is becoming a consistent way that users interact with AI across Microsoft experiences. With this update, that same chat experience is available in Dynamics 365 Customer Service, with service-aware grounding and workflows. Service...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177767,
-   "title": "Microsoft Dataverse: Finance and operations cross application integration - Monitor data management framework with Azure Monitor Application Insights",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576817",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "By integrating data management framework telemetry for Dynamics 365 finance and operations apps, organizations can gain deeper visibility into data management executions, such as import and export jobs. This integration streams telemetry directly into the...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Dataverse",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177766,
-   "title": "Dynamics 365 Commerce: Store Commerce - Configure inline actions on transaction line items in Store Commerce",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576816",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Inline actions extensibility enables retailers and implementation partners to configure the set of actions displayed per line item in the modern transaction grid in Store Commerce, using Screen Layout Designer in Dynamics 365 Commerce headquarters. What...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177765,
-   "title": "Dynamics 365 Business Central: Governance and administration - Upload, install, and manage PTEs in the admin center",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576815",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business Central offers full management of per-tenant extensions (PTEs) in the admin center and through admin center API endpoints. In addition to viewing and uninstalling extensions, administrators can upload PTE packages, install them immediately or...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177764,
-   "title": "Dynamics 365 Sales: Opportunity acceleration - Chat about sales opportunity agent insights from inside Sales agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576814",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "As a seller, you can: Ask questions in context : Ask about opportunity research from Sales agent. Start concise, go deeper on demand : Begin with action-oriented insights, then request deeper analysis only when needed. Business Value: You need guidance that...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Sales",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177764,
-   "title": "Dynamics 365 Business Central: Electronic documents - Use payments with the E-Document framework",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576813",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "You can mark an e-document as fully paid, partially paid, or unpaid. The system sends this information through accounts payable access points or receives it through accounts receivable access points, based on your e-document configuration. The payment...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177763,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Resolve invoice proposal blocked in workflow",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576812",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "For organizations using a structured and formal invoice workflow as part of their revenue collection, it's critical that invoices can be created and worked through to completion in a timely manner. When a configuration change causes an error, it's vital that...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177762,
-   "title": "Dynamics 365 Commerce: Store Commerce - Enable associates to use the nearest store payment terminal",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576811",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Application: Point of sale (Store Commerce) When a sales associate selects a dedicated hardware station (HWS) from the POS, the system correctly pairs with the payment terminal physically attached to that hardware station and not the terminal attached to the...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177762,
-   "title": "Microsoft Dataverse: Improved enterprise experiences in Power Platform - Improve bulk delete user experience",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576810",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "As you scale your data management operations, bulk delete must be predictable, transparent, and safe to operate across environments. In this release, Microsoft enhances bulk delete with an improved error handling experience and solution aware configuration...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Dataverse",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177761,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Enable the Investment project feature",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576809",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "When you enable the Enable investment project for Project Operations integrated with ERP setting, you activate this feature. Project Classification : The project manager uses this classification to mark a project as an investment project. Use this...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177760,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Assign task level schedule mode for precise planning",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576808",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides an experience to change the task schedule mode on the Customizable task details pane . To enable this feature, from project parameters select Enable Customize Task Pane . When enabled through feature control, this functionality lets you:...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177759,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Assign task level calendar for precise planning",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576807",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature provides an experience to change the task calendar on the Customizable task details pane . To enable this feature, from project parameters select Enable Customize Task Pane . When enabled through feature control, this functionality lets you: Set...",
-   "status": "General Availability",
-   "tags": [
-    "Rolling out",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177758,
-   "title": "Dynamics 365 Sales: Seller experiences - Copy opportunities for repeat deals",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576806",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Administrators can control whether the Copy Opportunity feature is available. When enabled, sellers can duplicate an existing opportunity to quickly create a new one. The new opportunity retains key customer, deal, product, stakeholder, and custom-field...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Sales",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
-   "ts": 1792177757,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - Import projects in MPP files into existing projects",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576805",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Previously, importing an .mpp file always created a new project. The import process copied the work breakdown structure from the .mpp file into the new project. You couldn't import a .mpp file into an existing project. This limitation made it difficult to...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-16",
    "ts": 1792170272,
    "title": "Announcing new builds for 16 October 2026",
    "url": "https://blogs.windows.com/windows-insider/2026/10/16/announcing-new-builds-for-16-october-2026/",
@@ -3532,19 +3680,6 @@
   },
   {
    "date": "2026-10-13",
-   "ts": 1791907200,
-   "title": "My workspace governance improvements (Generally Available)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/My-workspace-governance-improvements-Generally-Available/ba-p/5368442",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "My workspace governance features , which give administrators governance controls over their users' personal My workspaces, are now generally available.&nbsp;&nbsp; As My workspaces continue to be used for business-critical content, organizations need...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-13",
    "ts": 1791901235,
    "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
    "url": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
@@ -3562,19 +3697,6 @@
     "document-processing",
     "multimodal-ai"
    ]
-  },
-  {
-   "date": "2026-10-12",
-   "ts": 1791831600,
-   "title": "What\u2019s new for Business Events and real-time events in Microsoft Fabric",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/What-s-new-for-Business-Events-and-real-time-events-in-Microsoft/ba-p/5367401",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Microsoft Fabric helps teams react when those moments happen. Real-Time Hub provides a common place to discover event sources, connect consumers, and move from a signal to an action. With Business Events now generally available and new Fabric Events...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-12",
@@ -5577,29 +5699,6 @@
    "summary": "Today, we&#8217;re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer...",
    "status": "",
    "tags": []
-  },
-  {
-   "date": "2026-09-22",
-   "ts": 1790104954,
-   "title": "Retirement: Support for Node.js 22 ends on April 30, 2027",
-   "url": "https://azure.microsoft.com/updates?id=572771",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Support for Node.js 22 will end on April 30, 2027, please transition to Node.js 24 by that date. Your Azure Function apps will continue to run, but security patches and updates will no longer be provided and customer support for Node.js 22 will be discont",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Containers",
-    "Internet of Things",
-    "Azure Functions",
-    "Retirements",
-    "Compliance",
-    "Security"
-   ]
   },
   {
    "date": "2026-09-21",
