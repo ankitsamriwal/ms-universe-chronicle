@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25 08:40 UTC",
+ "generated_at": "2026-10-26 09:18 UTC",
  "entries": [
   {
    "date": "2026-10-23",
@@ -612,6 +612,21 @@
     "Planner",
     "Web"
    ]
+  },
+  {
+   "date": "2026-10-23",
+   "ts": 1792791294,
+   "title": "AI that understands your business: Dataverse and Work IQ at PPCC 2026",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/23/dataverse-and-workiq-ppcc-2026/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "With business applications in Work IQ, now in public preview, Copilot and agents understand your business too.",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-10-23",
