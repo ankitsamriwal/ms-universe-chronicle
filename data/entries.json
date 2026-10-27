@@ -1,6 +1,401 @@
 {
- "generated_at": "2026-10-26 09:18 UTC",
+ "generated_at": "2026-10-27 09:17 UTC",
  "entries": [
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Power Pages: First Class Support for Connector APIs in Power Pages",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577897",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Native connectors support through Power Pages will allow organizations to securely connect their websites/portals directly to enterprise systems such as SQL, SAP, and Oracle, without building or maintaining custom integration layers. This capability is...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Finance: Expand localization in LATAM countries for Argentina",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577891",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "With the release of Argentina, we are finalizing the LATAM expansion. Out-of-the-box localization is now available for 14 countries in the region through the cross-LATAM localization framework, in addition to Brazil and Mexico. The country localization...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Sustainability: Restate previously calculated emissions",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577890",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Organizations can recalculate previously calculated emissions using a new restatement capability in Dynamics 365 Sustainability. Users can create a new calculation result while preserving the original result, helping maintain traceability between the original...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Sustainability",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Project Operations: Configure actions on task grid",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577866",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature extends Task Grid View Templates so administrators can configure both task columns and the visibility of supported task-grid actions in one place. Administrators can show or hide individual actions across task-grid views, the toolbar, row-level...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Finance: Optimized Customer data entities",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577865",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Dynamics 365 Finance introduces a set of optimized customer data entities that provide more focused options for integrating customer information. Instead of relying on a single broad customer entity, organizations can work with purpose-specific entities for...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Dynamics 365 Finance and Operations cross-app",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Excel: Get and transform data with Copilot in Excel",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577745",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Get your data ready, just by asking. Describe the data you need and how you want it prepared, and the new get data skill handles the rest. It can connect and transform your data, then load the results into your workbook using Power Query, giving you a query...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Excel",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Microsoft Copilot (Microsoft 365): App Blocks",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577743",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Android",
+    "Desktop",
+    "iOS",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Commerce: Support trade counter sales in POS",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577404",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Trade Counter POS is a collection of capabilities for Dynamics 365 Commerce Point of Sale. Businesses can adopt the capabilities individually to support their trade counter operations rather than enable a single, all-or-nothing experience. Counter associates...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Commerce",
+    "Desktop",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Excel: Edit with Copilot in Excel on iPhone",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577177",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Edit with Copilot makes it easier to edit and transform your Excel workbooks on your phone using natural language. Copilot can continue working on your task even when you move away from the app, so you can come back when the work is ready. Chat mode also...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Excel",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Microsoft Teams: Workflow to automatically add tag members to relevant channels",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577174",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Associate channels with a tag so members are automatically added to those channels when they join the tag. This helps teams keep channel membership in sync with evolving groups, reduces manual management, and ensures members have access to the conversations...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "Desktop",
+    "Mac",
+    "Mobile"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Microsoft Copilot (Microsoft 365): SharePoint Site Builder",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576708",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "This feature enables users to easily create new SharePoint sites with Copilot. Users can review and confirm a clear site plan before Copilot builds the site. GA date: December CY2026 Preview date: October CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "SharePoint",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Dynamics 365 Contact Center: Boost contact center efficiency with real-time streaming analytics",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576605",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Real-time streaming analytics is built into the new supervisor application. An advanced streaming engine keeps metrics up to date with near-instant updates, allowing supervisors to view the latest data without refreshing the dashboard. Key capabilities...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Outlook: Multiple Intune Accounts in Outlook for Android",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576270",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Multiple MAM (Mobile Application Management) Intune Accounts will now be supported in Outlook for Android. Only one MDM (Mobile Device Management) account will be supported at a time per device. GA date: November CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Outlook",
+    "Android"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "PowerPoint: Clear view-only messaging",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571198",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "When you open a presentation you don't have permission to edit, PowerPoint now shows a clear \"Viewing Only\" message bar. It explains that the file is view-only, shows who created it, and tells you to contact the owner if you need more access. GA date:...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "PowerPoint",
+    "Desktop",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793048400,
+   "title": "Data Visualization in the Agentic Era",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Visualization-in-the-Agentic-Era/ba-p/5376290",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Data visualizations help people identify patterns, trends, and outliers in their data. However, creating a useful visual requires several decisions: which chart and data to use, how to map the data to visual properties such as color and position, and how the...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793035363,
+   "title": "Connect coding agents to Fabric notebooks with FNTK (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The Fabric Notebook Toolkit (Preview) helps developers shorten the feedback loop between writing code and validating it with live notebook results. It connects coding agents to Microsoft Fabric notebooks through a command-line interface (CLI) that runs in the...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793034600,
+   "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+   "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+   "source": "Microsoft Foundry blog",
+   "source_id": "foundry_blog",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency.",
+   "status": "",
+   "tags": [
+    "Microsoft Foundry",
+    "azure-ai-speech",
+    "llm-speech",
+    "multilingual-speech",
+    "phrase-lists",
+    "speech-to-text"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793030525,
+   "title": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+   "url": "https://azure.microsoft.com/updates?id=577782",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Management and governance",
+    "Networking",
+    "Network Watcher",
+    "Features"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793030400,
+   "title": "Announcing workspace monitoring integration for Fabric Data Warehouse (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Announcing-workspace-monitoring-integration-for-Fabric-Data/ba-p/5376599",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "AIOps"
+   ],
+   "summary": "With Microsoft Fabric Data Warehouse integration with workspace monitoring (Preview), you can analyze completed warehouse query activity across an entire workspace from the monitoring Eventhouse and KQL database, helping you find failed or slow queries and...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793027112,
+   "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+   "url": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
+   "source": "Microsoft DevBlogs",
+   "source_id": "devblogs",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "Build, query, and troubleshoot without leaving VS Code.",
+   "status": "",
+   "tags": [
+    "GitHub Copilot",
+    "Microsoft for Developers",
+    "Visual Studio Code",
+    "postgresql"
+   ]
+  },
   {
    "date": "2026-10-23",
    "ts": 1792797038,
@@ -2407,19 +2802,6 @@
   },
   {
    "date": "2026-10-21",
-   "ts": 1792601074,
-   "title": "Connect coding agents to Fabric notebooks with FNTK (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Connect-coding-agents-to-Fabric-notebooks-with-FNTK-Preview/ba-p/5375986",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "The Fabric Notebook Toolkit (Preview) helps developers shorten the feedback loop between writing code and validating it with live notebook results. It connects coding agents to Microsoft Fabric notebooks through a command-line interface (CLI) that runs in the...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-21",
    "ts": 1792598400,
    "title": "The bridge to agent-scale Git infrastructure",
    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
@@ -2538,112 +2920,6 @@
     "Worldwide (Standard Multi-Tenant)",
     "Microsoft Copilot (Microsoft 365)",
     "Microsoft Dataverse",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Dynamics 365 Customer Service: Manage intraday operations with AI agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577184",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "AIOps",
-    "Agents"
-   ],
-   "summary": "Intraday Agent is an autonomous AI agent that helps manage intraday operational scenarios. The following are its high\u2011level capabilities. Intraday queue tracking Continuously monitors queue volumes in real time. Detects anomalies when actual volume deviates...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Microsoft Power Platform governance and administration: Multi-grader comparison",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577183",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "MLOps"
-   ],
-   "summary": "Multi-grader comparison enables makers to compare the results of multiple graders applied to the same evaluation. The experience highlights agreement, differences, and overall grading behavior. Core capabilities The core capabilities include: Compare graders...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Microsoft Power Platform governance and administration",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Dynamics 365 Project Operations: Simplify the creation of recurring expenses",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577182",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature enables employees to automatically generate expense entries for predictable, repeatable business expenses (for example, monthly mobile bills, internet charges, parking, and subscriptions) without manual re-entry each period. It reduces repetitive...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Outlook: Teams Meeting Options",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575293",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "When you add a Teams meeting to an event in Outlook for Mac, the join link and dial-in details now appear in the invite while you're still writing it. A new Meeting Options button lets you change the Teams meeting settings right away, before you send. GA...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Outlook",
-    "Mac"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Dynamics 365 Business Central: Data mirroring to Microsoft Fabric",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574126",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Connect Business Central to Microsoft Fabric to make business data available for analytics, reporting, and data integration. Choose the Business Central companies and tables to synchronise, and make the data available in OneLake for use with Fabric IQ, Power...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
     "Web"
    ]
   },
@@ -2868,197 +3144,16 @@
   },
   {
    "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft Teams: AI Interpreter for Teams Events",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576711",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "AI Interpreter for Events brings real-time, AI-powered audio interpretation to Teams Town Halls and Webinars, helping global audiences follow events in their preferred language. Organizers can configure supported languages for their event, giving attendees a...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Targeted Release",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "Desktop",
-    "iOS"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft Teams: Expanded Markdown support in Microsoft Teams",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576199",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Microsoft Teams is expanding Markdown support in the compose box, giving you more ways to structure and format messages using familiar Markdown syntax. Create richer, more readable messages while staying in the Markdown authoring experience. GA date: November...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Targeted Release",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Microsoft Teams"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft Teams: Audio announcement for recording and transcription",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=559609",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Admins can enable a policy that plays an audio announcement when recording or transcription starts. This can be applied tenant-wide or to specific groups. The announcement helps ensure all participants are informed and improves accessibility awareness. GA...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Targeted Release",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Microsoft Teams"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft Viva: Enhanced Microsoft Copilot in Viva Engage",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576709",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Introducing the Enhanced Microsoft 365 Copilot Experience in Viva Engage! Powered by Engage MCP, this enhanced experience takes Copilot in Engage beyond catch-ups and summaries, helping users explore conversations more deeply, synthesize discussions, and...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Viva",
-    "Desktop",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft 365 app: Inventory - Update Repair",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576286",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Update Repair helps admins identify Windows devices with Microsoft 365 Apps that are out of date or experiencing update issues. In the Microsoft 365 Apps admin center, admins can review device status and recommended actions, remotely start Online Repair for...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft 365",
-    "Microsoft 365 app",
-    "Desktop",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Dynamics 365 Project Operations: Complete zero-effort tasks",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576278",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Zero-effort task completion enables project managers and team members to mark tasks as complete even when no effort was planned or recorded. This capability supports milestones, administrative activities, checklists, and other tasks that track completion...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Copilot Studio: Computer Use for web browsing on GitHub Copilot Harness",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576272",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
+   "ts": 1792443600,
+   "title": "Fabric Data Warehouse integration with Fabric User Data Functions (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Data-Warehouse-integration-with-Fabric-User-Data/ba-p/5375137",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
    "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the GitHub Copilot Harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot Studio",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Dynamics 365 Business Central: Ecommerce - [US] Match Shopify tax lines to tax jurisdictions",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574128",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
    "lenses": [],
-   "summary": "Business Value Reduce repetitive tax setup when you import Shopify orders that contain multiple United States tax jurisdictions. Shopify Tax Matching suggests how free-text tax lines map to configured tax jurisdictions and keeps you in control of exceptions...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792451715,
-   "title": "Microsoft Dataverse: Add users without licenses to activity recipient fields",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574121",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Enable active Microsoft Entra users without Dataverse or Power Apps licenses as activity recipients. Created user records remain disabled and do not grant Dynamics 365 app access. Documentation:...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft 365 app",
-    "Dynamics 365 Sales",
-    "Dynamics 365 Customer Service",
-    "Microsoft Dataverse"
-   ]
+   "summary": "Microsoft Fabric Data Warehouse now integrates with Fabric User Data Functions in preview, so you can extend T-SQL with custom Python logic without building separate applications or pipelines. Use the integration to send email or Teams messages, retrieve...",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-10-19",
@@ -3611,19 +3706,6 @@
   },
   {
    "date": "2026-10-14",
-   "ts": 1791993600,
-   "title": "Workspace-level private link for SQL database in Microsoft Fabric (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Workspace-level-private-link-for-SQL-database-in-Microsoft/ba-p/5323519",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Secure SQL database connectivity at the workspace level",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-14",
    "ts": 1791992336,
    "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
    "url": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
@@ -3678,19 +3760,6 @@
   },
   {
    "date": "2026-10-13",
-   "ts": 1791925200,
-   "title": "File Data Ingestion with Materialized Lake Views in Microsoft Fabric (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/File-Data-Ingestion-with-Materialized-Lake-Views-in-Microsoft/ba-p/5367801",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "File data ingestion with materialized lake views (MLVs) in Microsoft Fabric is now available in preview. Instead of building separate ingestion pipelines to move raw files into tables, you can now ingest CSV and Parquet files directly from OneLake into a...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-13",
    "ts": 1791914193,
    "title": "GitHub\u2019s model for secret detection: Finding more secrets with less noise",
    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
@@ -3722,19 +3791,6 @@
     "Agents"
    ],
    "summary": "We&#8217;re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-13",
-   "ts": 1791910800,
-   "title": "Fabric App functions to use secure server-side custom logic (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-App-functions-to-use-secure-server-side-custom-logic/ba-p/5368691",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Fabric App functions&nbsp; is a new capability that allows builders to add secure, server-side logic directly to their Fabric Apps without standing up separate infrastructure. Built on top of Fabric User Data Functions (UDFs), Fabric App functions give...",
    "status": "",
    "tags": []
   },
@@ -5721,29 +5777,6 @@
    "status": "",
    "tags": [
     "Microsoft Foundry"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "ts": 1790182205,
-   "title": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
-   "url": "https://azure.microsoft.com/updates?id=572770",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Support for PowerShell 7.4 will end on November 10, 2026, please transition to PowerShell 7.6. Your Azure Function apps will continue to run, but security patches and updates will no longer be provided and customer support for PowerShell 7.4 will be disco",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Containers",
-    "Internet of Things",
-    "Azure Functions",
-    "Retirements",
-    "Compliance",
-    "Security"
    ]
   },
   {
