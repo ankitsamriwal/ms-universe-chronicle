@@ -1,6 +1,296 @@
 {
- "generated_at": "2026-10-27 09:17 UTC",
+ "generated_at": "2026-10-28 09:58 UTC",
  "entries": [
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Power Automate: AI-assisted UI Automation repair",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577869",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "A new agentic debug run feature will be available in the flow designer. The UI automation repair interface launches while the flow is running, validating each selector used in the flow. It then proposes a new selector in case an existing one does not work as...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Power Pages: Track Power Pages performance and usage with monitor hub",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577859",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Power Pages is integrated into the monitor hub. This integration empowers site owners, makers, and administrators to access performance and usage insights directly within the monitor hub of the Power Platform admin center. Metrics available The following...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Pages",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Microsoft Copilot (Microsoft 365): Copilot app mode handoffs",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577841",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The Chat experience in the Copilot app will suggest a better-fit mode based on the user's prompt, if applicable. For example, it will suggest Cowork or other supported modes as they become available. Users will see a suggestion card after they send a prompt...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Microsoft Edge: Allow users to translate PDF documents into their preferred language",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577180",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Users will be able to translate full PDF documents directly within the native PDF viewer in Microsoft Edge. The translated document opens in a new tab, making it easier to access content in their preferred language. Admins can control availability to this...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Edge",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Microsoft Teams: Decline a call with a message on Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577176",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Users can quickly decline an incoming Teams call and send a predefined message to the caller at the same time. From the incoming call screen, users can select a message such as letting the caller know they're unavailable or will call back, providing helpful...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Microsoft Viva: Insights and Copilot Analytics in DoD",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576277",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Microsoft Viva Insights and Copilot Analytics are coming to the Microsoft 365 Department of Defense (DoD) environment, providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "DoD",
+    "Microsoft Viva",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Microsoft Contact Center Intelligence: Knowledge",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575275",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Knowledge sources ground your agent's responses in enterprise data. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. By using knowledge sources, your agents can provide...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Contact Center Intelligence",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
+   "title": "Dynamics 365 Supply Chain Management: Improve rental operations and fulfillment",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571679",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "As organizations expand beyond one-time asset sales to rental, leasing, and servitization business models, new rental management capabilities help them manage and monetize the assets they build, own, and operate throughout the rental lifecycle. In Dynamics...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Field Service",
+    "Dynamics 365 Finance",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793135812,
+   "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+   "url": "https://azure.microsoft.com/updates?id=578358",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Storage",
+    "Azure Blob Storage",
+    "Management"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793121583,
+   "title": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+   "url": "https://azure.microsoft.com/updates?id=577260",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "AI & Copilot",
+   "lenses": [
+    "FinOps"
+   ],
+   "summary": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "AI + machine learning",
+    "Microsoft Foundry",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793120284,
+   "title": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+   "url": "https://azure.microsoft.com/updates?id=578153",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an e",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Networking",
+    "Security",
+    "Azure Front Door",
+    "Web Application Firewall",
+    "Features",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793119498,
+   "title": "Build clearer, more expressive Real-Time Dashboards with new design and KPI capabilities (Generally Available)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Build-clearer-more-expressive-Real-Time-Dashboards-with-new/ba-p/5377578",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The new, generally available authoring capabilities in Microsoft Fabric Real-Time Dashboards help authors create dashboards that are easier to scan and act on. Design Tiles add structure and context, multi-KPI groups related measures from one query, and KPI...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793113200,
+   "title": "MAI-Cyber-1.1-Flash",
+   "url": "https://microsoft.ai/models/mai-cyber-1-1-flash/",
+   "source": "Microsoft AI news",
+   "source_id": "mai_news",
+   "family": "AI & Copilot",
+   "lenses": [
+    "MAI models"
+   ],
+   "summary": "",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793109600,
+   "title": "On-premises data gateway October 2026 release",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-October-2026-release/ba-p/5376557",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The October 2026 release of the on-premises data gateway (version 3000.338) continues our commitment to secure, reliable and accessible connectivity between on-premises data sources and Microsoft Fabric services.&nbsp; This release focuses on accessibility,...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
+   "title": "Microsoft Teams: Workflow to automatically add tag members to relevant channels",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577174",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Associate channels with a tag so members are automatically added to those channels when they join the tag. This helps teams keep channel membership in sync with evolving groups, reduces manual management, and ensures members have access to the conversations...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Targeted Release",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "Desktop",
+    "Mac"
+   ]
+  },
   {
    "date": "2026-10-26",
    "ts": 1793056550,
@@ -193,28 +483,6 @@
   {
    "date": "2026-10-26",
    "ts": 1793056550,
-   "title": "Microsoft Teams: Workflow to automatically add tag members to relevant channels",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577174",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Associate channels with a tag so members are automatically added to those channels when they join the tag. This helps teams keep channel membership in sync with evolving groups, reduces manual management, and ensures members have access to the conversations...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "Desktop",
-    "Mac",
-    "Mobile"
-   ]
-  },
-  {
-   "date": "2026-10-26",
-   "ts": 1793056550,
    "title": "Microsoft Copilot (Microsoft 365): SharePoint Site Builder",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576708",
    "source": "Microsoft 365 roadmap",
@@ -377,6 +645,22 @@
    "summary": "With Microsoft Fabric Data Warehouse integration with workspace monitoring (Preview), you can analyze completed warehouse query activity across an entire workspace from the monitoring Eventhouse and KQL database, helping you find failed or slow queries and...",
    "status": "",
    "tags": []
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793030400,
+   "title": "Scale reservoir uncertainty analysis with agile reservoir modeling",
+   "url": "https://azure.microsoft.com/en-us/blog/scale-reservoir-uncertainty-analysis-with-agile-reservoir-modeling/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "As subsurface data grows in scale and complexity, teams need a faster, more connected way to transform uncertainty into actionable decisions.",
+   "status": "",
+   "tags": [
+    "Storage",
+    "Microsoft Azure Data Manager for Energy"
+   ]
   },
   {
    "date": "2026-10-26",
@@ -2636,91 +2920,6 @@
   },
   {
    "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Business Central: Expense Agent - Use Expense Manager role center",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573261",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "The Expense Manager Role Center is updated to provide a more focused and efficient experience for managing vendor and expense-related activities. The enhancements align the workspace with typical expense management workflows, ensuring that key information and...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Business Central: Expense Agent - Add an interim approver when you submit an expense report",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573260",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "This feature introduces support for a simple interim approval scenario for expense reports. When someone submits an expense report, organizations can designate an interim approver to review and approve expenses before the final approver can review and...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Business Central: Expense Agent - Create expense reports per trip automatically",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573257",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Expense Agent can automatically create expense reports based on identified business trips. You just need to configure the feature on the Expense Agent Setup page. Instead of manually collecting and organizing individual expense entries, you can use the agent...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Field Service: Keep Project Staffing and Field Service Scheduling Aligned",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570864",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Deliver consistent scheduling outcomes across Dynamics 365 Project Operations and Field Service, regardless of where scheduling begins. When a project task includes resource assignments and planned effort, that demand is represented on the related work order...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
    "ts": 1792607035,
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -2837,90 +3036,6 @@
    "tags": [
     "AI governance",
     "AI in contact centers"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Microsoft Teams: Default meeting templates",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576609",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Default meeting templates enable IT admins to automatically apply their organization\u2019s preferred meeting settings whenever users schedule a Teams meeting through Outlook or Teams calendar. This helps organizations apply meeting settings (including protection...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "Microsoft Teams",
-    "Outlook",
-    "Desktop",
-    "Mac"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Microsoft Purview: Endpoint Data Loss Prevention-View-only access to device onboarding with the View-Only Device Management role",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577187",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Security & Identity",
-   "lenses": [],
-   "summary": "Microsoft Purview Data Loss Prevention is introducing more granular, role-based access to the Devices page under Settings \u2192 Device Onboarding. Previously, viewing or managing device onboarding required broad administrative roles (such as Compliance...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Purview",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Microsoft Edge: Organize and merge PDF files in the built-in PDF reader",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577186",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Users can organize and merge PDF files in the Microsoft Edge built-in PDF reader. They can select pages to extract, delete, rotate, or reorder, and save the result as a new PDF file. They can also merge the open PDF file with other PDF files that are open in...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Edge",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792537234,
-   "title": "Microsoft Dataverse: Enable semantic data understanding for agentic use",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577185",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Give AI agents and Copilot a true understanding of your business data \u2014 not just raw schema \u2014 so they can answer questions accurately with less manual configuration. Learns from the systems you already run \u2014 Automatically extracts semantic knowledge from...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Microsoft Dataverse",
-    "Web"
    ]
   },
   {
@@ -3235,21 +3350,6 @@
   },
   {
    "date": "2026-10-19",
-   "ts": 1792425396,
-   "title": "Advanced NL2SQL and advanced DAX generation in Fabric data agents (Generally Available)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Advanced-NL2SQL-and-advanced-DAX-generation-in-Fabric-data/ba-p/5374654",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Data agents in Microsoft Fabric let users ask questions about data in plain language. As a creator, you connect an agent to supported sources\u2014including SQL databases, lakehouses, Power BI semantic models, and eventhouses\u2014add the business context it needs, and...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-19",
    "ts": 1792414800,
    "title": "Agents are your newest insiders. Security must move at their speed.",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
@@ -3427,19 +3527,6 @@
     "Azure Files",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-10-15",
-   "ts": 1792090800,
-   "title": "Fabric Policies: Granular governance at scale (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Policies-Granular-governance-at-scale-Preview/ba-p/5368144",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "As Microsoft Fabric grows across teams, workspaces, and capacities, governance becomes harder to manage with broad tenant-wide switches alone because governance models are not one-size-fits-all. Fabric Policies provide granular controls that can fit your...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-15",
@@ -5665,24 +5752,6 @@
   },
   {
    "date": "2026-09-25",
-   "ts": 1790359646,
-   "title": "[In preview] Public Preview: Azure HorizonDB supports PostgreSQL 18",
-   "url": "https://azure.microsoft.com/updates?id=573048",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Azure HorizonDB is a fully managed, PostgreSQL-compatible, cloud-native database service designed for scalable, high-performance workloads. Azure HorizonDB, now in public preview, includes PostgreSQL 18 support. Learn more.",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Azure HorizonDB",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-25",
    "ts": 1790337600,
    "title": "Work IQ: Business and workplace intelligence in the flow of work",
    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/25/work-iq-business-and-workplace-intelligence-in-the-flow-of-work/",
@@ -5720,46 +5789,6 @@
     "guardrails",
     "Hosted Agents",
     "network-egress"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "ts": 1790272283,
-   "title": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
-   "url": "https://azure.microsoft.com/updates?id=557117",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Microsoft will retire several standalone Azure Communication Services (ACS) offerings on September 30, 2028. After this date, the affected services will no longer be available. Details Beginning September 30, 2028, the following ACS services will be reti",
-   "status": "",
-   "tags": [
-    "Mobile",
-    "Web",
-    "Azure Communication Services",
-    "Retirements"
-   ]
-  },
-  {
-   "date": "2026-09-24",
-   "ts": 1790265856,
-   "title": "[Launched] Generally Available: Instant Access for VM restore points",
-   "url": "https://azure.microsoft.com/updates?id=572573",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin restoring a disk from a restore point as soon as the snapshot i",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Storage",
-    "Compute",
-    "Azure Disk Storage",
-    "Virtual Machines",
-    "Compliance",
-    "Management",
-    "Feature"
    ]
   },
   {
