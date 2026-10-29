@@ -1,6 +1,370 @@
 {
- "generated_at": "2026-10-28 09:58 UTC",
+ "generated_at": "2026-10-29 10:21 UTC",
  "entries": [
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Project Operations: Analyze project plans with what-if scenarios",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577864",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "What if scenario modeling enables you to simulate changes to a project plan and evaluate their impact before committing to them. Available for both Project Operations core and Project Operations connect with ERP deployment types, this capability can be...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576606",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Microsoft Contact Center AI: Insights and quality",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575290",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Gain visibility into AI interactions, conversation trends, and customer engagement\u200b Measure self-service effectiveness through containment, escalations, transfers, and resolution outcomes\u200b Monitor operational health and proactively identify customer...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Contact Center Intelligence",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575278",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based approach. The Universal...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Contact Center Intelligence",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Microsoft Contact Center Intelligence: Tools",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575274",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Tools are building blocks that let your agent interact with external systems. Tools expand what your agent can do, and your agent can perform various actions in response to user requests or autonomous triggers. Each tool represents a specific capability that...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Contact Center Intelligence",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Contact Center: Reroute conversations to the right queue automatically",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575272",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Service representatives can reroute a live voice or messaging conversation when they realize they aren't the right person to help. The representative updates the conversation details, or the details of a linked case, contact, or account, and then selects...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Contact Center: Historical analytics",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574113",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared analytics foundation with...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Customer Service: Shared analytics for historical reporting",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574112",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793228671,
+   "title": "Dynamics 365 Business Central: Expense Agent mobile app",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573265",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The Expense Agent mobile app for Dynamics 365 Business Central extends expense capture to iOS and Android mobile devices by enabling employees to submit receipts directly from their phone or using native share functionality. Employees can take a photo of a...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793216839,
+   "title": "Govern your Microsoft Fabric data estate from one place with the OneLake catalog and Govern Skills (Generally Available)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-your-Microsoft-Fabric-data-estate-from-one-place-with-the/ba-p/5377369",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The Govern experience in the OneLake catalog is now generally available, providing centralized governance capabilities for tenants, domains, capacities, workspaces, tags, and policies in Microsoft Fabric. Govern Skills are also now available in the Skills for...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793209971,
+   "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+   "url": "https://azure.microsoft.com/updates?id=577689",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "AIOps"
+   ],
+   "summary": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+   "status": "",
+   "tags": [
+    "Containers",
+    "Azure Container Apps",
+    "Announcement"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793209256,
+   "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
+   "url": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Today, we\u2019re introducing the Microsoft Copilot harness in Foundry Agent Service in public preview.",
+   "status": "",
+   "tags": [
+    "AI + machine learning",
+    "Copilot"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793207370,
+   "title": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+   "url": "https://azure.microsoft.com/updates?id=577117",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Management and governance",
+    "Storage",
+    "Azure Backup",
+    "Management",
+    "Microsoft Ignite",
+    "Security",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793206800,
+   "title": "More ways to use scalar UDFs in Microsoft Fabric Data Warehouse (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/More-ways-to-use-scalar-UDFs-in-Microsoft-Fabric-Data-Warehouse/ba-p/5376708",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Scalar user-defined functions (UDFs) let data teams define a business rule once and reuse it across workloads in both Warehouse and the SQL analytics endpoint in Microsoft Fabric. This helps teams maintain consistent logic without duplicating it across...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793206740,
+   "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+   "url": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
+   "source": "Microsoft DevBlogs",
+   "source_id": "devblogs",
+   "family": "Developer",
+   "lenses": [
+    "DevSecOps"
+   ],
+   "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
+   "status": "",
+   "tags": [
+    "Azure DevOps",
+    "Microsoft for Developers",
+    "Security",
+    "Visual Studio",
+    "Visual Studio Code",
+    "Extensions",
+    "OIDC",
+    "Trusted Publishing"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793204623,
+   "title": "[Launched] Generally Available: Marketplace private offer enhancements",
+   "url": "https://azure.microsoft.com/updates?id=576547",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization\u2019s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Management and governance",
+    "Microsoft Azure portal",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793203768,
+   "title": "GitHub Universe 2026: Evolving every layer of the stack",
+   "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.",
+   "status": "",
+   "tags": [
+    "Company news",
+    "News & insights",
+    "GitHub Copilot",
+    "GitHub Copilot app",
+    "GitHub Universe"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793203660,
+   "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+   "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.",
+   "status": "",
+   "tags": [
+    "News & insights",
+    "Octoverse"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "ts": 1793203200,
+   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Agents",
+    "Security happenings"
+   ],
+   "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-10-27",
    "ts": 1793142302,
@@ -186,6 +550,21 @@
     "Azure Blob Storage",
     "Management"
    ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793127600,
+   "title": "Invite agentic coauthors to collaborate with you directly in canvas studio!",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/invite-agentic-coauthors-to-collaborate-with-you-directly-in-canvas-studio/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Today we&#8217;re excited to share big news for canvas app makers: agentic authoring in canvas studio using your GitHub account is now available in preview! In September, the canvas authoring agent plugin became generally available (GA), so you could build...",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-10-27",
@@ -611,6 +990,19 @@
     "phrase-lists",
     "speech-to-text"
    ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793032795,
+   "title": "Custom APIs just landed in the Dataverse MCP Server, Agents just got smarter",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/26/custom-apis-just-landed-in-the-dataverse-mcp-server-agents-just-got-smarter/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The Dataverse MCP Server now supports custom APIs allowing customers to leverage their existing custom business logic, from their Agents, regardless of where they are hosted.",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-10-26",
@@ -2733,193 +3125,6 @@
   },
   {
    "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Power Apps: Use Dataverse custom APIs in generative pages",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576284",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Makers can have a generative page call a Dataverse custom API to run server-side business logic, such as approving an order, recalculating a price, or validating a transaction. From either the Maker Studio generative page designer or the generative pages AI...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "Power Apps",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Power Apps: Monitor generative pages with out-of-the-box Application Insights telemetry",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576282",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "Admins and developers can monitor published generative pages with Application Insights. When an administrator configures Application Insights data export for an environment, Power Apps automatically exports completed page loads, unhandled errors, supported...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "Power Apps",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Power Apps: Form fill assistance supports more field types",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575296",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "We\u2019re expanding form fill assistance in model-driven applications in Power Apps to support lookup, rich text, and multi-select choice fields, helping users complete more of their forms with AI-powered suggestions and less manual entry. Availability Field...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Apps",
-    "Android",
-    "iOS",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Power Apps: Form fill assistance in apps can provide suggestions for existing values",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575295",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "We\u2019re expanding form fill assistance in model-driven applications in Power Apps to suggest updates to fields that already contain values\u2014not just empty fields. This helps users update existing information with ease using AI-powered skills in their apps. GA...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Apps",
-    "Android",
-    "iOS",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Project Operations: Support Approver Comments for Expense Reports in Expense Management Mobile app",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573708",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Approvers using the Expense Management Mobile App currently have limited options to provide context when approving or rejecting expense reports. Approval decisions may require comments to provide justification, request clarification, document additional...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Android",
-    "iOS"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573700",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7. More info: aka.ms/SDA-Public-Docs GA date: January CY2027 Preview date: October CY2026",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Microsoft Edge: Simplified Energy Saver",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573291",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Energy saver, formerly known as efficiency mode, will have new defaults and different setting options. Edge will now support and recommend users to use the BatterySaverModeAvailability policy to manage the energy saver feature. The energy saver feature has...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Edge",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Business Central: Finance - Use batch totals for payment journals",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573264",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "The Batch Total field on the Payment Journal page enhances payment processing by enabling you to work with and review a cumulative total for a payment journal batch. By surfacing batch-level totals directly in payment journals, organizations gain better...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Business Central: Finance - Use approvals with fixed asset journals",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573263",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Organizations can use approval workflows with Fixed Asset Journals , which gives them the same level of control and oversight for fixed assets that's available for other journals in Business Central. GA date: November CY2026",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
    "ts": 1792607035,
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -3210,19 +3415,6 @@
   },
   {
    "date": "2026-10-20",
-   "ts": 1792512000,
-   "title": "New analytical functions in Microsoft Fabric Data Warehouse (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/New-analytical-functions-in-Microsoft-Fabric-Data-Warehouse/ba-p/5375432",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Microsoft Fabric Data Warehouse and the SQL analytics endpoint now support new analytical functions in preview. SQL developers and data professionals can calculate medians, quantiles, and percentiles with concise, maintainable T-SQL queries. What\u2019s new in...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-20",
    "ts": 1792508785,
    "title": "From quick schedule fixes to automated planning with Scheduling Operations Agent",
    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/20/scheduling-operations-agent-field-service-planning/",
@@ -3256,19 +3448,6 @@
     "Agent Experience",
     "AX"
    ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792443600,
-   "title": "Fabric Data Warehouse integration with Fabric User Data Functions (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Data-Warehouse-integration-with-Fabric-User-Data/ba-p/5375137",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Microsoft Fabric Data Warehouse now integrates with Fabric User Data Functions in preview, so you can extend T-SQL with custom Python logic without building separate applications or pipelines. Use the integration to send email or Teams messages, retrieve...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-19",
@@ -5595,30 +5774,6 @@
   },
   {
    "date": "2026-09-29",
-   "ts": 1790694000,
-   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique,...",
-   "status": "",
-   "tags": [
-    "Blizzard",
-    "Credential theft",
-    "Cyberespionage",
-    "Domain compromise",
-    "Malware",
-    "Phishing",
-    "Social engineering",
-    "Star Blizzard (SEABORGIUM)"
-   ]
-  },
-  {
-   "date": "2026-09-29",
    "ts": 1790663400,
    "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
    "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
@@ -5662,43 +5817,6 @@
   },
   {
    "date": "2026-09-28",
-   "ts": 1790633165,
-   "title": "[In preview] Public Preview: Azure SQL Dev Hub",
-   "url": "https://azure.microsoft.com/updates?id=572998",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Azure SQL Dev Hub gives you a central starting point for building applications with Azure SQL, whether you\u2019re developing directly or using AI agents. You can find guidance for connecting to Azure SQL from . NET, Python, Node.js, and Java, along with resour",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "ts": 1790621530,
-   "title": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
-   "url": "https://azure.microsoft.com/updates?id=571632",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "In late September 2026, the following updates and enhancements were made to Azure SQL Managed Instance: Use the flexible memory feature in Azure SQL Managed Instance to change the amount of memory allocated to your SQL managed instance withou",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Databases",
-    "Azure SQL Managed Instance",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-28",
    "ts": 1790618700,
    "title": "Get started with the GitHub Copilot app: a free, hands-on course",
    "url": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
@@ -5719,22 +5837,6 @@
     "ai coding agents",
     "developer tools",
     "GitHub Copilot App"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "ts": 1790615328,
-   "title": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
-   "url": "https://azure.microsoft.com/updates?id=572968",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "We are announcing the general availability of the Luxembourg Azure Extended Zone. Azure Extended Zones are small-footprint extensions of Azure placed in metro areas, industry centers, or specific jurisdictions, to serve low latency and data residency work",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Regions & Datacenters"
    ]
   },
   {
