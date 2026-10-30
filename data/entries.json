@@ -1,6 +1,428 @@
 {
- "generated_at": "2026-10-29 10:21 UTC",
+ "generated_at": "2026-10-30 10:23 UTC",
  "entries": [
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Supply Chain Management: Enable fulfillment optimization in Dynamics 365 Supply Chain Management",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577894",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Distributed order management (DOM) can now optimize fulfillment for standard sales orders in Dynamics 365 Supply Chain Management. Previously, DOM was available only for Dynamics 365 Commerce orders. Now you can use the same rules-based fulfillment engine to...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Supply Chain Management: Check margins when overriding prices in Unified pricing management",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577867",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Price override allows sales representatives to adjust the preset price of a product during a transaction\u2014typically for business purposes such as customer negotiations and retention. Previously, price override validation only enforced amount-based thresholds,...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Finance: Enhance positive pay file generation through batch processing",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577858",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature improves the scalability and performance of positive pay file generation by enabling the process to run as a background batch job. Organizations that generate large positive pay files can now offload processing from the interactive user session,...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Microsoft Copilot Studio: Copilot studio cost controls in MAC",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577834",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents",
+    "FinOps"
+   ],
+   "summary": "We\u2019re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Microsoft 365 admin center",
+    "Microsoft Copilot Studio",
+    "Microsoft Power Platform governance and administration",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Sustainability: Enhance external sustainability reporting",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577744",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature delivers enhancements to the external reporting experience with an improved standards and assessments structure and enhanced search capabilities. Users can navigate standards, assessments, and concepts more efficiently, reducing time spent...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Sustainability",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Microsoft Viva: Network analytics enhancements",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576274",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Network analytics updates are rolling out in Microsoft Viva Engage, giving corporate communicators and network admins more flexibility to analyze activity and engagement across their organization. With this update, network analytics includes custom date...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Viva",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Microsoft Contact Center Intelligence: Biometric authentication",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575280",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and enable secure...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Contact Center Intelligence",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Customer Service: Shared analytics foundation for historical reporting",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574114",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793314860,
+   "title": "Dynamics 365 Business Central: Expense Agent - Create expenses from credit card feeds",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573256",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Expense Agent now supports creating expenses from imported credit card transaction feeds or automatically reconcile with them if the expense was created earlier. Key capabilities include: Import credit card transaction data and review it in the web and mobile...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793308792,
+   "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+   "url": "https://azure.microsoft.com/updates?id=578850",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793307600,
+   "title": "Strengthening data security with workspace-level private connectivity for custom endpoints for Eventstream (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Strengthening-data-security-with-workspace-level-private/ba-p/5377347",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Organizations that operate sensitive applications often keep them in networks with no route to the public internet. Applications in restricted networks need real-time analytics without a route to the public internet. Eventstream now supports workspace-level...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793300400,
+   "title": "Using Allow workspace settings editing policy in Fabric (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Using-Allow-workspace-settings-editing-policy-in-Fabric-Preview/ba-p/5377845",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Your teams are ready to build. They know their data, understand their business, and need the freedom to manage the workspaces where ideas become solutions. As adoption grows, that freedom becomes even more valuable. So does the ability to protect the settings...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793298011,
+   "title": "Manage once, reuse everywhere: Introducing variable library support for Eventstream (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Moving a real-time data pipeline from development to test to production should not mean reconfiguring every source and destination. Yet environment-specific connection details and destination references can make each release a manual, error-prone task....",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793296138,
+   "title": "Bringing Rust-native Spark compatibility to Microsoft OneLake with Sail and LakeSail",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bringing-Rust-native-Spark-compatibility-to-Microsoft-OneLake/ba-p/5377595",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Coauthor: Shehab Amin Microsoft OneLake gives every Microsoft Fabric tenant a single, unified data lake built on open formats. One copy of data, many engines: that is the promise, and it is what makes OneLake such a strong foundation for analytics and AI...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793293789,
+   "title": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+   "url": "https://azure.microsoft.com/updates?id=578681",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Networking",
+    "Security",
+    "Azure Front Door",
+    "Web Application Firewall",
+    "Features",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793293498,
+   "title": "[Launched] Generally Available: Azure MCP Server 3.0",
+   "url": "https://azure.microsoft.com/updates?id=578662",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP). This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Developer tools",
+    "SDKs",
+    "Features",
+    "SDK and Tools"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793293200,
+   "title": "Access versioned lakeFS data from Microsoft Fabric with Microsoft OneLake shortcuts",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Access-versioned-lakeFS-data-from-Microsoft-Fabric-with/ba-p/5377386",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Coauthor: Iddo Avneri (Treeverse)&nbsp; Use a live branch for up-to-date analytics or pin a shortcut to an immutable commit when reproducibility matters. &nbsp; Data teams often need two seemingly conflicting things: immediate access to the latest data and...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793291400,
+   "title": "Built by makers: Five years of Power Platform Community Conference",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/29/built-by-makers-five-years-of-power-platform-community-conference/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year\u2019s event.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793289600,
+   "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
+   "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "AIOps",
+    "Security happenings"
+   ],
+   "summary": "Security, compliance, and operations teams can use this hardware-originated evidence for monitoring, compliance reporting, and forensic investigations.",
+   "status": "",
+   "tags": [
+    "DevOps",
+    "Hybrid + multicloud",
+    "Management and governance",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793289600,
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we\u2019ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks...",
+   "status": "",
+   "tags": [
+    "Sapphire Sleet",
+    "Sleet",
+    "Social engineering"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793289600,
+   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793289415,
+   "title": "Edge is faster on Windows with Accelerated App Launches",
+   "url": "https://blogs.windows.com/msedgedev/2026/10/29/edge-is-faster-on-windows-with-accelerated-app-launches/",
+   "source": "Windows blog",
+   "source_id": "windows_blog",
+   "family": "Windows & Devices",
+   "lenses": [],
+   "summary": "We're excited to announce that Edge is the first browser to support accelerated app launches on Windows, delivering a faster and more consistent browser launch experience. With accelerated app launch, most Windows users will see a 15% launch",
+   "status": "",
+   "tags": [
+    "Uncategorized"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793289324,
+   "title": "Introducing the data engineering agent for Fabric (Project Osmos)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Introducing-the-data-engineering-agent-for-Fabric-Project-Osmos/ba-p/5377944",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "AI coding assistants are excellent at turning natural-language transformation instructions into code. For data engineers, the harder question is whether that code produces results they can trust. You can describe transformation logic in natural language, and...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-29",
+   "ts": 1793287800,
+   "title": "Dynamics 365 CX MCP Server \u2013 Sales: Bringing headless CRM to supported AI experiences",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/29/dynamics-365-cx-mcp-server-sales/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Dynamics 365 CX MCP Server - Sales brings governed CRM capabilities to supported AI agents and seller experiences, helping sellers take action wherever they work.",
+   "status": "",
+   "tags": [
+    "AI",
+    "Microsoft Dataverse"
+   ]
+  },
   {
    "date": "2026-10-28",
    "ts": 1793228671,
@@ -189,6 +611,21 @@
   },
   {
    "date": "2026-10-28",
+   "ts": 1793220601,
+   "title": "From one prompt to a governed Dataverse app: the Dataverse plugin lands in Copilot Cowork",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/28/dataverse-plugin-copilot-cowork/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The Microsoft Dataverse plugin for Copilot Cowork turns a plain-language request into real Dataverse tables, sample data and a published app, with every change approved by you and every action running under your own permissions.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-10-28",
    "ts": 1793216839,
    "title": "Govern your Microsoft Fabric data estate from one place with the OneLake catalog and Govern Skills (Generally Available)",
    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-your-Microsoft-Fabric-data-estate-from-one-place-with-the/ba-p/5377369",
@@ -368,6 +805,28 @@
   {
    "date": "2026-10-27",
    "ts": 1793142302,
+   "title": "Microsoft Teams: Decline a call with a message on Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577176",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Users can quickly decline an incoming Teams call and send a predefined message to the caller at the same time. From the incoming call screen, users can select a message such as letting the caller know they're unavailable or will call back, providing helpful...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Teams",
+    "Android"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793142302,
    "title": "Power Automate: AI-assisted UI Automation repair",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577869",
    "source": "Microsoft 365 roadmap",
@@ -446,26 +905,6 @@
     "Worldwide (Standard Multi-Tenant)",
     "Microsoft Edge",
     "Web"
-   ]
-  },
-  {
-   "date": "2026-10-27",
-   "ts": 1793142302,
-   "title": "Microsoft Teams: Decline a call with a message on Mobile",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577176",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Users can quickly decline an incoming Teams call and send a predefined message to the caller at the same time. From the incoming call screen, users can select a message such as letting the caller know they're unavailable or will call back, providing helpful...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "iOS"
    ]
   },
   {
@@ -2831,151 +3270,6 @@
   },
   {
    "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Commerce: Streamline pickup order workflows in Store Commerce",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576303",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business Value Trade counter pickups should be fast. When a business customer arrives to collect prepaid or pre-authorized orders, routing them through unnecessary screens and payment steps slows down the process. When customers want to add extra items during...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Android",
-    "Desktop",
-    "iOS"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Sales: Create pricing rules for attribute-based and volume-based pricing",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576295",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature will enable admins to define relevant pricing rules based on the following: for the added list price based on product attributes Discount on the list price based on tiered and absolute volume adjustment This ensures the organization to associate...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "Targeted Release",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Sales",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Sales: Create product rules to guide sellers to valid product configurations",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576294",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature will allow admins to create the right set of compatibility, inclusion and exclusion rules, withing a single composite product to ensure the right set of products get bundled together. Based on the configured rules, the seller will receive...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "Targeted Release",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Sales",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Microsoft Viva: Conversation Analytics",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576271",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Conversation analytics updates are coming to Microsoft Viva Engage, giving communicators richer signals to understand how audiences engage with posts and announcements. With this update, conversation analytics will include new engagement insights such as...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Viva",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent - Meeting scheduling",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575289",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Sales Development Agent can turn a prospect\u2019s interest in meeting into a booked seller meeting. The agent asks the prospect to provide preferred dates and times, evaluates those options against the appropriate seller\u2019s calendar, and books the first valid...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "Current Channel",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Microsoft Copilot (Microsoft 365): Enable semantic model in Sales agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573294",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Semantic model helps Sales Agent understand the structure and meaning of an organization\u2019s CRM data. It creates a connected representation of CRM metadata, including tables or objects, fields, descriptions, data types, relationships, views, pick-list values,...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Desktop",
-    "Mobile",
-    "Teams and Surface Devices"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "PowerPoint: Present with confidence on a single screen in Slide Show",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573151",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "When you present in Slide Show on just one display, like a laptop with no second monitor and no Presenter View, the on-screen presenting controls can be easy to miss. PowerPoint is making single-screen presenting easier: the controls you need to move through...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "PowerPoint",
-    "Desktop",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
    "ts": 1792699303,
    "title": "Explore and process multiple event types with Schema-aware Fabric Eventstreams (Preview)",
    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Explore-and-process-multiple-event-types-with-Schema-aware/ba-p/5376384",
@@ -3086,45 +3380,6 @@
   },
   {
    "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Microsoft Viva: Glint - Teams notification customization",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577175",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Viva Glint admins can now customize the Microsoft Teams notifications sent for surveys. Admins can edit the title, message, and button label in each survey language and see their changes in a live preview. Teams and email messages stay consistent and match...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Viva",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792623730,
-   "title": "Dynamics 365 Project Operations: Restrict task assignments to project team members",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576296",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature strengthens assignment governance by limiting the resources displayed in the Assigned to column to members of the current project team. Project managers can assign tasks only to resources who have already been added to the project, instead of...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-21",
    "ts": 1792607035,
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
@@ -3141,19 +3396,6 @@
    "tags": [
     "Supply chain attack"
    ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792605600,
-   "title": "Incrementally migrate and re-migrate database objects with Migration Assistant for Fabric Warehouse (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Incrementally-migrate-and-re-migrate-database-objects-with/ba-p/5376060",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Migrate database objects to Microsoft Fabric in phases without creating a new Warehouse for every run. Start with one business domain, add another when it is ready, or revisit an object after its source definition changes. You can also build on an existing...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-21",
@@ -3190,19 +3432,6 @@
     "Azure Cosmos DB",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-10-21",
-   "ts": 1792602000,
-   "title": "Simplify Teradata migrations with Fabric Migration Assistant (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-Teradata-migrations-with-Fabric-Migration-Assistant/ba-p/5376058",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Migrating an enterprise Teradata estate to Microsoft Fabric can require extensive manual work across database objects, SQL and BTEQ code, dependencies, and operational processes. Fabric Migration Assistant helps reduce that effort so teams can focus their...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-21",
@@ -3245,32 +3474,6 @@
   },
   {
    "date": "2026-10-20",
-   "ts": 1792530000,
-   "title": "From mixed events to real-time action: Fabric Eventstreams Q3 2026",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-mixed-events-to-real-time-action-Fabric-Eventstreams-Q3/ba-p/5375736",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Coauthor: Arindam Chatterjee Fabric Eventstreams makes it easy to connect to streaming sources, transform the ingested events and route them to destinations across Microsoft Fabric. But building real-time systems also requires teams to understand the events...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792529146,
-   "title": "More expressive graph analysis: GQL improvements in Microsoft Fabric Graph",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/More-expressive-graph-analysis-GQL-improvements-in-Microsoft/ba-p/5375740",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Coauthors: Idris Motiwala, and Justin Fine January\u2013August 2026 updates expand how users find, inspect, compose, and analyze connections. Organizations use graph data to understand how information moves between systems, how services depend on one another, how...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-20",
    "ts": 1792522547,
    "title": "[In preview] Public Preview: Disable VNet peering route",
    "url": "https://azure.microsoft.com/updates?id=576242",
@@ -3305,19 +3508,6 @@
     "Hybrid + multicloud",
     "Microsoft Sovereign Cloud"
    ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792515600,
-   "title": "T-SQL language enhancements in Microsoft Fabric Data Warehouse (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/T-SQL-language-enhancements-in-Microsoft-Fabric-Data-Warehouse/ba-p/5375433",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Microsoft Fabric Data Warehouse is expanding its T-SQL capabilities with four language enhancements in preview. GROUP BY ALL, ORDER BY ALL, the QUALIFY clause, and the FROM ... SELECT query format help SQL developers and data professionals reduce repetitive...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-20",
@@ -3378,21 +3568,6 @@
     "Azure Monitor",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-10-20",
-   "ts": 1792514078,
-   "title": "Retiring the Fabric data agent custom tool in Microsoft Foundry: move to Fabric IQ",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Retiring-the-Fabric-data-agent-custom-tool-in-Microsoft-Foundry/ba-p/5374418",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "In March 2025, we announced that agents in Microsoft Foundry could use Fabric data agents to answer questions about data in Microsoft Fabric. In the earlier integration, you connected to a data agent by adding it as a custom tool. For details, refer to...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-20",
@@ -5165,24 +5340,6 @@
   },
   {
    "date": "2026-09-29",
-   "ts": 1790717967,
-   "title": "Phishing Abuses RMM Tools for Persistent Access",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity",
-   "status": "",
-   "tags": [
-    "Phishing",
-    "Social engineering"
-   ]
-  },
-  {
-   "date": "2026-09-29",
    "ts": 1790717442,
    "title": "Why content extraction still matters in the GenAI era",
    "url": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
@@ -5689,42 +5846,6 @@
   },
   {
    "date": "2026-09-29",
-   "ts": 1790701798,
-   "title": "[Launched] Generally Available: Storage with cool access enhancement",
-   "url": "https://azure.microsoft.com/updates?id=573032",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "QoS update with cool access enabled on Premium and Ultra service levels improves how Azure NetApp Files balances performance and cost for mixed hot and cool workloads. Throughput automatically adjusts as data moves to cool storage, maintaining hot\u2011tier pe",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Storage",
-    "Azure NetApp Files",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790701675,
-   "title": "[In preview] Public Preview : Microsoft entra kerberos authentication for Azure NetApp Files",
-   "url": "https://azure.microsoft.com/updates?id=573041",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [],
-   "summary": "Azure NetApp Files now supports Microsoft Entra Kerberos authentication for SMB volumes. The capability enables users with hybrid or cloud-only identities to authenticate through Microsoft Entra ID using cloud-issued Kerberos tickets. This capability remo",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Storage",
-    "Azure NetApp Files",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
    "ts": 1790700006,
    "title": "SQL Server on Azure Local is now generally available",
    "url": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
@@ -5755,64 +5876,6 @@
    "status": "",
    "tags": [
     "Microsoft for Developers"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790697600,
-   "title": "\u200b\u200bBeyond source code: A path to the keys to the kingdom",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790663400,
-   "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
-   "url": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
-   "source": "Azure blog",
-   "source_id": "azure_blog",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI.",
-   "status": "",
-   "tags": [
-    "AI + machine learning",
-    "Databases",
-    "DevOps",
-    "Hybrid + multicloud",
-    "Internet of things",
-    "AI",
-    "Copilot",
-    "Microsoft IQ"
-   ]
-  },
-  {
-   "date": "2026-09-28",
-   "ts": 1790633239,
-   "title": "[Launched] Generally Available: Vector search and vector indexes in Azure SQL",
-   "url": "https://azure.microsoft.com/updates?id=571800",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Vector search and vector indexes are now generally available in Azure SQL Database. Using the CREATE VECTOR INDEX and VECTOR_SEARCH T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searches for AI scenarios such as semantic",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
    ]
   },
   {
@@ -6089,19 +6152,6 @@
     "CRM",
     "ERP"
    ]
-  },
-  {
-   "date": "2026-09-07",
-   "ts": 1788768404,
-   "title": "Enhanced Data Model Migration Utility Now Generally Available, with Dynamics 365 Portal Templates Support",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/enhanced-data-model-migration-utility-now-generally-available-with-dynamics-365-portal-templates-support/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "We&#8217;re excited to announce that the Standard Data Model (SDM) to Enhanced Data Model (EDM) migration utility in Microsoft Power Platform CLI is now generally available (GA) and it now also supports four key Dynamics 365 portal templates: New sites using...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-09-03",
