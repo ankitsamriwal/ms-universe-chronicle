@@ -1,6 +1,23 @@
 {
- "generated_at": "2026-11-01 10:45 UTC",
+ "generated_at": "2026-11-02 11:05 UTC",
  "entries": [
+  {
+   "date": "2026-11-01",
+   "ts": 1793568960,
+   "title": "Game Off 2026: The theme is SHIFT",
+   "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "GitHub\u2019s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key.",
+   "status": "",
+   "tags": [
+    "Gaming",
+    "Open Source",
+    "GitHub Game Off"
+   ]
+  },
   {
    "date": "2026-10-31",
    "ts": 1793408577,
@@ -3881,7 +3898,7 @@
    "date": "2026-10-16",
    "ts": 1792166700,
    "title": "Managing open-weight model risk in enterprise deployments",
-   "url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
    "source": "Azure blog",
    "source_id": "azure_blog",
    "family": "AI & Copilot",
@@ -3894,18 +3911,18 @@
   },
   {
    "date": "2026-10-16",
-   "ts": 1792166400,
+   "ts": 1792166700,
    "title": "Managing open-weight model risk in enterprise deployments",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.",
+   "url": "https://azure.microsoft.com/en-us/blog/managing-open-weight-model-risk-in-enterprise-deployments/",
+   "source": "Azure blog",
+   "source_id": "azure_blog",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "The growing AI landscape is giving enterprises more choice in how they build, customize, and deploy increasingly capable models.",
    "status": "",
-   "tags": []
+   "tags": [
+    "AI + machine learning"
+   ]
   },
   {
    "date": "2026-10-16",
@@ -5880,23 +5897,6 @@
     "Internet of Things",
     "Azure IoT Central",
     "Retirements"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790700006,
-   "title": "SQL Server on Azure Local is now generally available",
-   "url": "https://www.microsoft.com/en-us/sql-server/blog/2026/09/28/sql-server-on-azure-local-is-now-generally-available/",
-   "source": "Azure blog",
-   "source_id": "azure_blog",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "With SQL Server on Azure Local, customers can modernize where their data resides while maintaining control over infrastructure, connectivity, and data placement.",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Databases",
-    "Hybrid + multicloud"
    ]
   },
   {
