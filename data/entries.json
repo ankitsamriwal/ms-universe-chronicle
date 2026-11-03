@@ -1,6 +1,442 @@
 {
- "generated_at": "2026-11-02 11:36 UTC",
+ "generated_at": "2026-11-03 11:15 UTC",
  "entries": [
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Dynamics 365 Sales: Autonomously generate quotes and drive sales with Sales Development Agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578898",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Sales Development Agent (SDA) can take leads from qualified opportunities to closed deals. Key capabilities include: Generating quotes through D365S as well as 1P/3P systems and sharing them with customers to company branded templates. Connectivity to quoting...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Sales",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Microsoft Teams: Intelligent call recap for call queue calls on Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578871",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Calling reps and supervisor leads can access intelligent call recap for call queue calls directly from the Queues app on Mobile. After a call, users can quickly catch up on the conversation with AI-generated notes, key discussion points, and recommended...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Microsoft Teams: Automatic recording indicator for call queue calls on Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578867",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "For call queue calls that are automatically recorded by the organization, Teams on Mobile will clearly indicate that recording and transcription have started automatically and cannot be stopped. This gives users clearer and more accurate information about the...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Microsoft Teams: Manage call groups on Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578860",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Users can create and manage their call group directly from Teams on Mobile. They can add or remove members, configure how the group should ring, and choose to forward or simultaneously ring incoming calls to their call group. This makes it easier for users to...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "OneDrive: Respond to access requests directly in the Share dialog",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578856",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Review and respond to access requests inside the Share dialog. When people request access to a file, folder, or library, anyone who can share it will see pending requests right in the Share dialog for that item. From there, they can choose the level of access...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "OneDrive",
+    "SharePoint"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Dynamics 365 Project Operations: Support What-If Analysis for multiple budget versions",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577872",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This is for Project Operations Core and Integrated to ERP. Enable project managers to compare multiple budget versions and select the most suitable budget before submission and approval. This capability improves decision-making by allowing users to evaluate...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Dynamics 365 Project Operations: Enable multiple baselines for a project",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573693",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Multiple Baselines enables project managers to capture and maintain multiple snapshots of a project plan, providing a historical record of project execution and performance over time. Available for Project Operations Core and Project Operations connected with...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Dynamics 365 Business Central: USA - Manually upload 1099 forms to the IRIS",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573624",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The FIRE system will effectively be retired at the end of 2026, and IRIS will be the only electronic filing channel starting January 1, 2027. Users in Business Central can now generate IRIS-compatible 1099 submission files for manually upload instead of the...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Dynamics 365 Field Service: Use AI recommendations for mobile offline profile configuration",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573243",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Business value Mobile offline profile design can affect first sync, ongoing sync cost, app responsiveness, and reliability. Administrators and makers often need to balance business data requirements with profile complexity, related data, and performance...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Field Service",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "ts": 1793664851,
+   "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Copilot (Microsoft 365)",
+    "Microsoft 365 admin center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793657153,
+   "title": "Client-side threat detection: how Scareware blocker uncovered malicious notification abuse",
+   "url": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/",
+   "source": "Windows blog",
+   "source_id": "windows_blog",
+   "family": "Windows & Devices",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Website notifications were designed to help us stay informed. They can alert you to a new message, remind you of an upcoming event, or share an important update from a service you trust. But scammers are turning this useful browser feature into a pe",
+   "status": "",
+   "tags": [
+    "Uncategorized"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793656800,
+   "title": "Bring insights and action together with Fabric Apps in Org apps",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-insights-and-action-together-with-Fabric-Apps-in-Org-apps/ba-p/5377690",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "&nbsp; Business users move from understanding what happened, to investigating why, to acting. Microsoft Fabric can bring that journey together.&nbsp; Fabric Apps provide purpose-built, data-driven experiences when users need more than a report. Org apps...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793650859,
+   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius.",
+   "status": "",
+   "tags": [
+    "Vulnerability"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793649600,
+   "title": "From a prompt to an operational dashboard: Generate Real-Time Dashboards with Copilot (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-a-prompt-to-an-operational-dashboard-Generate-Real-Time/ba-p/5380258",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Start with the question, not a blank dashboard Which transit stations are sending the most fans toward a stadium? How does that incoming demand compare with activity at the gates? Where are queues building? Answering these operational questions traditionally...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793648231,
+   "title": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+   "url": "https://azure.microsoft.com/updates?id=577975",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The Azure Migrate appliance connects directly to your NAS cl",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Management and governance",
+    "Migration",
+    "Azure Migrate",
+    "Features",
+    "Services"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793647348,
+   "title": "Retirement: OT security in Microsoft Defender for IoT",
+   "url": "https://azure.microsoft.com/updates?id=576255",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period. This change applie",
+   "status": "",
+   "tags": [
+    "Retirements"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793647233,
+   "title": "[Launched] Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+   "url": "https://azure.microsoft.com/updates?id=574541",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Databases",
+    "Hybrid + multicloud",
+    "Azure Database for PostgreSQL",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793646101,
+   "title": "Retirement: Azure Fluid Relay",
+   "url": "https://azure.microsoft.com/updates?id=570498",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption. The Fluid Framework remains available as an open-sourc",
+   "status": "",
+   "tags": [
+    "Web",
+    "Azure Fluid Relay",
+    "Retirements"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793644441,
+   "title": "[Launched] Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+   "url": "https://azure.microsoft.com/updates?id=578628",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Storage",
+    "Analytics",
+    "Azure Blob Storage",
+    "Azure Data Lake Storage",
+    "Azure Storage Actions",
+    "Services",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793642568,
+   "title": "[Launched] Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+   "url": "https://azure.microsoft.com/updates?id=577992",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest API or contacting support. Learn more.",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Databases",
+    "Hybrid + multicloud",
+    "Azure SQL Database",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793642451,
+   "title": "[Launched] Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+   "url": "https://azure.microsoft.com/updates?id=579021",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Geo-Replication on partitioned namespaces for Azure Service Bus Premium is now generally available. You can now combine the throughput benefits of partitioning with the reliability of replicating your messages and metadata to a secondary Azure region. Par",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Integration",
+    "Service Bus",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793641788,
+   "title": "[Launched] Generally Available: Azure Site Recovery for Azure Local",
+   "url": "https://azure.microsoft.com/updates?id=579111",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by repli",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Hybrid + multicloud",
+    "Management and governance",
+    "Migration",
+    "Azure Arc",
+    "Azure Site Recovery",
+    "Management",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793636362,
+   "title": "Data Days: Learn, build, and connect with AI @Work",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Days-Learn-build-and-connect-with-AI-Work/ba-p/5382446",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Real people. Real projects. Real AI on Fabric, SQL, and Power BI. From November 2 through December 15, Data Days is your chance to get past polished demos and put data and AI to work yourself. Join a live session, build something new, work toward a...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-11-01",
    "ts": 1793568960,
@@ -39,6 +475,28 @@
   {
    "date": "2026-10-30",
    "ts": 1793398114,
+   "title": "Microsoft Teams: Activity in other accounts and orgs improvements",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577901",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Stay up-to-date with what's happening in your other accounts and organizations with the 'Activity in Other Accounts and Orgs' panel. Preview and open chats, channels, and other activity in other accounts and orgs from your main Teams window, without switching...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Teams",
+    "Desktop"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "ts": 1793398114,
    "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578225",
    "source": "Microsoft 365 roadmap",
@@ -58,28 +516,6 @@
     "Desktop",
     "iOS",
     "Mac"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Microsoft Teams: Activity in other accounts and orgs improvements",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577901",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Stay up-to-date with what's happening in your other accounts and organizations with the 'Activity in Other Accounts and Orgs' panel. Preview and open chats, channels, and other activity in other accounts and orgs from your main Teams window, without switching...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Microsoft Teams"
    ]
   },
   {
@@ -1300,6 +1736,25 @@
   {
    "date": "2026-10-26",
    "ts": 1793056550,
+   "title": "Dynamics 365 Contact Center: Boost contact center efficiency with real-time streaming analytics",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576605",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Real-time streaming analytics is built into the new supervisor application. An advanced streaming engine keeps metrics up to date with near-instant updates, allowing supervisors to view the latest data without refreshing the dashboard. Key capabilities...",
+   "status": "General Availability",
+   "tags": [
+    "Rolling out",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Contact Center",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "ts": 1793056550,
    "title": "Microsoft Teams: Workflow to automatically add tag members to relevant channels",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577174",
    "source": "Microsoft 365 roadmap",
@@ -1534,25 +1989,6 @@
   {
    "date": "2026-10-26",
    "ts": 1793056550,
-   "title": "Dynamics 365 Contact Center: Boost contact center efficiency with real-time streaming analytics",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576605",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Real-time streaming analytics is built into the new supervisor application. An advanced streaming engine keeps metrics up to date with near-instant updates, allowing supervisors to view the latest data without refreshing the dashboard. Key capabilities...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-26",
-   "ts": 1793056550,
    "title": "Outlook: Multiple Intune Accounts in Outlook for Android",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576270",
    "source": "Microsoft 365 roadmap",
@@ -1671,21 +2107,6 @@
     "Network Watcher",
     "Features"
    ]
-  },
-  {
-   "date": "2026-10-26",
-   "ts": 1793030400,
-   "title": "Announcing workspace monitoring integration for Fabric Data Warehouse (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Announcing-workspace-monitoring-integration-for-Fabric-Data/ba-p/5376599",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "With Microsoft Fabric Data Warehouse integration with workspace monitoring (Preview), you can analyze completed warehouse query activity across an entire workspace from the monitoring Eventhouse and KQL database, helping you find failed or slow queries and...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-26",
@@ -3165,227 +3586,6 @@
   },
   {
    "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577399",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "Desktop",
-    "iOS",
-    "Mac"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Outlook: Mark as read improvements",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577546",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Mark as read will be updated to better match user expectations. When using the Unread filter, items will also be marked as read in coherence with the existing \"Mark as read when using the reading pane\" setting. Additionally, opening an item in a popout will...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Outlook",
-    "Desktop",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Microsoft Edge: Review your PDF notes and annotations in the Notes pane",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577542",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "The built-in PDF viewer in Microsoft Edge will include a Notes pane that lists highlights, text notes, ink notes and comments in page order allowing users to quickly revisit them without finding them page by page. Users can search and filter their...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Edge",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Project Operations: Extend price overrides to category and material",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577424",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Project Operations price lists support three price types \u2014 role, expense category, and product/material \u2014 but only role prices currently support date-effective overrides. This feature extends date-effective price overrides to expense category and material...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Project Operations: Notify users when approval sets finish processing",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577423",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "When an approval set finishes processing, the person who started it receives an in-app notification built on the existing long-running-process (No More Wait) framework, and they see only notifications for the operations they triggered. On success, a brief...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Project Operations: View resolved prices in a consolidated pricing view",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577421",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "A new Pricing tab appears on the contract (and later the quote) and becomes the default pricing surface, replacing the Project Price List tab. Instead of listing only the price lists apply, it displays a consolidated grid of the prices that actually default...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Power Pages: SDK (Software Development Kit)",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577419",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Build native mobile applications or kioks using Power Pages as the backend foundation with support for authentication, authorization, APIs, data access, and reusable mobile capabilities. GA date: March CY2027 Preview date: January CY2027",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Pages",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Customer Insights - Journeys: Create journeys in minutes with Journey Creation Agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577418",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "You simply describe in everyday words what you want to create and the Journey Creation Agent builds the journey for you. With Journey Creation Agent, you can: Use an AI-powered, guided experience for optimized outcomes. Build in minutes with no technical...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Customer Insights - Journeys",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Customer Insights - Journeys: Improve engagement and message timing with Outreach Optimization Agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577417",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Add the Outreach Optimization Agent to your journey, select the emails you want delivered, and let the agent handle timing and cadence automatically. With Outreach Optimization Agent, you can: Start with an intelligent baseline : Outreach Optimization Agent...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Customer Insights - Journeys",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792709920,
-   "title": "Dynamics 365 Commerce: Author Commerce receipt formats with Copilot Cowork",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577405",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Use natural language in Copilot Cowork to create, update, translate, and check Commerce receipt layouts using existing formats in headquarters. The Commerce receipt format designer skill lets authorized users work with receipt layouts through natural-language...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Commerce",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792699303,
-   "title": "Explore and process multiple event types with Schema-aware Fabric Eventstreams (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Explore-and-process-multiple-event-types-with-Schema-aware/ba-p/5376384",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Real-time streams rarely contain just one kind of event. A building operations stream, for example, might carry thermostat readings, occupancy updates, air-quality measurements, and badge-reader activity through the same source. These events may share a...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-22",
    "ts": 1792692900,
    "title": "Microsoft is named a Visionary in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Contact Center as a Service",
    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/22/microsoft-is-named-a-visionary-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
@@ -3449,22 +3649,6 @@
     "Agents"
    ],
    "summary": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a Leader in two 2026...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-22",
-   "ts": 1792688150,
-   "title": "Create purpose-built custom visuals in Real-Time Dashboards with Copilot (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Create-purpose-built-custom-visuals-in-Real-Time-Dashboards-with/ba-p/5376359",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "AIOps",
-    "Agents"
-   ],
-   "summary": "Real-Time Dashboards include built-in visuals for common monitoring and analysis scenarios. However, operational decisions do not always fit a standard chart. You may need to combine several signals, use a domain-specific layout, or present information...",
    "status": "",
    "tags": []
   },
@@ -5288,21 +5472,6 @@
   },
   {
    "date": "2026-09-30",
-   "ts": 1790796660,
-   "title": "\u200b\u200bSecure what\u2019s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-09-30",
    "ts": 1790793289,
    "title": "Adapt Dynamics 365 Commerce faster with AI-assisted extensibility",
    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/30/adapt-dynamics-365-commerce-faster-with-ai-assisted-extensibility/",
@@ -5769,149 +5938,6 @@
     "Hybrid + multicloud",
     "Azure SQL Database",
     "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790703576,
-   "title": "[Launched] Generally Available: SQL Formatter",
-   "url": "https://azure.microsoft.com/updates?id=571872",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "You can now format SQL scripts directly in Visual Studio Code using SQL Formatter for more consistent, readable code. Customizable formatting options help you match your preferred coding style, so you can keep queries tidy without manual reformatting. N",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790703496,
-   "title": "[Launched] Generally Available: SQL Migration Agent Skills for assessment, migration, and validation",
-   "url": "https://azure.microsoft.com/updates?id=571899",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "SQL Migration Agent Skills help you automate and streamline the end-to-end migration journey from SQL Server to Azure. These reusable AI-powered skills help guide you through assessment, target selection, migration execution, and post-migration validation",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790703373,
-   "title": "Retirement: Azure Arc enabled System Center Virtual Machine Manager will be retired September 30, 2029",
-   "url": "https://azure.microsoft.com/updates?id=570283",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Microsoft is retiring Azure Arc-enabled System Center Virtual Machine Manager (SCVMM) in September 2029. Customers must plan and transition to alternative solutions. What does this mean for you?If you are using Azure Arc-enabled SCVMM for:Azure services an",
-   "status": "",
-   "tags": [
-    "Retirements"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790703284,
-   "title": "[In preview] Public Preview: Migrate directly from Azure Arc to Azure SQL Database, including Hyperscale",
-   "url": "https://azure.microsoft.com/updates?id=571795",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "You can now select Azure SQL Database, including Hyperscale, as a migration target directly from the database migration experience in Azure Arc. The workflow brings Azure Database Migration Service and Self-hosted Integration Runtime setup into the guided",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790703071,
-   "title": "[In preview] Public Preview: Microsoft SQL Agent Skills",
-   "url": "https://azure.microsoft.com/updates?id=573003",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Microsoft SQL Agent Skills help you get more accurate, product-specific guidance when using AI agents to build, operate, and migrate SQL workloads. You can use these skills with Azure SQL Database, Azure SQL Database container, SQL Server to Azure migrati",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790702937,
-   "title": "[In preview] Public Preview: Long-term retention (LTR) v2 for Azure Database for PostgreSQL",
-   "url": "https://azure.microsoft.com/updates?id=571914",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "LTR v2 is the next-generation long-term backup solution for Azure Database for PostgreSQL that moves from logical backups (pg_dump/pg_restore) used in LTR v1 to physical snapshot-based backups integrated with Azure Backup Vaults. With this release, you c",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure Database for PostgreSQL",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790702810,
-   "title": "Retirement: Microsoft HPC Pack",
-   "url": "https://azure.microsoft.com/updates?id=570046",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Microsoft is retiring all versions of HPC Pack. End of Support is August 27, 2027. HPC Pack is now entering a one-year retirement period. Microsoft will provide limited, retirement-only support during this period. The scope of this support is defined belo",
-   "status": "",
-   "tags": [
-    "Retirements"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790702710,
-   "title": "Retirement: Azure IoT Central will be retired on September 20, 2029",
-   "url": "https://azure.microsoft.com/updates?id=569914",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [],
-   "summary": "Azure IoT Central will be retired on September 20, 2029. You can continue using Azure IoT Central until the retirement date, but we recommend starting your transition planning early. Why is this happening?As Azure IoT evolves, Microsoft is focusing future",
-   "status": "",
-   "tags": [
-    "Internet of Things",
-    "Azure IoT Central",
-    "Retirements"
    ]
   },
   {
