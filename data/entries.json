@@ -1,6 +1,308 @@
 {
- "generated_at": "2026-11-04 11:27 UTC",
+ "generated_at": "2026-11-05 11:25 UTC",
  "entries": [
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Microsoft Teams: Multiple screen shares in Teams Rooms on Windows",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579184",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "You can now view up to two shared screens side by side during meetings, reducing interruptions from screen hand-offs. Participants can switch between side-by-side and expanded views, identify presenters for each screen, and benefit from layouts optimized for...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Desktop",
+    "Teams and Surface Devices"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Microsoft Purview: Information Protection-Auto-labeling for legacy Office files",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578872",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Microsoft Purview server-side auto-labeling will support legacy Microsoft Office file formats, including Word (.doc), Excel (.xls), and PowerPoint (.ppt). Organizations can automatically evaluate and apply sensitivity labels to these files in SharePoint and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Purview",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Dynamics 365 Supply Chain Management: Reimagine creation Phase In/Out rules to make it easier for users to enter in large volumes",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577884",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Reimagine creation Phase In/Out rules. Allow users to pre-select Tables and Fields at Group level that will be populated on every rules. If a Table key field like Product ID is included in the rules, then auto fill related fields with values like Product...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Supply Chain Management",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Dynamics 365 Project Operations: Optimize Project Operations: Support cost commitments in project budgets",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577874",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Enable project managers to view and track Committed Costs directly within Project Operations budgets, providing a complete picture of budget consumption beyond actual costs. This enhancement allows project managers to make more informed budgeting,...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Dynamics 365 Project Operations: Enhance contract management insights and usability",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577425",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This release expands the contract management experience in Dynamics 365 Project Operations with: Enhanced analytics and insights on the contract form to improve visibility into contract performance. Context-based pricing information that provides additional...",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Power Apps: New view layout in model-driven apps",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575294",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Makers can now choose to display their data as a calendar or a stack of cards instead of the default grid layout. Makers can configure these layouts directly in the model driven app designer, giving users more intuitive ways to visualize and work with their...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Apps",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793836790,
+   "title": "Microsoft 365: Expiration for access on sharing main links",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=571399",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "People can set expiration dates for \u201cAnyone\u201d and \u201cPeople in your organization\u201d access on the main link to files and folders in OneDrive and SharePoint. New administrator policies can Administrators can set policies to require expiration and enforce a maximum...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "OneDrive",
+    "SharePoint"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793829600,
+   "title": "Eventhouse support for OneLake security (Generally Available)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Eventhouse-support-for-OneLake-security-Generally-Available/ba-p/5377875",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Security should be consistent wherever you query your data. With OneLake security, you can define access controls once, close to the data, and apply them across supported Microsoft Fabric engines without recreating your security rules for each experience....",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793822603,
+   "title": "Find expensive queries from Capacity Metrics (Generally Available)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Find-expensive-queries-from-Capacity-Metrics-Generally-Available/ba-p/5393588",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "When warehouse capacity usage spikes, you need to quickly understand what ran, which warehouse drove the usage, and which queries require investigation.&nbsp; The Monitor in warehouse action in the Microsoft Fabric Capacity Metrics app connects the...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793822400,
+   "title": "OneLake table APIs: Now with Iceberg writes, plus richer table metadata (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-table-APIs-Now-with-Iceberg-writes-plus-richer-table/ba-p/5391262",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "OneLake table APIs already let Iceberg-compatible engines discover and read tables in Microsoft Fabric. Today we're taking the next step with two additions: Iceberg REST Catalog (IRC) writes through the OneLake table endpoint, now available, and a new...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793818800,
+   "title": "Govern Fabric connections with admin APIs and data connection policies (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-Fabric-connections-with-admin-APIs-and-data-connection/ba-p/5383656",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Co-author: Abhishek Narain Protect continuity, understand connection risk, and set tenant-wide guardrails&nbsp; Imagine that the person who built a business-critical pipeline has left your organization. The connection still exists, but nobody is sure who can...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793817732,
+   "title": "[Launched] Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+   "url": "https://azure.microsoft.com/updates?id=579300",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant custome",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Databases",
+    "Hybrid + multicloud",
+    "Azure Database for PostgreSQL",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793817581,
+   "title": "Generally Available: Route maps for Azure Route Server",
+   "url": "https://azure.microsoft.com/updates?id=578966",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Se",
+   "status": "",
+   "tags": [
+    "Networking",
+    "Azure Route Server",
+    "Features"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793815783,
+   "title": "[In preview] Public Preview: Azure Firewall IPv6 now supports application rules",
+   "url": "https://azure.microsoft.com/updates?id=579507",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Networking",
+    "Security",
+    "Azure Firewall",
+    "Features",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793815200,
+   "title": "Bring your Fabric data into your next app with connectors",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-your-Fabric-data-into-your-next-app-with-connectors/ba-p/5377609",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Most business applications start with data that already exists. Customer orders may live in a Fabric SQL database. Inventory history may be in a Lakehouse. Sales performance may already be modeled in Power BI. The opportunity is not to move that data again,...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793812431,
+   "title": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+   "url": "https://azure.microsoft.com/updates?id=579162",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Storage",
+    "Compute",
+    "Azure Disk Storage",
+    "Virtual Machines",
+    "Compliance",
+    "Management",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793808626,
+   "title": "Salesforce Data 360 integration with OneLake (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Salesforce-Data-360-integration-with-OneLake-Preview/ba-p/5384626",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "A customer reports a missing delivery. The service case is in Salesforce, while the shipping and returns records are in Microsoft Fabric. Before a team can decide what to do next, it needs to connect those two views of the same customer experience. For many...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-11-04",
    "ts": 1793750529,
@@ -1844,32 +2146,6 @@
   },
   {
    "date": "2026-10-29",
-   "ts": 1793298011,
-   "title": "Manage once, reuse everywhere: Introducing variable library support for Eventstream (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-once-reuse-everywhere-Introducing-variable-library/ba-p/5377349",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Moving a real-time data pipeline from development to test to production should not mean reconfiguring every source and destination. Yet environment-specific connection details and destination references can make each release a manual, error-prone task....",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793296138,
-   "title": "Bringing Rust-native Spark compatibility to Microsoft OneLake with Sail and LakeSail",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bringing-Rust-native-Spark-compatibility-to-Microsoft-OneLake/ba-p/5377595",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Coauthor: Shehab Amin Microsoft OneLake gives every Microsoft Fabric tenant a single, unified data lake built on open formats. One copy of data, many engines: that is the promise, and it is what makes OneLake such a strong foundation for analytics and AI...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-29",
    "ts": 1793293789,
    "title": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
    "url": "https://azure.microsoft.com/updates?id=578681",
@@ -1907,19 +2183,6 @@
     "Features",
     "SDK and Tools"
    ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793293200,
-   "title": "Access versioned lakeFS data from Microsoft Fabric with Microsoft OneLake shortcuts",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Access-versioned-lakeFS-data-from-Microsoft-Fabric-with/ba-p/5377386",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Coauthor: Iddo Avneri (Treeverse)&nbsp; Use a live branch for up-to-date analytics or pin a shortcut to an immutable commit when reproducibility matters. &nbsp; Data teams often need two seemingly conflicting things: immediate access to the latest data and...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-29",
@@ -2003,21 +2266,6 @@
    "tags": [
     "Uncategorized"
    ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793289324,
-   "title": "Introducing the data engineering agent for Fabric (Project Osmos)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Introducing-the-data-engineering-agent-for-Fabric-Project-Osmos/ba-p/5377944",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "AI coding assistants are excellent at turning natural-language transformation instructions into code. For data engineers, the harder question is whether that code produces results they can trust. You can describe transformation logic in natural language, and...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-29",
@@ -2238,19 +2486,6 @@
   },
   {
    "date": "2026-10-28",
-   "ts": 1793216839,
-   "title": "Govern your Microsoft Fabric data estate from one place with the OneLake catalog and Govern Skills (Generally Available)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-your-Microsoft-Fabric-data-estate-from-one-place-with-the/ba-p/5377369",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "The Govern experience in the OneLake catalog is now generally available, providing centralized governance capabilities for tenants, domains, capacities, workspaces, tags, and policies in Microsoft Fabric. Govern Skills are also now available in the Skills for...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-28",
    "ts": 1793209971,
    "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
    "url": "https://azure.microsoft.com/updates?id=577689",
@@ -2307,19 +2542,6 @@
     "Security",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793206800,
-   "title": "More ways to use scalar UDFs in Microsoft Fabric Data Warehouse (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/More-ways-to-use-scalar-UDFs-in-Microsoft-Fabric-Data-Warehouse/ba-p/5376708",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Scalar user-defined functions (UDFs) let data teams define a business rule once and reuse it across workloads in both Warehouse and the SQL analytics endpoint in Microsoft Fabric. This helps teams maintain consistent logic without duplicating it across...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-10-28",
@@ -3538,136 +3760,6 @@
   },
   {
    "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Microsoft Teams: Explicit consent for recording & transcription in one-to-one PSTN calls",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577543",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Microsoft Teams will support explicit consent for participants connected through the public switched telephone network (PSTN) in one-to-one calls. When explicit consent is required, PSTN participants will hear an audio prompt when recording or transcription...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Android",
-    "iOS",
-    "Mobile"
-   ]
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Microsoft Teams: Facilitator in GCC",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577401",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Facilitator is coming to Microsoft Teams meetings in GCC. The Facilitator agent can help capture notes in real time, answers questions about the meeting, and help keep the agenda and discussion on track. A Microsoft 365 Copilot license is required to use...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "GCC",
-    "Microsoft Teams",
-    "Desktop",
-    "Mac",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Power Apps: Expand model access and Maker Studio availability for generative pages via GitHub",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576285",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Connect your GitHub account to access additional model options for the built-in gen page coding agent directly in the generative page designer in Maker Studio. Makers can use the agent to create and refine generative pages without leaving the Power Apps...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Apps",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Power Apps: Use Power Platform connectors in generative pages",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576283",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Makers can bring data from Power Platform connectors into generative pages. After creating and authenticating a connection and adding a connection reference to the environment, you select the connector data and describe how the generated page should use it....",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "Power Apps",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Power Apps: Form fill assistance using speech as input in model-driven apps",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576281",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "We\u2019re expanding form fill assistance in Power Apps to use speech as a source, providing users a more natural way to fill forms. Users select the microphone icon, record their content, and the transcript is used as a source for the form entry. Recordings are...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Apps",
-    "Android",
-    "iOS",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792792767,
-   "title": "Planner: Custom Views for plans",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576275",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Custom views lets users save a custom view of a plan and return to it later without re-applying filters, sorting, grouping, and other view customizations. A team can reuse saved views for triage, prioritization, work tracking, and more. GA date: December...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Planner",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-23",
    "ts": 1792791294,
    "title": "AI that understands your business: Dataverse and Work IQ at PPCC 2026",
    "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/23/dataverse-and-workiq-ppcc-2026/",
@@ -3746,26 +3838,6 @@
    "summary": "Discover how the new What\u2019s New experience in Dynamics 365 Contact Center helps admins find AI-powered capabilities, guidance, and updates where they already work.",
    "status": "",
    "tags": []
-  },
-  {
-   "date": "2026-10-23",
-   "ts": 1792713639,
-   "title": "Dynamics 365 Customer Insights - Journeys: Elevate customer experiences - Set message expirations to keep communication relevant",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577805",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Set an expiration date on any message in your journeys (emails, text messages, push notifications, or custom). Choose from different expiration options (no expiry, expiration based on a date and time, or a trigger). Review analytics to understand which...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Insights - Journeys",
-    "Web"
-   ]
   },
   {
    "date": "2026-10-22",
@@ -4627,6 +4699,7 @@
    "summary": "Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows.",
    "status": "",
    "tags": [
+    "Content Understanding Series",
     "Microsoft Foundry",
     "azure-ai",
     "confidence",
@@ -4758,6 +4831,7 @@
    "summary": "Learn how Azure Content Understanding prebuilt analyzers combine domain knowledge with grounding and confidence, and what Advanced Contextualization preview benchmarks show about quality, modeled cost, and latency.",
    "status": "",
    "tags": [
+    "Content Understanding Series",
     "Microsoft Foundry",
     "azure-ai",
     "content-understanding",
@@ -5073,6 +5147,7 @@
    "summary": "Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria.",
    "status": "",
    "tags": [
+    "Content Understanding Series",
     "Microsoft Foundry",
     "azure-ai",
     "content-understanding",
@@ -5760,6 +5835,7 @@
    "summary": "Learn why stronger AI models make trustworthy content extraction more important, how Azure Content Understanding and Azure Document Intelligence serve different needs, and what comes next.",
    "status": "",
    "tags": [
+    "Content Understanding Series",
     "Microsoft Foundry",
     "azure-ai",
     "content-understanding",
@@ -5894,85 +5970,6 @@
    "status": "In preview",
    "tags": [
     "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure Database for PostgreSQL",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790705611,
-   "title": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
-   "url": "https://azure.microsoft.com/updates?id=571867",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available. You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in data co",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790705475,
-   "title": "[In preview] Public Preview: Performance monitoring for Azure Arc\u2013enabled SQL Server",
-   "url": "https://azure.microsoft.com/updates?id=571904",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The built",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Hybrid + multicloud",
-    "Azure Arc",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790705111,
-   "title": "[Launched] Generally Available: Azure SQL updates for late-September 2026",
-   "url": "https://azure.microsoft.com/updates?id=571643",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "The following updates and enhancements were made to Azure SQL: Scale larger workloads on Azure SQL Database Hyperscale Premium series with new 160-vCore and 192-vCore options, delivering up to 50% greater compute capacity than the previ",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure SQL Database",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790704656,
-   "title": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
-   "url": "https://azure.microsoft.com/updates?id=571783",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Azure Database for PostgreSQL Flexible Server now supports cross-tenant customer-managed keys (CMK). You can encrypt your data using keys stored in an Azure Key Vault or Azure Managed HSM that resides in a different Microsoft Entra tenant than your Postgr",
-   "status": "Launched",
-   "tags": [
-    "Launched",
     "Databases",
     "Hybrid + multicloud",
     "Azure Database for PostgreSQL",
