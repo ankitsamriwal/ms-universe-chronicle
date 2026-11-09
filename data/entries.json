@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08 10:41 UTC",
+ "generated_at": "2026-11-09 11:51 UTC",
  "entries": [
   {
    "date": "2026-11-07",
@@ -308,6 +308,23 @@
   },
   {
    "date": "2026-11-06",
+   "ts": 1793991600,
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Cloud ERP for Product-Centric Enterprises",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Microsoft is named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Cloud ERP for Product-Centric Enterprises. Explore how Dynamics 365 helps manufacturers and distributors adapt operations with connected ERP, Copilot, and agents.",
+   "status": "",
+   "tags": [
+    "ERP"
+   ]
+  },
+  {
+   "date": "2026-11-06",
    "ts": 1793988311,
    "title": "Announcing new builds for 6 November 2026",
    "url": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/",
@@ -321,6 +338,21 @@
     "PC",
     "Windows Insider Program"
    ]
+  },
+  {
+   "date": "2026-11-06",
+   "ts": 1793986019,
+   "title": "Create and edit non-SPA Power Pages sites with Agentic Coding tools",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-and-edit-non-spa-power-pages-sites-with-agentic-coding-tools/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "We&#8217;re pleased to introduce preview support for Power Pages sites built with web templates and Liquid (non-SPA or traditional portals). With the Power Pages plugin for GitHub Copilot CLI and Claude Code, describe the site you want to create or edit. The...",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-11-06",
@@ -5904,22 +5936,6 @@
   },
   {
    "date": "2026-09-30",
-   "ts": 1790793289,
-   "title": "Adapt Dynamics 365 Commerce faster with AI-assisted extensibility",
-   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/30/adapt-dynamics-365-commerce-faster-with-ai-assisted-extensibility/",
-   "source": "Dynamics 365 blog",
-   "source_id": "d365_blog",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Dynamics 365 Commerce 10.0.49 introduces AI-powered extension skills that help developers translate business requirements into working commerce extensions faster. These skills bring first-party Commerce architecture knowledge into AI coding assistants,...",
-   "status": "",
-   "tags": [
-    "AI",
-    "Automation"
-   ]
-  },
-  {
-   "date": "2026-09-30",
    "ts": 1790792807,
    "title": "Retirement: NVv3-series Azure Virtual Machines",
    "url": "https://azure.microsoft.com/updates?id=573414",
@@ -6258,19 +6274,6 @@
    "family": "Power Platform & Fabric",
    "lenses": [],
    "summary": "Server Logic enables makers and developers to execute business logic securely on the server. However, connected business applications often need website experiences to participate in processes that extend beyond the site. We are introducing support for...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-09-17",
-   "ts": 1789657200,
-   "title": "What\u2019s new in Power Platform: September 2026 feature update",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-september-2026-feature-update/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Power Platform Build hands-on Power Platform and AI expertise with Power Series Developed by the Power CAT team, Power Series is now available with 20 hands-on labs that help customers, partners, and field teams build practical Power Platform and AI skills at...",
    "status": "",
    "tags": []
   },
