@@ -1,6 +1,164 @@
 {
- "generated_at": "2026-11-09 12:00 UTC",
+ "generated_at": "2026-11-10 11:37 UTC",
  "entries": [
+  {
+   "date": "2026-11-09",
+   "ts": 1794264601,
+   "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+   "url": "https://azure.microsoft.com/updates?id=575106",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Support for . NET 8 and . NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to . NET 10 by that date. Your apps will continue to operate, but security updates will no longer be provided and support for . NET 8 and . NET 9 on Az",
+   "status": "",
+   "tags": [
+    "Compute",
+    "Web",
+    "Static Web Apps",
+    "Retirements"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794259920,
+   "title": "Securing and governing your medallion layers in Fabric Data Warehouse",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Securing-and-governing-your-medallion-layers-in-Fabric-Data/ba-p/5377539",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Coauthor - Artur Vieira Part 4 of a series on medallion architecture with Fabric Data Warehouse. Security should follow the layers, not fight them. In Part 1 we chose the pattern, in Part 2 we built the layers, and in Part 3 we covered the operating practices...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794255451,
+   "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Agents",
+    "Security happenings"
+   ],
+   "summary": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three...",
+   "status": "",
+   "tags": [
+    "Frontier AI models",
+    "Vulnerability"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794254640,
+   "title": "When one pass isn\u2019t enough: agentic mode in Azure Content Understanding",
+   "url": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding/",
+   "source": "Microsoft Foundry blog",
+   "source_id": "foundry_blog",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. \u201cSome books are to be tasted, others to be swallowed, and some few to be chewed and...",
+   "status": "",
+   "tags": [
+    "Content Understanding Series"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794254056,
+   "title": "Bring insights and action together with Fabric Apps in Org apps",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-insights-and-action-together-with-Fabric-Apps-in-Org-apps/ba-p/5377690",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "&nbsp; Business users move from understanding what happened, to investigating why, to acting. Microsoft Fabric can bring that journey together.&nbsp; Fabric Apps provide purpose-built, data-driven experiences when users need more than a report. Org apps...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794244857,
+   "title": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+   "url": "https://azure.microsoft.com/updates?id=579854",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794243600,
+   "title": "Unifying SQL Pools: Upcoming changes to UI and APIs",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Unifying-SQL-Pools-Upcoming-changes-to-UI-and-APIs/ba-p/5397390",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "SQL pools are Fabric Data Warehouse\u2019s built-in workload management capability. They help administrators organize workloads and control how compute resources are allocated across them. SQL pool configurations are represented differently depending on whether a...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794243305,
+   "title": "Shop faster and save money with built-in tools in Microsoft Edge",
+   "url": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
+   "source": "Windows blog",
+   "source_id": "windows_blog",
+   "family": "Windows & Devices",
+   "lenses": [],
+   "summary": "It's 11 p.m. Fifteen tabs are open, the reviews don't agree, and you've checked the price three times. Then, just when you think you're done, a promo code box appears with a code you don't have. So, you keep shopping, long past the point you wanted t",
+   "status": "",
+   "tags": [
+    "Uncategorized"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794240063,
+   "title": "Do AI coding agents care about SemVer?",
+   "url": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
+   "source": "Microsoft DevBlogs",
+   "source_id": "devblogs",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "We gave AI coding agents the same breaking upgrade twice. Labeled 2.0.0, Claude Sonnet 5.5 checked it in all 10 runs. Labeled 1.4.3, it checked in two and often left the app broken. Nearly 1,000 runs show which agents still read your version numbers, and what...",
+   "status": "",
+   "tags": [
+    "AI",
+    "Agent Experience",
+    "AX"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794239935,
+   "title": "A Leader in Data Integration\u2014six years running",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/A-Leader-in-Data-Integration-six-years-running/ba-p/5400776",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Microsoft is a&nbsp;Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Data Integration Tools For the sixth consecutive year, Microsoft has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Data Integration Tools\u2014and this year, the story isn't just...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-11-07",
    "ts": 1794019474,
@@ -1380,6 +1538,19 @@
   {
    "date": "2026-11-04",
    "ts": 1793808000,
+   "title": "Share data and context across organizations with IQ Share (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Share-data-and-context-across-organizations-with-IQ-Share/ba-p/5378764",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The data needed to answer a business question rarely belongs to one organization. Enterprises depend on suppliers, software providers, research partners, and customers for information that complement their own. Yet getting that data into their workflow often...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-04",
+   "ts": 1793808000,
    "title": "Predicting and detecting failures: How Azure strengthens reliability for mission-critical workloads",
    "url": "https://azure.microsoft.com/en-us/blog/predicting-and-detecting-failures-how-azure-strengthens-reliability-for-mission-critical-workloads/",
    "source": "Azure blog",
@@ -1393,19 +1564,6 @@
     "Advancing reliability",
     "Azure HPC"
    ]
-  },
-  {
-   "date": "2026-11-04",
-   "ts": 1793808000,
-   "title": "Share data and context across organizations with IQ Share (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Share-data-and-context-across-organizations-with-IQ-Share/ba-p/5378764",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "The data needed to answer a business question rarely belongs to one organization. Enterprises depend on suppliers, software providers, research partners, and customers for information that complement their own. Yet getting that data into their workflow often...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-11-04",
@@ -2209,19 +2367,6 @@
   },
   {
    "date": "2026-11-03",
-   "ts": 1793736000,
-   "title": "Announcing support for Materialized views and streaming tables in Mirrored Azure Databricks catalog",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Announcing-support-for-Materialized-views-and-streaming-tables/ba-p/5377928",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Access more Unity Catalog objects through the existing mirrored catalog experience in Microsoft Fabric We are expanding Mirrored Azure Databricks catalogs in Microsoft Fabric to support materialized views and streaming tables alongside tables. These objects...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-11-03",
    "ts": 1793730972,
    "title": "[In preview] Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
    "url": "https://azure.microsoft.com/updates?id=579305",
@@ -2258,34 +2403,6 @@
     "Azure Site Recovery",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-11-03",
-   "ts": 1793728800,
-   "title": "Adding the Context Streaming Events Need: Reference Data Joins with OneLake Delta Tables in Fabric Eventstream",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Adding-the-Context-Streaming-Events-Need-Reference-Data-Joins/ba-p/5382230",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Enrich events with business context in real time, enabling faster decisions, more relevant alerts, and lower operational effort downstream.&nbsp; A real-time event tells you what happened. Context tells you what it means\u2014and what to do next. In cold-chain...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-11-03",
-   "ts": 1793728800,
-   "title": "OneLake: The file system for agent-first data engineering",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-The-file-system-for-agent-first-data-engineering/ba-p/5383035",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Software engineers are increasingly using agents to build software, and data engineers are no different. We want OneLake to help enable data engineers to develop software in this new agent-first era. Think about how you work in a terminal: you use it to run...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-11-03",
@@ -2337,19 +2454,6 @@
     "Gartner Magic Quadrant",
     "Microsoft Agent 365"
    ]
-  },
-  {
-   "date": "2026-11-03",
-   "ts": 1793725200,
-   "title": "Modernize data integration strategy with Microsoft Fabric when using Snowflake and Databricks",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Modernize-data-integration-strategy-with-Microsoft-Fabric-when/ba-p/5377581",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Challenges solved by Microsoft Fabric Microsoft Fabric is an end-to-end analytics platform that brings together data integration, data engineering, warehousing, real-time analytics, business intelligence, and AI-related experiences. It has grown tremendously...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-11-03",
@@ -4425,25 +4529,6 @@
   },
   {
    "date": "2026-10-21",
-   "ts": 1792607035,
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Agents",
-    "DevSecOps",
-    "Security happenings"
-   ],
-   "summary": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.",
-   "status": "",
-   "tags": [
-    "Supply chain attack"
-   ]
-  },
-  {
-   "date": "2026-10-21",
    "ts": 1792604312,
    "title": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
    "url": "https://azure.microsoft.com/updates?id=577273",
@@ -5510,22 +5595,6 @@
   },
   {
    "date": "2026-10-07",
-   "ts": 1791396617,
-   "title": "Announcing new builds for 7 October 2026",
-   "url": "https://blogs.windows.com/windows-insider/2026/10/07/announcing-new-builds-for-7-october-2026/",
-   "source": "Windows blog",
-   "source_id": "windows_blog",
-   "family": "Windows & Devices",
-   "lenses": [],
-   "summary": "Hello Windows Insiders, Today, we\u2019re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels! Coming straight off the back of our Windows + Surface event, we have some exciting new features entering the Windows Inside",
-   "status": "",
-   "tags": [
-    "PC",
-    "Windows Insider Program"
-   ]
-  },
-  {
-   "date": "2026-10-07",
    "ts": 1791396300,
    "title": "MAI-Code-1.1-Flash",
    "url": "https://microsoft.ai/models/mai-code-1-flash/",
@@ -6081,42 +6150,6 @@
     "Virtual Machines",
     "Pricing & Offerings",
     "Services"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790709479,
-   "title": "[In preview] Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
-   "url": "https://azure.microsoft.com/updates?id=571075",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Automatic Zone Placement for VM Scale Sets (Public Preview) enables Azure to automatically select the best availability zones for your scale set based on SKU availability, capacity, and placement requirements. Instead of manually maintaining zone lists fo",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Compute",
-    "Virtual Machines",
-    "Features"
-   ]
-  },
-  {
-   "date": "2026-09-29",
-   "ts": 1790708864,
-   "title": "[Launched] Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
-   "url": "https://azure.microsoft.com/updates?id=570696",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Azure Arc-enabled SQL Server is now available in Germany West Central, enabling you to connect SQL Server instances to Azure Arc and take advantage of Azure-based inventory, governance, security, assessment, and license management capabilities. Learn more",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "Feature"
    ]
   },
   {
