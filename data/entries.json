@@ -1,6 +1,343 @@
 {
- "generated_at": "2026-11-11 11:23 UTC",
+ "generated_at": "2026-11-12 11:43 UTC",
  "entries": [
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Dynamics 365 Customer Insights - Journeys: Create event experience that match your business structure by supporting leads, contacts, or both\u200b",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579982",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Align event registrations with the way your organization manages customer data. By supporting lead-based registration journeys and existing matching rules, you can avoid unnecessary Contact creation, improve data quality, and ensure event attendees follow the...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Power Automate: Direct triggers for desktop flows",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579975",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Desktop flows will support direct triggers, enabling automations to start in response to supported events without requiring an intermediary cloud flow. This simplifies automation design and reduces the effort required to connect desktop flows to business...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Desktop"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Power Automate: Credentials - Integration with Delinea secret server",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579974",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Power Automate will support Delinea Secret Server as an external credential provider for desktop flows. Organizations can securely use credentials managed in Delinea for machine sign-in and credential retrieval during attended and unattended automation. GA...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Power Automate",
+    "Desktop"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Dynamics 365 Customer Insights - Journeys: Send each message only once with deduplication for SMS and custom channels",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579903",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Deduplicates recipients by contact point, so each phone number or custom channel address gets the message once per send. Eliminates manual post-send clean-up, wasted messaging spend and the customer annoyance of duplicate texts. Brings SMS and custom channels...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Outlook: Copilot Chat Sheet UX Update for Mobile",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579897",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Copilot Chat in Outlook on iOS and Android is getting updated! You'll notice smoother animations, improved strings, and some small changes to the header, such as the new/temporary chat button being moved behind the ... button. GA date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Outlook",
+    "Android",
+    "iOS"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Microsoft Edge: Top sites in Edge search bar",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579193",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Adding easy access to top sites in Edge search bar on desktop. Users can add, edit, remove, or hide top sites. Admins can control available to this feature using the NewTabPageManagedQuickLinks and NewTabPageQuickLinksEnabled policies. GA date: January CY2027",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Edge",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Microsoft 365: [Education] Practice presentations with Speaker Coach in Learning Activities",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578880",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "In learning activities, students can rehearse presentations, receive feedback on their delivery, and practice again with targeted suggestions to improve clarity and confidence. #education GA date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Android",
+    "Desktop",
+    "iOS",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Dynamics 365 Finance: Submit only validated records to Dynamics 365 Finance",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578877",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The write to business rules engine configuration experience introduces an option to submit only records that have successfully passed Account structure validation. When enabled, Business Performance Planning filters the writeback dataset and submits only...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Dynamics 365 Customer Insights - Journeys: Build audiences faster with reusable segment templates",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578863",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Segment templates help you build audiences without recreating queries for each campaign. Choose a built-in template for common scenarios such as event attendance or email engagement, or save your own segment query as a reusable custom template. Add...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Customer Insights - Journeys",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Microsoft 365: [Education] Microsoft Learning Zone - Minecraft connected lessons",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577545",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Bring Minecraft Education to every classroom with AI-powered tools that match curriculum goals to Build Challenges, blend lessons with project-based learning, launch directly from Learning Zone, and give you full visibility into participation, completion, and...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365",
+    "Desktop",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Microsoft 365 admin center: Cross-Tenant Orchestrated Migration",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576273",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Cross-Tenant Orchestrated Migration for User Data Migration (UDM) and Shared Data Migration (SDM) allows customers to move their Microsoft 365 data from one Microsoft tenant to another. UDM includes the ability to move user mailboxes, OneDrive accounts, Teams...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft 365 admin center",
+    "Desktop",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794447300,
+   "title": "Dynamics 365 Project Operations: Archive project cost actuals with long-term retention",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573238",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Organizations managing high volumes of project transactions need to retain historical cost data without allowing years of completed transactions to continually increase the volume of active operational data. This capability enables organizations to archive...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794426597,
+   "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity.",
+   "status": "",
+   "tags": [
+    "Linux"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794421468,
+   "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+   "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+   "source": "Microsoft Foundry blog",
+   "source_id": "foundry_blog",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video workflows. This adds to the existing set of supported models like the GPT-5 series. To help customers...",
+   "status": "",
+   "tags": [
+    "Microsoft Foundry"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794421107,
+   "title": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+   "url": "https://azure.microsoft.com/updates?id=580155",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreadin",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Networking",
+    "Security",
+    "Azure Front Door",
+    "Web Application Firewall",
+    "Features"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794420000,
+   "title": "The next chapter for CI/CD in Fabric Warehouse (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/The-next-chapter-for-CI-CD-in-Fabric-Warehouse-Preview/ba-p/5401222",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "DevSecOps"
+   ],
+   "summary": "Building and operating a data warehouse is increasingly a software engineering discipline. Teams want to develop warehouse changes in isolation, version them in Git, review them through pull requests, promote them safely across environments, and automate the...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794416100,
+   "title": "Lessons from 59 Linux Kernel Bug Reports",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and...",
+   "status": "",
+   "tags": [
+    "Frontier AI models",
+    "Linux"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794399235,
+   "title": "Use OneLake as native storage for Azure Databricks (Preview)",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-OneLake-as-native-storage-for-Azure-Databricks-Preview/ba-p/5377939",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Organizations increasingly use Microsoft Fabric and Azure Databricks together so teams can choose the tools that best fit their data engineering, analytics, and AI workloads while working from a common data foundation. OneLake external-location support for...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-11-11",
    "ts": 1794360059,
@@ -467,6 +804,23 @@
    ]
   },
   {
+   "date": "2026-11-10",
+   "ts": 1794326400,
+   "title": "Microsoft is named a Leader in 2026 Gartner\u00ae Magic Quadrant\u2122 for CRM Customer Engagement Center",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/10/microsoft-is-named-a-leader-in-2026-gartner-magic-quadrant-for-crm-customer-engagement-center/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Microsoft is named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for CRM Customer Engagement Center. Explore how Dynamics 365 Customer Service is helping organizations scale agentic service and deliver connected customer experiences.",
+   "status": "",
+   "tags": [
+    "CRM"
+   ]
+  },
+  {
    "date": "2026-11-09",
    "ts": 1794264601,
    "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
@@ -641,6 +995,28 @@
    "tags": [
     "Credential theft",
     "Storm"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "ts": 1794006281,
+   "title": "Microsoft Teams: Facilitator follow-up mode",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566523",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [],
+   "summary": "Chat naturally with Facilitator without tagging it each time. GA date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Teams",
+    "Microsoft Copilot (Microsoft 365)",
+    "Android",
+    "Desktop",
+    "iOS"
    ]
   },
   {
@@ -873,26 +1249,6 @@
     "Microsoft Graph",
     "Work IQ",
     "Developer"
-   ]
-  },
-  {
-   "date": "2026-11-06",
-   "ts": 1794006281,
-   "title": "Microsoft Teams: Facilitator follow-up mode",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=566523",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [],
-   "summary": "Chat naturally with Facilitator without tagging it each time. GA date: December CY2026",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Teams",
-    "Microsoft Copilot (Microsoft 365)",
-    "Desktop"
    ]
   },
   {
@@ -1986,32 +2342,6 @@
     "Management",
     "Feature"
    ]
-  },
-  {
-   "date": "2026-11-04",
-   "ts": 1793808626,
-   "title": "Salesforce Data 360 integration with OneLake (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Salesforce-Data-360-integration-with-OneLake-Preview/ba-p/5384626",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "A customer reports a missing delivery. The service case is in Salesforce, while the shipping and returns records are in Microsoft Fabric. Before a team can decide what to do next, it needs to connect those two views of the same customer experience. For many...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-11-04",
-   "ts": 1793808000,
-   "title": "Share data and context across organizations with IQ Share (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Share-data-and-context-across-organizations-with-IQ-Share/ba-p/5378764",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "The data needed to answer a business question rarely belongs to one organization. Enterprises depend on suppliers, software providers, research partners, and customers for information that complement their own. Yet getting that data into their workflow often...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-11-04",
@@ -3749,69 +4079,6 @@
   },
   {
    "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Microsoft Contact Center Intelligence: Biometric authentication",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575280",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and enable secure...",
-   "status": "General Availability",
-   "tags": [
-    "Rolling out",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Contact Center Intelligence",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Customer Service: Shared analytics foundation for historical reporting",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574114",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Business Central: Expense Agent - Create expenses from credit card feeds",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573256",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Expense Agent now supports creating expenses from imported credit card transaction feeds or automatically reconcile with them if the expense was created earlier. Key capabilities include: Import credit card transaction data and review it in the web and mobile...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
    "ts": 1793308792,
    "title": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
    "url": "https://azure.microsoft.com/updates?id=578850",
@@ -3901,21 +4168,6 @@
   {
    "date": "2026-10-29",
    "ts": 1793289600,
-   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793289600,
    "title": "Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance",
    "url": "https://azure.microsoft.com/en-us/blog/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance/",
    "source": "Azure blog",
@@ -3963,192 +4215,6 @@
    "tags": [
     "AI",
     "Microsoft Dataverse"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576606",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Project Operations: Analyze project plans with what-if scenarios",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577864",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "What if scenario modeling enables you to simulate changes to a project plan and evaluate their impact before committing to them. Available for both Project Operations core and Project Operations connect with ERP deployment types, this capability can be...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Microsoft Contact Center AI: Insights and quality",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575290",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Gain visibility into AI interactions, conversation trends, and customer engagement\u200b Measure self-service effectiveness through containment, escalations, transfers, and resolution outcomes\u200b Monitor operational health and proactively identify customer...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Contact Center Intelligence",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575278",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [],
-   "summary": "Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based approach. The Universal...",
-   "status": "General Availability",
-   "tags": [
-    "Rolling out",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Contact Center Intelligence",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Microsoft Contact Center Intelligence: Tools",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575274",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Tools are building blocks that let your agent interact with external systems. Tools expand what your agent can do, and your agent can perform various actions in response to user requests or autonomous triggers. Each tool represents a specific capability that...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Contact Center Intelligence",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Contact Center: Reroute conversations to the right queue automatically",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=575272",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Service representatives can reroute a live voice or messaging conversation when they realize they aren't the right person to help. The representative updates the conversation details, or the details of a linked case, contact, or account, and then selects...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Contact Center: Historical analytics",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574113",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared analytics foundation with...",
-   "status": "General Availability",
-   "tags": [
-    "Rolling out",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Customer Service: Shared analytics for historical reporting",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=574112",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based...",
-   "status": "General Availability",
-   "tags": [
-    "Rolling out",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "ts": 1793228671,
-   "title": "Dynamics 365 Business Central: Expense Agent mobile app",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573265",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "The Expense Agent mobile app for Dynamics 365 Business Central extends expense capture to iOS and Android mobile devices by enabling employees to submit receipts directly from their phone or using native share functionality. Employees can take a photo of a...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Android",
-    "iOS"
    ]
   },
   {
@@ -4303,22 +4369,6 @@
    ]
   },
   {
-   "date": "2026-10-28",
-   "ts": 1793203200,
-   "title": "The CISO\u2019s evolving role: Protecting and defending in the agentic era",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Agents",
-    "Security happenings"
-   ],
-   "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach...",
-   "status": "",
-   "tags": []
-  },
-  {
    "date": "2026-10-27",
    "ts": 1793135812,
    "title": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
@@ -4391,6 +4441,21 @@
     "Features",
     "Security"
    ]
+  },
+  {
+   "date": "2026-10-27",
+   "ts": 1793113800,
+   "title": "Continue reading: MAI Image 2.7 debuts above GPT Image 2.5 Flare on Artificial Analysis and #3 on Arena",
+   "url": "https://microsoft.ai/news/mai-image-2-7-debut/",
+   "source": "Microsoft AI news",
+   "source_id": "mai_news",
+   "family": "AI & Copilot",
+   "lenses": [
+    "MAI models"
+   ],
+   "summary": "",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-10-27",
@@ -6025,21 +6090,6 @@
    ]
   },
   {
-   "date": "2026-10-02",
-   "ts": 1790954514,
-   "title": "From live streaming to real-time action: Real-time streaming analytics in Microsoft Dynamics 365 Contact Center",
-   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/02/real-time-streaming-analytics-in-dynamics-365-contact-cente/",
-   "source": "Dynamics 365 blog",
-   "source_id": "d365_blog",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "What if supervisors could act on operational issues before customers feel the impact? New real-time streaming analytics in Dynamics 365 Contact Center provide live insights into queues, conversations, and workforce performance, helping teams move from...",
-   "status": "",
-   "tags": [
-    "AI"
-   ]
-  },
-  {
    "date": "2026-10-01",
    "ts": 1790874175,
    "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
@@ -6119,23 +6169,6 @@
    "family": "Azure",
    "lenses": [],
    "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs. Any remaining NVv3-series VMs will be",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Virtual Machines",
-    "Retirements"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "ts": 1790792641,
-   "title": "Retirement: NVv4-series Azure Virtual Machines",
-   "url": "https://azure.microsoft.com/updates?id=573415",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series",
    "status": "",
    "tags": [
     "Compute",
@@ -6356,26 +6389,6 @@
    "tags": [
     "Microsoft Foundry",
     "dev-tools"
-   ]
-  },
-  {
-   "date": "2026-09-10",
-   "ts": 1789063722,
-   "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
-   "url": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
-   "source": "Microsoft Foundry blog",
-   "source_id": "foundry_blog",
-   "family": "AI & Copilot",
-   "lenses": [],
-   "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists.",
-   "status": "",
-   "tags": [
-    "Microsoft Foundry",
-    "azure-ai-speech",
-    "llm-speech",
-    "multilingual-speech",
-    "phrase-lists",
-    "speech-to-text"
    ]
   },
   {
