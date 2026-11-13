@@ -1,6 +1,156 @@
 {
- "generated_at": "2026-11-12 11:43 UTC",
+ "generated_at": "2026-11-13 11:26 UTC",
  "entries": [
+  {
+   "date": "2026-11-13",
+   "ts": 1794556905,
+   "title": "Use OneLake as native storage for Azure Databricks",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Use-OneLake-as-native-storage-for-Azure-Databricks/ba-p/5377939",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Organizations increasingly use Microsoft Fabric and Azure Databricks together so teams can choose the tools that best fit their data engineering, analytics, and AI workloads while working from a common data foundation. OneLake external-location support for...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794529216,
+   "title": "GitHub availability report: October 2026",
+   "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services.",
+   "status": "",
+   "tags": [
+    "Company news",
+    "News & insights",
+    "GitHub Availability Report"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794524092,
+   "title": "Build once, run on any agent: A practical guide to agent skills",
+   "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+   "status": "",
+   "tags": [
+    "AI & ML",
+    "GitHub Copilot",
+    "GitHub Universe"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794522997,
+   "title": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
+   "url": "https://azure.microsoft.com/updates?id=577673",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before requests reach your APIs or web applications, helping you cen",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Networking",
+    "Security",
+    "Azure Front Door",
+    "Features",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794522455,
+   "title": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+   "url": "https://azure.microsoft.com/updates?id=577678",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Security & Identity",
+   "lenses": [],
+   "summary": "Mutual TLS (mTLS), also known as client certificate authentication, is now generally available on Azure Front Door Premium. Use X.509 client certificates to help protect sensitive applications and APIs in business-to-business, Internet of Things, financia",
+   "status": "Launched",
+   "tags": [
+    "Launched",
+    "Networking",
+    "Security",
+    "Azure Front Door",
+    "Features",
+    "Security"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794507832,
+   "title": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+   "url": "https://azure.microsoft.com/updates?id=578207",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "AIOps"
+   ],
+   "summary": "Auto scaling introduces a per-workspace capability in Azure Monitor Workspace (AMW) to automatically scale ingestion limits based on observed usage patterns. When enabled, the system dynamically adjusts ingestion limits (quota ceiling) to maintain healthy",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Compute",
+    "Containers",
+    "DevOps",
+    "Management and governance",
+    "Azure Kubernetes Service (AKS)",
+    "Azure Monitor",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794502800,
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.",
+   "status": "",
+   "tags": [
+    "Supply chain attack"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "ts": 1794502780,
+   "title": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+   "url": "https://azure.microsoft.com/updates?id=574158",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "AIOps"
+   ],
+   "summary": "The public preview of Microsoft-managed performance monitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance workloads often rely on custom scripts and disconnected monitoring tools. This requ",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Databases",
+    "Azure SQL Managed Instance",
+    "Feature"
+   ]
+  },
   {
    "date": "2026-11-12",
    "ts": 1794447300,
@@ -260,7 +410,7 @@
   {
    "date": "2026-11-11",
    "ts": 1794421468,
-   "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+   "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
    "url": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
    "source": "Microsoft Foundry blog",
    "source_id": "foundry_blog",
@@ -304,6 +454,19 @@
     "DevSecOps"
    ],
    "summary": "Building and operating a data warehouse is increasingly a software engineering discipline. Teams want to develop warehouse changes in isolation, version them in Git, review them through pull requests, promote them safely across environments, and automate the...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-11",
+   "ts": 1794416400,
+   "title": "Act faster: hourly alerts for your critical flows, apps, and agents",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/11/act-faster-hourly-alerts-for-your-critical-flows-apps-and-agents/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Spot performance and reliability issues sooner with hourly alerts in Monitor. By checking supported health metrics hourly instead of daily, these alerts help your team identify issues across apps, flows, and agents\u2014and respond faster when thresholds are...",
    "status": "",
    "tags": []
   },
@@ -805,6 +968,19 @@
   },
   {
    "date": "2026-11-10",
+   "ts": 1794326437,
+   "title": "What\u2019s new in Power Platform: October/November 2026 feature update",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-october-2026-feature-update/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Power Apps Public preview: Build flexible file experiences with modern attachments The new modern attachments control gives makers a Fluent file experience that works inside forms or as a standalone control on a canvas.",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-10",
    "ts": 1794326400,
    "title": "Microsoft is named a Leader in 2026 Gartner\u00ae Magic Quadrant\u2122 for CRM Customer Engagement Center",
    "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/10/microsoft-is-named-a-leader-in-2026-gartner-magic-quadrant-for-crm-customer-engagement-center/",
@@ -975,6 +1151,19 @@
    "family": "Power Platform & Fabric",
    "lenses": [],
    "summary": "Microsoft is a&nbsp;Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Data Integration Tools For the sixth consecutive year, Microsoft has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Data Integration Tools\u2014and this year, the story isn't just...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-09",
+   "ts": 1794239670,
+   "title": "New Authentication Governance Controls in Power Pages",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/new-authentication-governance-controls-in-power-pages/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "We&#8217;re excited to announce the public preview of new authentication governance controls in Power Pages. Administrators can now allow or block individual authentication protocols, supported OAuth 2.0 identity providers, and local authentication from the...",
    "status": "",
    "tags": []
   },
@@ -1935,27 +2124,6 @@
   {
    "date": "2026-11-05",
    "ts": 1793894400,
-   "title": "Email threat landscape: Q3 2026 trends and insights",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July \u2013 September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service...",
-   "status": "",
-   "tags": [
-    "Credential theft",
-    "Malware",
-    "Phishing",
-    "Social engineering",
-    "Vishing"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "ts": 1793894400,
    "title": "Accessibility statements now have a home on GitHub",
    "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
    "source": "GitHub blog",
@@ -1972,6 +2140,27 @@
     "maintainers",
     "open source",
     "repositories"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "ts": 1793894400,
+   "title": "Email threat landscape: Q3 2026 trends and insights",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July \u2013 September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service...",
+   "status": "",
+   "tags": [
+    "Credential theft",
+    "Malware",
+    "Phishing",
+    "Social engineering",
+    "Vishing"
    ]
   },
   {
@@ -2305,19 +2494,6 @@
     "Features",
     "Security"
    ]
-  },
-  {
-   "date": "2026-11-04",
-   "ts": 1793815200,
-   "title": "Bring your Fabric data into your next app with connectors",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Bring-your-Fabric-data-into-your-next-app-with-connectors/ba-p/5377609",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Most business applications start with data that already exists. Customer orders may live in a Fabric SQL database. Inventory history may be in a Lakehouse. Sales performance may already be modeled in Power BI. The opportunity is not to move that data again,...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-11-04",
@@ -3720,19 +3896,6 @@
   {
    "date": "2026-11-02",
    "ts": 1793635200,
-   "title": "Build Asset-as-a-Service models with Rental Management in Dynamics 365",
-   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/02/build-asset-as-a-service-models-with-rental-management-in-dynamics-365/",
-   "source": "Dynamics 365 blog",
-   "source_id": "d365_blog",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Explore how Rental Management in Dynamics 365 can help equipment businesses support Asset-as-a-Service models by connecting rental, service, sales, and finance on a shared ERP foundation.",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-11-02",
-   "ts": 1793635200,
    "title": "Dataverse goes where you build: Copilot Cowork, coding agents and n8n",
    "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/02/dataverse-for-coding-agents-n8n-copilot-cowork/",
    "source": "Power Platform blog",
@@ -3742,6 +3905,19 @@
     "Agents"
    ],
    "summary": "The Dataverse plugin and native integrations now reach Copilot Cowork, GitHub Copilot, Claude, Codex and ChatGPT, Cursor, Gemini CLI, Google Antigravity and n8n, so developers and makers get the same trusted business data and guardrails in the tools they...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-02",
+   "ts": 1793635200,
+   "title": "Build Asset-as-a-Service models with Rental Management in Dynamics 365",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/02/build-asset-as-a-service-models-with-rental-management-in-dynamics-365/",
+   "source": "Dynamics 365 blog",
+   "source_id": "d365_blog",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Explore how Rental Management in Dynamics 365 can help equipment businesses support Asset-as-a-Service models by connecting rental, service, sales, and finance on a shared ERP foundation.",
    "status": "",
    "tags": []
   },
@@ -4145,25 +4321,6 @@
    "summary": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year\u2019s event.",
    "status": "",
    "tags": []
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793289600,
-   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we\u2019ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks...",
-   "status": "",
-   "tags": [
-    "Sapphire Sleet",
-    "Sleet",
-    "Social engineering"
-   ]
   },
   {
    "date": "2026-10-29",
@@ -5188,25 +5345,6 @@
   },
   {
    "date": "2026-10-15",
-   "ts": 1792087200,
-   "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-   "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
-   "source": "GitHub blog",
-   "source_id": "github_blog",
-   "family": "Developer",
-   "lenses": [],
-   "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories.",
-   "status": "",
-   "tags": [
-    "Engineering",
-    "Platform security",
-    "automation",
-    "engineering",
-    "GitHub Apps"
-   ]
-  },
-  {
-   "date": "2026-10-15",
    "ts": 1792085991,
    "title": "[Launched] Generally Available: Standard service endpoint",
    "url": "https://azure.microsoft.com/updates?id=571025",
@@ -5341,23 +5479,6 @@
    "status": "",
    "tags": [
     "PC"
-   ]
-  },
-  {
-   "date": "2026-10-14",
-   "ts": 1792008095,
-   "title": "GitHub availability report: September 2026",
-   "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
-   "source": "GitHub blog",
-   "source_id": "github_blog",
-   "family": "Developer",
-   "lenses": [],
-   "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services.",
-   "status": "",
-   "tags": [
-    "Company news",
-    "News & insights",
-    "GitHub Availability Report"
    ]
   },
   {
@@ -6071,44 +6192,6 @@
    ]
   },
   {
-   "date": "2026-10-02",
-   "ts": 1790962521,
-   "title": "[In preview] Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
-   "url": "https://azure.microsoft.com/updates?id=571504",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Databases",
-    "Hybrid + multicloud",
-    "Azure Database for PostgreSQL",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "ts": 1790874175,
-   "title": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
-   "url": "https://azure.microsoft.com/updates?id=569592",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "On October 31, 2029, DCsv3 and DCdsv3-series Azure Linux, Windows and Dedicated Host virtual machines will be retired. After that date, they will no longer be available for use or purchase. Before October 31, 2029, migrate your workloads to one of the fo",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Linux Virtual Machines",
-    "Virtual Machines",
-    "Windows Virtual Machines",
-    "Retirements"
-   ]
-  },
-  {
    "date": "2026-10-01",
    "ts": 1790870364,
    "title": "MAI-Voice-2.1",
@@ -6137,44 +6220,6 @@
    "summary": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026.",
    "status": "",
    "tags": []
-  },
-  {
-   "date": "2026-09-30",
-   "ts": 1790802793,
-   "title": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
-   "url": "https://azure.microsoft.com/updates?id=571894",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [
-    "AIOps"
-   ],
-   "summary": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Compute",
-    "Databases",
-    "SQL Server on Azure Virtual Machines",
-    "Feature"
-   ]
-  },
-  {
-   "date": "2026-09-30",
-   "ts": 1790792807,
-   "title": "Retirement: NVv3-series Azure Virtual Machines",
-   "url": "https://azure.microsoft.com/updates?id=573414",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs. Any remaining NVv3-series VMs will be",
-   "status": "",
-   "tags": [
-    "Compute",
-    "Virtual Machines",
-    "Retirements"
-   ]
   },
   {
    "date": "2026-09-29",
@@ -6262,19 +6307,6 @@
    ]
   },
   {
-   "date": "2026-09-27",
-   "ts": 1790536110,
-   "title": "Simplify Site Governance with Self-Service Ownership Transfer in Power Pages",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/transfer-power-pages-site-ownership-with-self-service/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Every Power Pages site starts with an owner. Over time, however, organizations evolve &#8211; employees change roles, teams reorganize, projects move between departments, and responsibilities shift. While the people behind a site may change, the site itself...",
-   "status": "",
-   "tags": []
-  },
-  {
    "date": "2026-09-24",
    "ts": 1790272506,
    "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
@@ -6313,19 +6345,6 @@
    ]
   },
   {
-   "date": "2026-09-23",
-   "ts": 1790146212,
-   "title": "Modern List in Power Pages is now generally available",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Today, we&#8217;re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer...",
-   "status": "",
-   "tags": []
-  },
-  {
    "date": "2026-09-21",
    "ts": 1789977106,
    "title": "Knowledge cutoff is a poor proxy for model capability",
@@ -6341,19 +6360,6 @@
     "Agent Experience",
     "AX"
    ]
-  },
-  {
-   "date": "2026-09-18",
-   "ts": 1789742658,
-   "title": "Extend Server Logic with Power Automate Cloud Flows in Power Pages",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-server-logic-with-power-automate-cloud-flows-in-power-pages/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Server Logic enables makers and developers to execute business logic securely on the server. However, connected business applications often need website experiences to participate in processes that extend beyond the site. We are introducing support for...",
-   "status": "",
-   "tags": []
   },
   {
    "date": "2026-09-16",
