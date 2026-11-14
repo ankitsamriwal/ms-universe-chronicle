@@ -1,6 +1,326 @@
 {
- "generated_at": "2026-11-13 11:26 UTC",
+ "generated_at": "2026-11-14 10:49 UTC",
  "entries": [
+  {
+   "date": "2026-11-14",
+   "ts": 1794614816,
+   "title": "Dynamics 365 Project Operations: Enable caching of role prices when pricing estimates",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579917",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Project Operations calculates cost and sales estimates for resource assignments, including daily, time-phased estimates. These calculations can repeatedly use the same role-pricing information across assignments and dates. With this feature enabled, Project...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "ts": 1794614542,
+   "title": "Dynamics 365 Project Operations: Cancel actual from entry journals",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579915",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The Entry Journal Actual Cancellation feature enables users to cancel actuals created by confirming entry journals. Users select eligible actuals, review them in a system-generated correction journal, and confirm the journal to create reversing actuals. The...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Microsoft Teams: Chat for organizers and presenters in structured meetings and webinars in GCC High and DoD",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580452",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Organizers, co-organizers, and presenters can chat privately in a separate chat from attendees. This chat is available to access before, during, and after the event. GA date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "GCC High",
+    "DoD",
+    "Microsoft Teams",
+    "Desktop",
+    "Mac"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Dynamics 365 Business Central: Copilot and agents - Fill forms faster with Autofill - Auto paste",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579980",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Save time entering information into Business Central with Auto paste. Building on Autofill, Auto paste uses AI to identify relevant information from text or HTML copied to your clipboard and map it to the appropriate fields on a Business Central page....",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Business Central",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Dynamics 365 Project Operations: Enable multiple addresses for accounts",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579973",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Enable multiple addresses for customer accounts and use the appropriate invoice and delivery addresses across project quotations, project contracts, and project invoices. Users can select from existing customer addresses or create new addresses when needed....",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Power Apps: Use the modernized Personal settings experience",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579899",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The Personal settings experience in model-driven apps has been modernized with clearer organization, updated navigation, and a more consistent design. Users can select a button to return to the classic Personal settings experience if needed. Availability...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Power Apps",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Dynamics 365 Project Operations: Use item requirements from stocked material estimates",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578907",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Confirm demand on a stocked material estimate in Dataverse to create an item requirement in finance and operations. This connects material estimates to supply chain processes for procurement and proactive planning, rather than limiting them to materials...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794610878,
+   "title": "Dynamics 365 Finance: Build reports with Project to profit data model",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577854",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Project to Profit value chain mainly contains business processes: Govern projects Manage project contracts Manage project resources and schedule Manage project delivery Manage project financials Monitor and analyze project performance More info:...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794605504,
+   "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting.",
+   "status": "",
+   "tags": [
+    "Credential theft",
+    "Lateral movement",
+    "Malware",
+    "Vulnerability"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794599685,
+   "title": "Retirement: Azure Data Share will be retired on November 12, 2029",
+   "url": "https://azure.microsoft.com/updates?id=578818",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Azure Data Share will retire on November 12, 2029. Before that date, transition your data sharing workloads to Microsoft Fabric, which offers External data sharing, Cross tenant delegated shortcuts and IQ share or an appropriate data-source-specific shari",
+   "status": "",
+   "tags": [
+    "Analytics",
+    "Storage",
+    "Azure Data Share",
+    "Retirements"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794598659,
+   "title": "Microsoft Copilot (Microsoft 365): Discover and act on recommended lead and opportunity actions in Sales agent",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579977",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [
+    "AIOps",
+    "Agents"
+   ],
+   "summary": "Sellers can discover and act on lead and opportunity recommendations that are already prioritized for them in Sales agent. A single prioritized list helps sellers see what needs attention without monitoring each agent separately or prioritizing the actions...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Microsoft Copilot (Microsoft 365)",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794598659,
+   "title": "Dynamics 365 Project Operations: Subcontracting UI Improvement",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578908",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Some of the most commonly used business processes that project managers perform during subcontract management include the following tasks: Modify subcontract line Track subcontract usage Monitor billing progress for subcontracts Currently, project managers...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794598659,
+   "title": "Dynamics 365 Project Operations: Expense and material budget lines to have project end date as budget line end date during import",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577875",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Project managers frequently create budgets by importing material and expense estimates. Currently, the imported budget lines default the end date to the same value as the start date, requiring users to manually update each budget line to reflect the actual...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Project Operations",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794598659,
+   "title": "Dynamics 365 Commerce: Configure quick operations on the transaction screen",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577749",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Applies to : Point of Sale (Store Commerce) Setup : Store admin configures the control in the Commerce headquarters screen layout designer. You can add a new Quick Operations control to the transaction screen layout in the headquarters screen layout designer....",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Commerce",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794598659,
+   "title": "Dynamics 365 Finance: Enable Project and Item Requirement delivery address",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577400",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Enable Project and Item Requirement Delivery Address Management This feature extends delivery address capabilities within integrated Project Operations by introducing delivery address support on Project, Project Task, and Material Estimate records. Delivery...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Dynamics 365 Project Operations",
+    "Dynamics 365 Finance and Operations cross-app",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "ts": 1794593109,
+   "title": "Announcing new builds for 13 November 2026",
+   "url": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/",
+   "source": "Windows blog",
+   "source_id": "windows_blog",
+   "family": "Windows & Devices",
+   "lenses": [],
+   "summary": "Hello Windows Insiders, Today, we\u2019re releasing new Windows 11 Insider Preview builds to the Beta (26H1), Experimental (26H1) and Experimental (Future Platforms) channels only. We will provide updates on the regular Beta and Experimental channels n",
+   "status": "",
+   "tags": [
+    "PC",
+    "Windows Insider Program"
+   ]
+  },
   {
    "date": "2026-11-13",
    "ts": 1794556905,
@@ -2124,27 +2444,6 @@
   {
    "date": "2026-11-05",
    "ts": 1793894400,
-   "title": "Accessibility statements now have a home on GitHub",
-   "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
-   "source": "GitHub blog",
-   "source_id": "github_blog",
-   "family": "Developer",
-   "lenses": [],
-   "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.",
-   "status": "",
-   "tags": [
-    "Maintainers",
-    "Open Source",
-    "accessibility",
-    "community health files",
-    "maintainers",
-    "open source",
-    "repositories"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "ts": 1793894400,
    "title": "Email threat landscape: Q3 2026 trends and insights",
    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
    "source": "Microsoft Security blog",
@@ -2161,6 +2460,27 @@
     "Phishing",
     "Social engineering",
     "Vishing"
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "ts": 1793894400,
+   "title": "Accessibility statements now have a home on GitHub",
+   "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.",
+   "status": "",
+   "tags": [
+    "Maintainers",
+    "Open Source",
+    "accessibility",
+    "community health files",
+    "maintainers",
+    "open source",
+    "repositories"
    ]
   },
   {
@@ -3647,50 +3967,6 @@
    ]
   },
   {
-   "date": "2026-11-03",
-   "ts": 1793664851,
-   "title": "Dynamics 365 Field Service: Use AI recommendations for mobile offline profile configuration",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573243",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Business value Mobile offline profile design can affect first sync, ongoing sync cost, app responsiveness, and reliability. Administrators and makers often need to balance business data requirements with profile complexity, related data, and performance...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Field Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-03",
-   "ts": 1793664851,
-   "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573170",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Microsoft Copilot (Microsoft 365)",
-    "Microsoft 365 admin center",
-    "Web"
-   ]
-  },
-  {
    "date": "2026-11-02",
    "ts": 1793657153,
    "title": "Client-side threat detection: how Scareware blocker uncovered malicious notification abuse",
@@ -3958,112 +4234,6 @@
   },
   {
    "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578225",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Frontier is expanding to bring eligible public preview features across Microsoft 365 into one program. Users enrolled in Frontier can get eligible previews for new Outlook for Windows, OneDrive, SharePoint, Microsoft Teams, and Copilot, managed through a...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft 365",
-    "Android",
-    "Desktop",
-    "iOS",
-    "Mac"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Microsoft Copilot (Microsoft 365): [Education] Create multi-week unit plans with Teach",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577392",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education GA date: October CY2026",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Desktop",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Microsoft Teams: Activity in other accounts and orgs improvements",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577901",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Stay up-to-date with what's happening in your other accounts and organizations with the 'Activity in Other Accounts and Orgs' panel. Preview and open chats, channels, and other activity in other accounts and orgs from your main Teams window, without switching...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "GCC High",
-    "DoD",
-    "Microsoft Teams",
-    "Desktop"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Dynamics 365 Business Central: Sustainability Management - Add EUDR certification information",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=573251",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Record EUDR certification information for items under the EU Deforestation Regulation. Different lots of the same item can carry different certificates, origins and validity, it is stored on Lot No. Information, not on the item. An item is opted in with a...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Business Central",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "ts": 1793398114,
-   "title": "Microsoft Edge: Select Password from the context menu",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=570662",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Users can now manually access saved credentials when password suggestions don't appear automatically. When a user right-clicks a recognized username or password field, a new Select Password option appears in the context menu. This provides a reliable fallback...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Edge",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-30",
    "ts": 1793380587,
    "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
    "url": "https://azure.microsoft.com/updates?id=577491",
@@ -4099,21 +4269,6 @@
   },
   {
    "date": "2026-10-30",
-   "ts": 1793376704,
-   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos.",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-30",
    "ts": 1793364554,
    "title": "Does \u2018eval\u2019 in the workspace path change what your agent does?",
    "url": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
@@ -4129,128 +4284,6 @@
     "AI",
     "Agent Experience",
     "AX"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Supply Chain Management: Enable fulfillment optimization in Dynamics 365 Supply Chain Management",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577894",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Distributed order management (DOM) can now optimize fulfillment for standard sales orders in Dynamics 365 Supply Chain Management. Previously, DOM was available only for Dynamics 365 Commerce orders. Now you can use the same rules-based fulfillment engine to...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Supply Chain Management",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Supply Chain Management: Check margins when overriding prices in Unified pricing management",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577867",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Price override allows sales representatives to adjust the preset price of a product during a transaction\u2014typically for business purposes such as customer negotiations and retention. Previously, price override validation only enforced amount-based thresholds,...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Supply Chain Management",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Finance: Enhance positive pay file generation through batch processing",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577858",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature improves the scalability and performance of positive pay file generation by enabling the process to run as a background batch job. Organizations that generate large positive pay files can now offload processing from the interactive user session,...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Microsoft Copilot Studio: Copilot studio cost controls in MAC",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577834",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents",
-    "FinOps"
-   ],
-   "summary": "We\u2019re expanding cost management for Microsoft Copilot Studio into the Microsoft 365 admin center. This gives administrators a more centralized way to manage Copilot Credit spend across usage-based AI workloads while retaining Copilot Studio cost management...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft 365",
-    "Microsoft 365 admin center",
-    "Microsoft Copilot Studio",
-    "Microsoft Power Platform governance and administration",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Dynamics 365 Sustainability: Enhance external sustainability reporting",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577744",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "This feature delivers enhancements to the external reporting experience with an improved standards and assessments structure and enhanced search capabilities. Users can navigate standards, assessments, and concepts more efficiently, reducing time spent...",
-   "status": "Launched",
-   "tags": [
-    "Launched",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Sustainability",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "ts": 1793314860,
-   "title": "Microsoft Viva: Network analytics enhancements",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=576274",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Network analytics updates are rolling out in Microsoft Viva Engage, giving corporate communicators and network admins more flexibility to analyze activity and engagement across their organization. With this update, network analytics includes custom date...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Viva",
-    "Web"
    ]
   },
   {
@@ -5538,21 +5571,6 @@
   },
   {
    "date": "2026-10-14",
-   "ts": 1791997205,
-   "title": "Python 3.15 delivers a native-by-default experience on Windows on Arm",
-   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/14/python-3-15-delivers-native-by-default-experience-on-windows-arm/",
-   "source": "Windows blog",
-   "source_id": "windows_blog",
-   "family": "Windows & Devices",
-   "lenses": [],
-   "summary": "Windows on Arm has been ready for Python development for some time. With Python 3.15 , the broader ecosystem has matured significantly, with more package maintainers publishing native Arm64 wheels, allow",
-   "status": "",
-   "tags": [
-    "Windows Developers"
-   ]
-  },
-  {
-   "date": "2026-10-14",
    "ts": 1791992336,
    "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
    "url": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
@@ -6168,27 +6186,6 @@
     "Azure Backup",
     "Azure Database for PostgreSQL",
     "Feature"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "ts": 1791222101,
-   "title": "[In preview] Public Preview: IPv6 Support for Application Gateway WAF",
-   "url": "https://azure.microsoft.com/updates?id=573861",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [],
-   "summary": "Announcing the Public Preview of IPv6 support for Application Gateway WAF. Application Gateway Web Application Firewall (WAF) now supports inspection and enforcement for IPv6 traffic in Public Preview, marking a major step forward in modernizing the platfo",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Networking",
-    "Security",
-    "Application Gateway",
-    "Web Application Firewall",
-    "Features",
-    "Security"
    ]
   },
   {
