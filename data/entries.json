@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-11-15 11:24 UTC",
+ "generated_at": "2026-11-16 11:57 UTC",
  "entries": [
+  {
+   "date": "2026-11-15",
+   "ts": 1794781658,
+   "title": "Fabric Influencers Spotlight: October 2026",
+   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Influencers-Spotlight-October-2026/ba-p/5420043",
+   "source": "Fabric updates blog",
+   "source_id": "fabric_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "The October Fabric Influencers Spotlight brings together 46 posts, videos and tutorials from Microsoft MVPs, Fabric Super Users and community contributors, many of them inspired by the announcements at FabCon Barcelona. This month opens with a special look at...",
+   "status": "",
+   "tags": []
+  },
   {
    "date": "2026-11-14",
    "ts": 1794614816,
@@ -2743,19 +2756,6 @@
    "family": "Power Platform & Fabric",
    "lenses": [],
    "summary": "OneLake table APIs already let Iceberg-compatible engines discover and read tables in Microsoft Fabric. Today we're taking the next step with two additions: Iceberg REST Catalog (IRC) writes through the OneLake table endpoint, now available, and a new...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-11-04",
-   "ts": 1793818800,
-   "title": "Govern Fabric connections with admin APIs and data connection policies (Preview)",
-   "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Govern-Fabric-connections-with-admin-APIs-and-data-connection/ba-p/5383656",
-   "source": "Fabric updates blog",
-   "source_id": "fabric_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Co-author: Abhishek Narain Protect continuity, understand connection risk, and set tenant-wide guardrails&nbsp; Imagine that the person who built a business-critical pipeline has left your organization. The connection still exists, but nobody is sure who can...",
    "status": "",
    "tags": []
   },
