@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-16 11:57 UTC",
+ "generated_at": "2026-11-17 12:15 UTC",
  "entries": [
+  {
+   "date": "2026-11-17",
+   "ts": 1794874121,
+   "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide.",
+   "status": "",
+   "tags": [
+    "Credential theft",
+    "Incident Response",
+    "Phishing",
+    "Social engineering"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "ts": 1794866737,
+   "title": "Announcing new builds for 16 November 2026",
+   "url": "https://blogs.windows.com/windows-insider/2026/11/16/announcing-new-builds-for-16-november-2026/",
+   "source": "Windows blog",
+   "source_id": "windows_blog",
+   "family": "Windows & Devices",
+   "lenses": [],
+   "summary": "Hello Windows Insiders, Today, we\u2019re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta:",
+   "status": "",
+   "tags": [
+    "PC",
+    "Windows Insider Program"
+   ]
+  },
   {
    "date": "2026-11-15",
    "ts": 1794781658,
@@ -4215,24 +4251,6 @@
    ]
   },
   {
-   "date": "2026-10-31",
-   "ts": 1793408577,
-   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Microsoft analyzes a malicious Claude Code\u2013branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.",
-   "status": "",
-   "tags": [
-    "Frontier AI models",
-    "Supply chain attack"
-   ]
-  },
-  {
    "date": "2026-10-30",
    "ts": 1793380587,
    "title": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
@@ -5494,21 +5512,6 @@
    "family": "Windows & Devices",
    "lenses": [],
    "summary": "Every day, your PC helps you get things done, stay connected, capture ideas and make time for what you enjoy. That\u2019s why Windows 11 continues to evolve, starting with a faster, more dependable and refined experience. Thro",
-   "status": "",
-   "tags": [
-    "PC"
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "ts": 1792069211,
-   "title": "Incredible deals and more to love in a new Windows PC this holiday",
-   "url": "https://blogs.windows.com/windowsexperience/2026/10/15/incredible-deals-and-more-to-love-in-a-new-windows-pc-this-holiday/",
-   "source": "Windows blog",
-   "source_id": "windows_blog",
-   "family": "Windows & Devices",
-   "lenses": [],
-   "summary": "A new PC is a meaningful purchase. Whether you are upgrading a family laptop, shopping for a student, or someone who loves to create or game, you want your money to go further. The right PC should deliver value when you buy",
    "status": "",
    "tags": [
     "PC"
