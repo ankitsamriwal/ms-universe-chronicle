@@ -1,6 +1,29 @@
 {
- "generated_at": "2026-11-21 11:38 UTC",
+ "generated_at": "2026-11-22 11:52 UTC",
  "entries": [
+  {
+   "date": "2026-11-21",
+   "ts": 1795284741,
+   "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
+   "url": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
+   "source": "Microsoft Foundry blog",
+   "source_id": "foundry_blog",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "The five questions teams ask most when they run hosted agents in their own virtual network: which subnet is the agent subnet, why listing agents times out, why a TLS-inspecting firewall still breaks after you add your CA, how peered VNets and DNS fit, and why...",
+   "status": "",
+   "tags": [
+    "Microsoft Foundry",
+    "byo-vnet",
+    "dns",
+    "Foundry Agent Service",
+    "Hosted Agents",
+    "private-networking",
+    "tls-inspection"
+   ]
+  },
   {
    "date": "2026-11-21",
    "ts": 1795229745,
@@ -6214,25 +6237,6 @@
     "Hybrid + multicloud",
     "AI",
     "Microsoft Sovereign Cloud"
-   ]
-  },
-  {
-   "date": "2026-10-19",
-   "ts": 1792405933,
-   "title": "Browser automation tool in Microsoft Foundry is now GA",
-   "url": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
-   "source": "Microsoft Foundry blog",
-   "source_id": "foundry_blog",
-   "family": "AI & Copilot",
-   "lenses": [],
-   "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control.",
-   "status": "",
-   "tags": [
-    "Microsoft Foundry",
-    "agents",
-    "Browser Automation",
-    "mcp",
-    "playwright workspaces"
    ]
   },
   {
