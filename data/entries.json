@@ -1,6 +1,283 @@
 {
- "generated_at": "2026-11-25 13:23 UTC",
+ "generated_at": "2026-11-26 13:02 UTC",
  "entries": [
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Microsoft Power Platform governance and administration: Create and manage Filter-based Security filters in Power Platform Maker portal",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581895",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Power Platform & Fabric",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Admins and makers can create and manage filters for Filter-based Security through a simplified management experience. Filters define which Dataverse records users can access based on configurable conditions, helping organizations implement scalable,...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "GCC",
+    "GCC High",
+    "DoD",
+    "Microsoft Power Platform governance and administration",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Dynamics 365 Finance: Customer Transaction Form Enhancement",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581794",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Redesigning the Customer transaction form to improve the performance and include the Multiledger aspect GA date: March CY2027 Preview date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Dynamics 365 Finance: Finance explorer skill",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581793",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This provides the end-to-end traceability of document relationships across the order to cash. GA date: June CY2027 Preview date: March CY2027",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Dynamics 365 Finance: Enable Parameter-Based Configuration for Customer Prepayments",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581783",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "The Prepayment customer invoice feature can be enabled per legal entity/country region. GA date: December CY2026",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Dynamics 365 Finance: Explorer Skill",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581782",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "This feature provides the end-to-end traceability of document relationships across order to cash. GA date: June CY2027 Preview date: March CY2027",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Finance",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Dynamics 365 Human Resources: Simplify HR case management with employee self-service",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=581756",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Business Apps (D365)",
+   "lenses": [],
+   "summary": "Enable employees to conveniently create, manage, and track HR-related cases through the Employee Self-Service (ESS) experience in Dynamics 365 Human Resources. Employees can submit HR inquiries, report issues, and request assistance for scenarios related to...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "Dynamics 365 Human Resources",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Microsoft Teams: Open and collaborate on Pages in Teams",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580886",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "When someone shares a page in chat or a channel, you can open it in Teams, edit, and discuss with teammates. Open a page in your main Teams window or a new window, whichever works best for you. More info:...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Targeted Release",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "GCC High",
+    "DoD"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "ts": 1795652214,
+   "title": "Microsoft Viva: Access Management for Copilot Analytics",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578862",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "AI & Copilot",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators...",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Microsoft Viva",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795648460,
+   "title": "[In preview] Public Preview: ECMP Nexthop",
+   "url": "https://azure.microsoft.com/updates?id=582326",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [],
+   "summary": "Equal-Cost Multi-Path (ECMP) routing for Azure Virtual Network is now available in public preview, enabling customers to distribute traffic across multiple network appliances using a single user-defined route (UDR). Customers can configure 2 to 16 next-h",
+   "status": "In preview",
+   "tags": [
+    "In preview",
+    "Networking",
+    "Virtual Network",
+    "Management",
+    "Services",
+    "Feature"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795643610,
+   "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+   "url": "https://azure.microsoft.com/updates?id=568586",
+   "source": "Azure updates",
+   "source_id": "azure_updates",
+   "family": "Azure",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "Support for Java 8, 11 and 17 on Azure Functions is ending on September 1, 2027. Your apps that are hosted on Azure Functions will continue to run, but security updates will no longer be available, and we\u2019ll no longer provide customer service for Java 8,",
+   "status": "",
+   "tags": [
+    "Compute",
+    "Containers",
+    "Internet of Things",
+    "Azure Functions",
+    "Retirements"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795630146,
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Agents",
+    "Security happenings"
+   ],
+   "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential...",
+   "status": "",
+   "tags": []
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795626900,
+   "title": "Microsoft named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Email Security",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+   "source": "Microsoft Security blog",
+   "source_id": "security_blog",
+   "family": "Security & Identity",
+   "lenses": [
+    "Security happenings"
+   ],
+   "summary": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Email Security, for the second consecutive year.",
+   "status": "",
+   "tags": [
+    "Gartner Magic Quadrant"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795622400,
+   "title": "Art of play in the age of AI",
+   "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [],
+   "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.",
+   "status": "",
+   "tags": [
+    "Company news",
+    "News & insights",
+    "GitHub Shop"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795618800,
+   "title": "How to choose the next safe step in application modernization",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+   "source": "GitHub blog",
+   "source_id": "github_blog",
+   "family": "Developer",
+   "lenses": [
+    "Agents"
+   ],
+   "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.",
+   "status": "",
+   "tags": [
+    "AI & ML",
+    "GitHub Copilot",
+    "application modernization"
+   ]
+  },
   {
    "date": "2026-11-25",
    "ts": 1795607166,
@@ -21,6 +298,27 @@
   {
    "date": "2026-11-25",
    "ts": 1795565431,
+   "title": "Microsoft Teams: External bot detection and activity reports in Admin Center",
+   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=582050",
+   "source": "Microsoft 365 roadmap",
+   "source_id": "m365_roadmap",
+   "family": "Modern Work",
+   "lenses": [],
+   "summary": "Admins should be able to track the detection and meeting access activity of external bots in the meetings and events hosted in their tenant. GA date: February CY2027 Preview date: January CY2027",
+   "status": "In development",
+   "tags": [
+    "In development",
+    "General Availability",
+    "Preview",
+    "Worldwide (Standard Multi-Tenant)",
+    "GCC",
+    "Microsoft Teams",
+    "Web"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "ts": 1795565431,
    "title": "Microsoft Teams: Show your shared content on both room displays",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=582052",
    "source": "Microsoft 365 roadmap",
@@ -35,26 +333,6 @@
     "Worldwide (Standard Multi-Tenant)",
     "Microsoft Teams",
     "Android"
-   ]
-  },
-  {
-   "date": "2026-11-25",
-   "ts": 1795565431,
-   "title": "Microsoft Teams: External bot detection and activity reports in Admin Center",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=582050",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Admins should be able to track the detection and meeting access activity of external bots in the meetings and events hosted in their tenant. GA date: January CY2027",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "GCC",
-    "Microsoft Teams",
-    "Web"
    ]
   },
   {
@@ -523,6 +801,19 @@
     "Agent Experience",
     "AX"
    ]
+  },
+  {
+   "date": "2026-11-24",
+   "ts": 1795532400,
+   "title": "Now available: Cross-region Link to Fabric and Update connection",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/11/24/now-available-cross-region-link-to-fabric-and-update-connection/",
+   "source": "Power Platform blog",
+   "source_id": "powerplatform_blog",
+   "family": "Power Platform & Fabric",
+   "lenses": [],
+   "summary": "Link to Fabric helps customers bring Microsoft Dataverse data into Fabric without building and maintaining complex data pipelines. Today, we are announcing two updates that make creating and managing these links simpler and more resilient: \u2022 Cross-region Link...",
+   "status": "",
+   "tags": []
   },
   {
    "date": "2026-11-24",
@@ -3673,41 +3964,6 @@
   },
   {
    "date": "2026-11-17",
-   "ts": 1794945632,
-   "title": "[In preview] Public Preview: Sovereign Control Panel",
-   "url": "https://azure.microsoft.com/updates?id=581220",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Azure",
-   "lenses": [],
-   "summary": "Sovereign Control Panel is now available in Public Preview. Sovereign Control Panel is an Azure portal experience designed to help organizations assess and continuously monitor their sovereignty posture, understand the evidence behind identified gaps, and",
-   "status": "In preview",
-   "tags": [
-    "In preview",
-    "Features",
-    "Microsoft Ignite"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794945632,
-   "title": "[In development] Private Preview: Azure confidential VMs on 5th Gen AMD EPYC processors (DCasv7 and ECasv7 series)",
-   "url": "https://azure.microsoft.com/updates?id=581199",
-   "source": "Azure updates",
-   "source_id": "azure_updates",
-   "family": "Security & Identity",
-   "lenses": [],
-   "summary": "Azure's next-generation confidential VMs, the DCasv7, DCadsv7, DCalsv7, DCaldsv7, ECasv7 and ECadsv7 series, are now in private preview. Built on 5th Gen AMD EPYC processors with AMD SEV-SNP, they protect data while it's being processed by isolating each",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "Compute",
-    "Virtual Machines",
-    "Microsoft Ignite"
-   ]
-  },
-  {
-   "date": "2026-11-17",
    "ts": 1794945191,
    "title": "Dynamics 365 Project Operations: Enable handling of multiple eliminations in investment projects",
    "url": "https://www.microsoft.com/microsoft-365/roadmap?id=580872",
@@ -4479,173 +4735,6 @@
    "tags": [
     "In development",
     "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Power Automate: Desktop flow libraries",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579910",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "Power Automate will introduce desktop flow libraries, enabling makers to create and publish libraries with reusable automation building blocks (subflows) that can be used across multiple desktop flows. Makers can centralize commonly used automation logic in...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Automate",
-    "Desktop"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Power Automate: Bring Your Own Connection in attended/unattended cloud triggered runs",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579907",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [],
-   "summary": "This functionality allows you to bring your own connections in shared desktop flows that include connector operations and need to run in attended or unattended mode, eliminating the need for embedded connection references in cloud runs. GA date: March CY2027",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Automate",
-    "Desktop"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Power Automate: Self-healing",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579906",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Self-healing is an agentic feature that improves the resilience of desktop flows by recovering from UI or web automation failures. When an existing selector can no longer locate the intended UI element, Power Automate for desktop uses AI to identify the...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Power Automate",
-    "Desktop"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Microsoft Copilot (Microsoft 365): AI and Copilot Upskilling Nudges in Microsoft Teams by Learning Agent",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=579905",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "AI & Copilot",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "Learning Agent proactively delivers personalized AI and Copilot upskilling notifications through Microsoft Teams, helping users discover relevant learning opportunities in their flow of work. These notifications are tailored to users' roles, Copilot adoption...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Microsoft Copilot (Microsoft 365)",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Dynamics 365 Customer Service: Coaching and development",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578899",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [
-    "Agents",
-    "MLOps"
-   ],
-   "summary": "Coaching &amp; development extends the Quality Evaluation Agent from identifying quality gaps to closing them. It turns insights into scorecards, coaching and targeted training, then measures whether representatives improve. GA date: April CY2027 Preview...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Contact Center",
-    "Dynamics 365 Customer Service",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "SharePoint: Lists - Refreshed user experience",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=578879",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Modern Work",
-   "lenses": [],
-   "summary": "Microsoft is introducing a refreshed user experience for SharePoint Lists to make common actions easier to find, improve navigation, and provide greater visibility into views and active filters. The refreshed experience includes a reorganized command bar,...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Worldwide (Standard Multi-Tenant)",
-    "SharePoint",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Dynamics 365 Finance: Bulk update revenue recognition completion percentages",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577877",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Organizations that use the Manual Percentage Complete method for revenue recognition often need to update completion percentages across a large number of projects before posting revenue recognition. Prior to this feature, users had to open individual projects...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
-    "Worldwide (Standard Multi-Tenant)",
-    "Dynamics 365 Finance",
-    "Dynamics 365 Project Operations",
-    "Web"
-   ]
-  },
-  {
-   "date": "2026-11-17",
-   "ts": 1794940601,
-   "title": "Dynamics 365 Project Operations: Optimize Project Operations - enable estimate to complete and estimate at complete in project budgets",
-   "url": "https://www.microsoft.com/microsoft-365/roadmap?id=577873",
-   "source": "Microsoft 365 roadmap",
-   "source_id": "m365_roadmap",
-   "family": "Business Apps (D365)",
-   "lenses": [],
-   "summary": "Enable project managers to update and manage estimate to complete and estimate at complete values directly on project budget lines. This capability allows project managers to forecast the remaining effort and cost required to complete work while automatically...",
-   "status": "In development",
-   "tags": [
-    "In development",
-    "General Availability",
-    "Preview",
     "Worldwide (Standard Multi-Tenant)",
     "Dynamics 365 Project Operations",
     "Web"
@@ -5547,25 +5636,6 @@
   {
    "date": "2026-11-05",
    "ts": 1793898000,
-   "title": "\u200b\u200b\u200b\u200bWhat\u2019s new in Microsoft Security: November 2026",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Agents",
-    "Security happenings"
-   ],
-   "summary": "Microsoft Security\u2019s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management.",
-   "status": "",
-   "tags": [
-    "In the Loop",
-    "Microsoft Agent 365"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "ts": 1793898000,
    "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
    "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
    "source": "Azure blog",
@@ -5612,27 +5682,6 @@
     "maintainers",
     "open source",
     "repositories"
-   ]
-  },
-  {
-   "date": "2026-11-05",
-   "ts": 1793894400,
-   "title": "Email threat landscape: Q3 2026 trends and insights",
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
-   "source": "Microsoft Security blog",
-   "source_id": "security_blog",
-   "family": "Security & Identity",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July \u2013 September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service...",
-   "status": "",
-   "tags": [
-    "Credential theft",
-    "Malware",
-    "Phishing",
-    "Social engineering",
-    "Vishing"
    ]
   },
   {
@@ -6046,22 +6095,6 @@
    ]
   },
   {
-   "date": "2026-10-28",
-   "ts": 1793203660,
-   "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
-   "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-   "source": "GitHub blog",
-   "source_id": "github_blog",
-   "family": "Developer",
-   "lenses": [],
-   "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.",
-   "status": "",
-   "tags": [
-    "News & insights",
-    "Octoverse"
-   ]
-  },
-  {
    "date": "2026-10-27",
    "ts": 1793127600,
    "title": "Invite agentic coauthors to collaborate with you directly in canvas studio!",
@@ -6211,26 +6244,6 @@
   },
   {
    "date": "2026-10-22",
-   "ts": 1792689690,
-   "title": "How bug bounty sharpens one researcher\u2019s security skills",
-   "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-   "source": "GitHub blog",
-   "source_id": "github_blog",
-   "family": "Developer",
-   "lenses": [
-    "Security happenings"
-   ],
-   "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
-   "status": "",
-   "tags": [
-    "Security",
-    "bug bounty",
-    "cybersecurity",
-    "Cybersecurity Awareness Month"
-   ]
-  },
-  {
-   "date": "2026-10-22",
    "ts": 1792688400,
    "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
    "url": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
@@ -6322,21 +6335,6 @@
     "Agents"
    ],
    "summary": "We&#8217;re thrilled to bring localization support to the Power Pages plugin for GitHub Copilot CLI and Claude Code. The new /add-localization skill makes it easy to create multilingual Power Pages SPA sites in 43+ languages, including experiences in...",
-   "status": "",
-   "tags": []
-  },
-  {
-   "date": "2026-10-13",
-   "ts": 1791912320,
-   "title": "Create Power Pages sites in minutes with SPA templates",
-   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-power-pages-sites-in-minutes-with-spa-templates/",
-   "source": "Power Platform blog",
-   "source_id": "powerplatform_blog",
-   "family": "Power Platform & Fabric",
-   "lenses": [
-    "Agents"
-   ],
-   "summary": "We&#8217;re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and...",
    "status": "",
    "tags": []
   },
